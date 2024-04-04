@@ -16,12 +16,12 @@ const Accordion = ({ buttonsData }) => {
             {buttonsData.map((button) => (
                 <div key={button.id} className="accordion-item">
                     <button
-                        className={`accordion flex items-center  mt-1  sm:h-16 lg:h-14 py-4 text-left w-full bg-white text-black hover:bg-[#FFF5EE] transition-all duration-300 ease-in-out ${selectedButton === button.id ? 'bg-gray-700' : ''
+                        className={`accordion flex items-center pl-[5%] shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]  mt-2 rounded-[50px] sm:h-16 lg:h-14 py-4 text-left w-full bg-white text-black hover:bg-[#FFF5EE] transition-all duration-300 ease-in-out ${selectedButton === button.id ? 'bg-gray-700' : ''
                             }`}
                         onClick={() => toggleAccordion(button.id)}
                     >
-                        <h1 className="flex-grow pr-2 text-lg font-[400] duration-500">{button.text}</h1>
-                        <h1>{selectedButton === button.id ? <IoIosArrowDropupCircle className="text-2xl text-[#6A1C1A]" /> : <IoIosArrowDropdownCircle className="text-2xl text-[#6A1C1A]" />}</h1>
+                        <h1 className="flex-grow px-2 text-xl font-[400] duration-500">{button.text}</h1>
+                        <h1 className='mr-[5%]'>{selectedButton === button.id ? <IoIosArrowDropupCircle className="text-2xl text-[#6A1C1A]" /> : <IoIosArrowDropdownCircle className="text-2xl text-[#6A1C1A]" />}</h1>
                     </button>
                     {selectedButton === button.id && (
                         <div

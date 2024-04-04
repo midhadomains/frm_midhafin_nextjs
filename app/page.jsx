@@ -77,7 +77,7 @@ export default function Home() {
         <div className=''>
             <Navbar />
             {/* hero section */}
-            <div className=' text-[#F9F2DF] bg-[#6A1C1A] mb-5'>
+            {/* <div className=' text-[#F9F2DF] bg-[#6A1C1A] mb-5'>
                 <div className='max-w-[1300px] sm:px-4 sm:flex  justify-around mx-auto'>
                     <div className='w-[95%] mx-auto sm:w-[65%] lg:w-[60%]  flex flex-col justify-around'>
                         <h1 className='text-[30px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-5 font-bold'>One Stop Destination For Your FRM Exams.</h1>
@@ -91,8 +91,23 @@ export default function Home() {
                         <Image width={550} height={550} src="/HeroImg.png" alt='Micky Midha' priority={true} />
                     </div>
                 </div>
+            </div> */}
+            <div className=' text-[#F9F2DF] bg-[#6A1C1A]'>
+                <div className='max-w-[1440px] sm:px-4 md:flex  justify-around mx-auto'>
+                    <div className='w-[95%] mx-auto sm:w-[85%] md:w-[62%] lg:w-[60%]  flex flex-col justify-around'>
+                        <h1 className='text-[30px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-8 font-bold'>One Stop Destination For Your FRM Exams.</h1>
+                        <div className='flex justify-around m-5 lg:m-9'>
+                            <Image className=' ml-5 sm:ml-0' width={130} height={130} src="/Garp.svg" alt="Garp svg" priority={true} />
+                            <h1 className='text-[20px]font-medium sm:text-[25px] lg:text-[40px] border-l-[3px] px-[20px] lg:px-[40px] sm:ml-9'>We&apos;re a <span className='font-bold'>GARP approved</span> exam prep provider</h1>
+                        </div>
+                        <button className="border mx-auto sm:mx-0 sm:mb-[85px] rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[80px] m-5 sm:text-[20px] lg:text-[30px] font-semibold py-5">SIGNUP NOW</button>
+                    </div>
+                    <div className='w-[70%] sm:w-[65%] md:w-[38%] flex flex-col mx-auto lg:w-[40%] justify-end'>
+                        <Image className='max-h-[550px]' width={550} height={550} src="/HeroImg.svg" alt='Micky Midha' priority={true} />
+                    </div>
+                </div>
             </div>
-            <div className='max-w-[1300px] mx-auto mb-5'>
+            {/* <div className='max-w-[1300px] mx-auto mb-5'>
                 <h1 className='text-[30px] md:text-[35px] font-semibold text-center mt-5 mb-5 sm:m-[40px]'>Be a part of <span className='text-[#9A381D]  '>FRM certified community</span> employed at the world&apos;s top banks, asset management firms, consulting firms, and regulators. </h1>
                 <div className='sm:flex justify-between mx-auto'>
                     <div className='w-[300px] lg:w-[500px]  mx-auto'>
@@ -106,13 +121,28 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
+            </div> */}
+            <div className='max-w-[1440px] mx-auto mb-5'>
+                <h1 className='text-[30px] md:text-[35px] font-semibold md:font-bold sm:leading-[50px] mx-5 lg:mx-1 text-center mt-[30px] sm:mt-[40px] md:mt-[50px] lg:mt-[85px] mb-9 '>Be a part of <span className='text-[#9A381D]  '>FRM certified community</span> employed at the world&apos;s top banks, asset management firms, consulting firms, and regulators. </h1>
+                <div className='sm:flex justify-between mx-auto sm:mb-[85px]'>
+                    <div className='w-[300px] lg:w-[500px]  mx-auto'>
+                        <Link href="https://www.midhafin.com/frm/part-1" className='w-[100%]'>
+                            <Image width={500} height={500} src="/Part-1.svg" alt='part-1' priority={true} />
+                        </Link>
+                    </div>
+                    <div className='w-[300px] lg:w-[500px]  mx-auto'>
+                        <Link href="https://www.midhafin.com/frm/part-2" className='w-[100%]'>
+                            <Image width={500} height={500} src="/Part-2.svg" alt='part-2' priority={true} />
+                        </Link>
+                    </div>
+                </div>
             </div>
 
-            <div className='max-w-[1300px] mx-auto py-6 mb-5'>
+            {/* <div className='max-w-[1300px] mx-auto py-6 mb-5'>
                 <h1 className='text-center text-[40px] md:text-[50px] font-bold '>What sets us <span className='text-[#9A381D]'>apart</span>?</h1>
                 <div className='grid grid-cols-1 gap-9 sm:gap-[60px] mx-4 sm:mx-1 sm:grid-cols-3  justify-around mt-9'>
                     <div className='text-center w-auto'>
-                        <Image className='mx-auto' src='/Highly_Customize.png' alt="Highly Customized" width={130} height={130}/>
+                        <Image className='mx-auto' src='/Highly_Customize.png' alt="Highly Customized" width={130} height={130} />
                         <h1 className='text-[30px] font-bold'>Highly Customized</h1>
                         <ul className='list-disc list-inside' >
                             <p className='text-[20px]'>Access to 1-to-1 Doubt Session.</p>
@@ -126,7 +156,7 @@ export default function Home() {
                     </div>
 
                     <div className='text-center w-auto'>
-                        <Image className='mx-auto' src='/Quality Content.png'  alt="Quality Content" width={130} height={130}/>
+                        <Image className='mx-auto' src='/Quality Content.png' alt="Quality Content" width={130} height={130} />
                         <h1 className='text-[30px] font-bold'>Quality Content</h1>
                         <ul className='list-disc list-inside' >
                             <p className='text-[20px]'>Usage of Graphs, Tables, and charts to illustrate the concept.</p>
@@ -140,7 +170,7 @@ export default function Home() {
                     </div>
 
                     <div className='text-center w-auto'>
-                        <Image className='mx-auto' src='/GARP Related.png' alt="GARP Related" width={130} height={130}/>
+                        <Image className='mx-auto' src='/GARP Related.png' alt="GARP Related" width={130} height={130} />
                         <h1 className='text-[30px] font-bold'>GARP Related</h1>
                         <ul className='list-disc list-inside' >
                             <p className='text-[20px]'>Resolving and addressing GARP-related queries. </p>
@@ -156,11 +186,58 @@ export default function Home() {
                     </div>
                 </div>
 
+            </div> */}
+            <div className='max-w-[1440px] mx-auto mb-5'>
+                <h1 className='text-center text-[40px] md:text-[50px] font-bold '>What sets us <span className='text-[#9A381D]'>apart</span>?</h1>
+                <div className='grid grid-cols-1 gap-9 sm:gap-[60px] mx-4 sm:mx-1 sm:grid-cols-3  justify-around mt-9'>
+                    <div className='text-center w-auto'>
+                        <Image className='mx-auto' src='/Highly_Customize.png' alt="Highly Customized" width={130} height={130} />
+                        <h1 className='text-[30px] text-[#9A381D] font-bold'>Highly Customized</h1>
+                        <ul className='list-disc list-inside' >
+                            <p className='text-[20px]'>Access to 1-to-1 Doubt Session.</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Customized Study Plan meeting.</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Frequent “Personalized Meetings” to ensure progress and vital feedback.</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Personalized Mocks Assessments & related advice to improve the score.</p>
+                        </ul>
+                    </div>
+
+                    <div className='text-center w-auto'>
+                        <Image className='mx-auto' src='/Quality Content.png' alt="Quality Content" width={130} height={130} />
+                        <h1 className='text-[30px] text-[#9A381D] font-bold'>Quality Content</h1>
+                        <ul className='list-disc list-inside' >
+                            <p className='text-[20px]'>Usage of Graphs, Tables, and charts to illustrate the concept.</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Usage of Simple examples to enhance conceptual clarity.</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Logical flow of Sequencing of chapters to enhance understanding.</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Concepts built from Scratch, ease of understanding for candidates with no Mathematics/Finance Background.</p>
+                        </ul>
+                    </div>
+
+                    <div className='text-center w-auto'>
+                        <Image className='mx-auto' src='/GARP Related.png' alt="GARP Related" width={130} height={130} />
+                        <h1 className='text-[30px] text-[#9A381D] font-bold'>GARP Related</h1>
+                        <ul className='list-disc list-inside' >
+                            <p className='text-[20px]'>Resolving and addressing GARP-related queries.Related to exam scheduling. </p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Best practices to approach the exam.</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Common do&apos;s & don&apos;t,</p>
+                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
+                            <p className='text-[20px]'>Exam Strategy.</p>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
-            <div className='max-w-[1300px] mx-auto py-6 mb-5'>
+            <div className='max-w-[1440px] mx-auto py-9 sm:mb-5'>
                 <div className='grid grid-cols-1 sm:grid-cols-2'>
                     <div className=' text-left sm:p-[40px]'>
-                        <h1 className='text-[40px] md:text-[50px] px-5 font-bold'>Recent <span className='text-[#BE4E1E]'>Performance</span> <br /> Highlights</h1>
+                        <h1 className='text-[40px] md:text-[50px] sm:leading-[55px] pb-5 px-5 font-bold'>Recent <span className='text-[#BE4E1E]'>Performance</span> <br /> Highlights</h1>
                         <p className='text-[20px] px-5 sm:px-6'>Through strategy, hard work, and planning, we have achieved the success rate which stands second to none!</p>
                     </div>
                     <div className=' mx-auto mt-5 sm:mt-9'>
@@ -168,11 +245,19 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className='max-w-[1300px] mx-auto py-1 mb-5'>
+            {/* <div className='max-w-[1300px] mx-auto py-1 mb-5'>
                 <h1 className='text-[40px] md:text-[50px] font-bold text-center'>Where our Students <span className='text-[#BE4E1E]'>Work</span></h1>
                 <div className='grid grid-cols-4 md:grid-cols-7 lg:grid-cols-8 lg:m-10  m-5 gap-5'>
                     {Logos.map((el, ind) => {
                         return <Image className='h-[50px] w-[70px]' key={ind} src={el} width={100} height={100} alt="Logo" />
+                    })}
+                </div>
+            </div> */}
+            <div className='max-w-[1440px] mx-auto py-1 mb-5'>
+                <h1 className='text-[40px] md:text-[50px] font-bold text-center'>Where our Students <span className='text-[#BE4E1E]'>Work </span></h1>
+                <div className='grid grid-cols-4 md:grid-cols-7 lg:grid-cols-8 lg:m-10  m-5 gap-5'>
+                    {Logos.map((el, ind) => {
+                        return <Image className='h-[50px] mx-auto w-[70px]' key={ind} src={el} width={100} height={100} alt="Logo" />
                     })}
                 </div>
             </div>
