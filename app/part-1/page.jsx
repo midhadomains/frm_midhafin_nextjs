@@ -187,14 +187,13 @@ export default function page() {
             a carefully researched chapter sequence that can be followed to
             ensure maximum understanding of the FRM Part 1 curriculum.{" "}
             <Link
-              href="/frm/part-1/study-plan/"
+              href="/part-1/study-plan/"
               className="text-blue-500 hover:text-blue-700"
             >
               Read more…
             </Link>
           </p>
         </div>
-
         <div className="my-8" style={{ width: "100%", maxWidth: "1200px" }}>
         <div style={{ position: "relative", paddingBottom: "62.5%", height: "0", overflow: "hidden", maxWidth: "100%" }}>
           <iframe
