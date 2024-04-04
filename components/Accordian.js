@@ -25,7 +25,7 @@ const Accordion = ({ buttonsData }) => {
                     </button>
                     {selectedButton === button.id && (
                         <div
-                            className={`accordion-content pb-6 bg-[#F9F6F4] p-4  rounded-b-xl mb-2 transition-all duration-1000 delay-75 ease-in-out max-h-96 overflow-y-hidden`}
+                            className={`accordion-content pb-6 bg-[#F9F6F4] p-4  rounded-xl mb-2 transition-all duration-1000 delay-75 ease-in-out max-h-96 overflow-y-hidden`}
                         >
                             <p className="accordion-text-with-border text-sm lg:text-base transition-all duration-1000 delay-75	 ease-in-out max-h-96 text-[#50535C]">{button.data}</p>
                         </div>
