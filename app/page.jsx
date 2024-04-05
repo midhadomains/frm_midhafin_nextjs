@@ -80,85 +80,115 @@ export default function Home() {
             {/* Hero Section */}
             <div className=' text-[#F9F2DF] bg-[#6A1C1A]'>
                 <div className='max-w-[1440px] sm:px-4 md:flex  justify-around mx-auto'>
-                    <div className='w-[95%] mx-auto sm:w-[85%] md:w-[62%] lg:w-[60%]  flex flex-col justify-around'>
-                        <h1 className='text-[30px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-8 font-bold'>One Stop Destination For Your FRM Exams.</h1>
+                    <div className='w-[90%] mx-auto sm:w-[85%] md:w-[62%] lg:w-[60%]  flex flex-col justify-start'>
+                        <h1 className='text-[24px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-[25px] font-bold'>One Stop Destination For Your FRM Exams.</h1>
                         <div className='flex justify-around m-5 lg:m-9'>
-                            <Image className='max-h-[80px] sm:max-h-[130px] ml-5 sm:ml-0' width={130} height={130} src="/Garp.svg" alt="Garp svg" priority={true} />
-                            <h1 className='text-[20px]font-medium sm:text-[25px] lg:text-[35px] border-l-[3px] px-[20px] lg:px-[40px] sm:ml-9'>We&apos;re a <span className='font-bold'>GARP approved</span> exam prep provider</h1>
+                            <Image className='max-h-[67px] sm:max-h-[130px] sm:ml-5 md:ml-0' width={95} height={76} src="/Garp.svg" alt="Garp svg" priority={true} />
+                            <div className='w-[65%] border-l-[3px] flex flex-col justify-center'>
+                                <h1 className='text-[14px] font-medium sm:text-[25px] lg:text-[35px] ml-3 sm:ml-9'>We&apos;re a <span className='font-bold'>GARP approved</span> exam prep provider</h1>
+                            </div>
                         </div>
-                        <button className="border mx-auto sm:mx-0 sm:mb-[85px] rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[80px] m-5 sm:text-[20px] lg:text-[30px] font-semibold py-5">SIGNUP NOW</button>
+                        <button className="border mx-auto md:mx-0 md:mb-[85px] rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[42px] md:px-[80px] m-[18px] text-[14px] sm:text-[20px] lg:text-[30px] font-semibold py-[15px] md:py-5">SIGNUP NOW</button>
                     </div>
                     <div className='w-[70%] sm:w-[65%] md:w-[38%] flex flex-col mx-auto lg:w-[40%] justify-end'>
-                        <Image className='max-h-[550px]' width={550} height={550} src="/HeroImg.png" alt='Micky Midha' priority={true} />
+                        <Image className='max-h-[570px] -mb-[2%]' width={550} height={550} src="/HeroImg.png" alt='Micky Midha' priority={true} />
                     </div>
                 </div>
             </div>
             <div className='max-w-[1440px] mx-auto mb-5'>
-                <h1 className='text-[30px] md:text-[35px] font-semibold md:font-bold sm:leading-[50px] mx-5 lg:mx-1 text-center mt-[30px] sm:mt-[40px] md:mt-[50px] lg:mt-[85px] mb-9 '>Be a part of <span className='text-[#9A381D]  '>FRM certified community</span> employed at the world&apos;s top banks, asset management firms, consulting firms, and regulators. </h1>
-                <div className='sm:flex justify-between mx-auto sm:mb-[85px]'>
-                    <div className='w-[300px] lg:w-[500px]  mx-auto'>
-                        <Link href="https://www.midhafin.com/frm/part-1" className='w-[100%]'>
+                <h1 className='text-[14px] sm:text-[20px] md:text-[30px] lg:text-[40px]  font-semibold md:font-bold leading-[20px] sm:leading-[30px] md:leading-[40px] lg:leading-[50px] mx-[5%] text-center mt-[32px] sm:mt-[40px] md:mt-[50px] lg:mt-[85px] mb-[2%]'>Be a part of <span className='text-[#9A381D]  '>FRM certified community</span> employed at the world&apos;s top banks, asset management firms, consulting firms, and regulators. </h1>
+                <div className='sm:flex justify-between px-[10%] mx-auto mb-[5.5%]'>
+                    <div className='w-[75%] lg:w-[500px]  mx-auto'>
+                        <Link href="/part-1" className=''>
                             <Image width={500} height={500} src="/Part-1.svg" alt='part-1' priority={true} />
                         </Link>
                     </div>
-                    <div className='w-[300px] lg:w-[500px]  mx-auto'>
-                        <Link href="https://www.midhafin.com/frm/part-2" className='w-[100%]'>
+                    <div className='w-[75%] lg:w-[500px]  mx-auto'>
+                        <Link href="/part-2" className=''>
                             <Image width={500} height={500} src="/Part-2.svg" alt='part-2' priority={true} />
                         </Link>
                     </div>
                 </div>
             </div>
             <div className='max-w-[1440px] mx-auto mb-5'>
-                <h1 className='text-center text-[40px] md:text-[50px] font-bold '>What sets us <span className='text-[#9A381D]'>apart</span>?</h1>
-                <div className='grid grid-cols-1 gap-9 sm:gap-[60px] mx-4 sm:mx-1 sm:grid-cols-3  justify-around mt-9'>
+                <h1 className='text-center text-[24px] md:text-[36px] lg:text-[50px] font-bold '>What sets us <span className='text-[#9A381D]'>apart</span>?</h1>
+                <div className='grid grid-cols-1 gap-3 md:gap-1 lg:gap-1 sm:gap-[60px] mx-4 sm:mx-1 sm:grid-cols-3  justify-around mt-9'>
                     <div className='text-center w-auto'>
                         <Image className='mx-auto' src='/Highly_Customize.png' alt="Highly Customized" width={130} height={130} />
-                        <h1 className='text-[30px] text-[#9A381D] font-bold'>Highly Customized</h1>
-                        <ul className='list-disc list-inside' >
-                            <p className='text-[20px]'>Access to 1-to-1 Doubt Session.</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Customized Study Plan meeting.</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Frequent “Personalized Meetings” to ensure progress and vital feedback.</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Personalized Mocks Assessments & related advice to improve the score.</p>
+                        <h1 className='text-[14px] sm:text-[18px] lg:text-[24px] text-[#9A381D] font-bold'>Highly Customized</h1>
+                        <ul className='list-disc list-inside mx-[10%] mt-4' >
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Access to 1-to-1 Doubt Session.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Customized Study Plan meeting.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Frequent “Personalized Meetings” to ensure progress and vital feedback.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Personalized Mocks Assessments & related advice to improve the score.</p>
+                            </div>
                         </ul>
                     </div>
 
                     <div className='text-center w-auto'>
                         <Image className='mx-auto' src='/Quality Content.png' alt="Quality Content" width={130} height={130} />
-                        <h1 className='text-[30px] text-[#9A381D] font-bold'>Quality Content</h1>
-                        <ul className='list-disc list-inside' >
-                            <p className='text-[20px]'>Usage of Graphs, Tables, and charts to illustrate the concept.</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Usage of Simple examples to enhance conceptual clarity.</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Logical flow of Sequencing of chapters to enhance understanding.</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Concepts built from Scratch, ease of understanding for candidates with no Mathematics/Finance Background.</p>
+                        <h1 className='text-[14px] sm:text-[18px] lg:text-[24px] text-[#9A381D] font-bold'>Quality Content</h1>
+                        <ul className='list-disc list-inside mx-[10%] mt-4' >
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Usage of Graphs, Tables, and charts to illustrate the concept.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Usage of Simple examples to enhance conceptual clarity.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Logical flow of Sequencing of chapters to enhance understanding.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Concepts built from Scratch, ease of understanding for candidates with no Mathematics/Finance Background.</p>
+                            </div>
                         </ul>
                     </div>
 
                     <div className='text-center w-auto'>
                         <Image className='mx-auto' src='/GARP Related.png' alt="GARP Related" width={130} height={130} />
-                        <h1 className='text-[30px] text-[#9A381D] font-bold'>GARP Related</h1>
-                        <ul className='list-disc list-inside' >
-                            <p className='text-[20px]'>Resolving and addressing GARP-related queries.Related to exam scheduling. </p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Best practices to approach the exam.</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Common do&apos;s & don&apos;t,</p>
-                            <li className='text-[#BE4E1E] text-[20px] text-center font-bold'></li>
-                            <p className='text-[20px]'>Exam Strategy.</p>
+                        <h1 className='text-[14px] sm:text-[18px] lg:text-[24px] text-[#9A381D] font-bold'>GARP Related</h1>
+                        <ul className='list-disc list-inside mx-[10%] mt-4' >
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Resolving and addressing GARP-related queries.Related to exam scheduling.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Best practices to approach the exam.</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Common do&apos;s & don&apos;t,</p>
+                            </div>
+                            <div className='flex mb-1.5 sm:mb-2 lg:mb-3'>
+                                <li className='text-[12px] sm:text-[16px] lg:text-[20px]'></li>
+                                <p className='text-[12px] sm:text-[16px] lg:text-[20px] text-left'>Exam Strategy.</p>
+                            </div>
                         </ul>
                     </div>
+
                 </div>
             </div>
             <div className='max-w-[1440px] mx-auto py-9 sm:mb-5'>
                 <div className='grid grid-cols-1 sm:grid-cols-2'>
                     <div className=' text-left sm:p-[40px]'>
-                        <h1 className='text-[40px] md:text-[50px] sm:leading-[55px] pb-5 px-5 font-bold'>Recent <span className='text-[#BE4E1E]'>Performance</span> <br /> Highlights</h1>
-                        <p className='text-[20px] px-5 sm:px-6'>Through strategy, hard work, and planning, we have achieved the success rate which stands second to none!</p>
+                        <h1 className='text-center sm:text-left text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Recent <span className='text-[#BE4E1E]'>Performance</span> <br /> Highlights</h1>
+                        <p className='text-[12px] sm:text-[18px] lg:text-[20px] px-[12%] sm:px-0'>Through strategy, hard work, and planning, we have achieved the success rate which stands second to none!</p>
                     </div>
                     <div className=' mx-auto mt-5 sm:mt-9'>
                         <CounterUpPage />
@@ -167,7 +197,7 @@ export default function Home() {
             </div>
 
             <div className='max-w-[1440px] mx-auto py-1 mb-5'>
-                <h1 className='text-[40px] md:text-[50px] font-bold text-center'>Where our Students <span className='text-[#BE4E1E]'>Work </span></h1>
+                <h1 className='text-center text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Where our Students <span className='text-[#BE4E1E]'>Work </span></h1>
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-8 lg:m-10  m-5 gap-5'>
                     {Logos.map((el, ind) => {
                         return <Image className=' mx-auto ' key={ind} src={el} height={100} width={130} alt="Logo" />
@@ -176,7 +206,7 @@ export default function Home() {
             </div>
             <div className='max-w-[1500px] mx-auto py-3 mb-5'>
                 <div>
-                    <h1 className='text-[40px] md:text-[50px] text-center font-bold text-black m-2'>Frequently <span className='text-[#6A1C1A]'>Asked</span> Questions</h1>
+                    <h1 className='text-center  text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Frequently <span className='text-[#6A1C1A]'>Asked</span> Questions</h1>
                 </div>
                 <Accordion buttonsData={buttonsData} />
             </div>

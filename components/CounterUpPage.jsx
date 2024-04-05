@@ -12,22 +12,22 @@ function CounterUpPage() {
                 <div className='text-center'>
                     <h1 className='text-[40px] font-bold text-[#BE4E1E]'>{counterOn && <CountUp start={0} end={76} duration={2} deley={0} />}%</h1>
                     <h3>NOV 2022</h3>
-                    <p>Success rate for <br />FRM Level-I</p>
+                    <p className='text-[12px] md:text-[16px]'>Success rate for <br />FRM Level-I</p>
                 </div>
                 <div className='text-center'>
                     <h1 className='text-[40px] font-bold text-[#BE4E1E]'>{counterOn && <CountUp start={0} end={78} duration={2} deley={0} />}%</h1>
                     <h3>NOV 2022</h3>
-                    <p>Success rate for <br /> FRM Level-II</p>
+                    <p className='text-[12px] md:text-[16px]'>Success rate for <br /> FRM Level-II</p>
                 </div>
                 <div className='text-center'>
                     <h1 className='text-[40px] font-bold text-[#BE4E1E]'>{counterOn && <CountUp start={0} end={86} duration={2} deley={0} />}%</h1>
                     <h3>MAY 2023</h3>
-                    <p>Success rate for <br /> FRM Level-I</p>
+                    <p className='text-[12px] md:text-[16px]'>Success rate for <br /> FRM Level-I</p>
                 </div>
                 <div className='text-center'>
                     <h1 className='text-[40px] font-bold text-[#BE4E1E]'>{counterOn && <CountUp start={0} end={88} duration={2} deley={0} />}%</h1>
                     <h3>NOV 2023</h3>
-                    <p>Success rate for <br /> FRM Level-II</p>
+                    <p className='text-[12px] md:text-[16px]'>Success rate for <br /> FRM Level-II</p>
                 </div>
             </div>
         </ScrollTrigger>
