@@ -84,7 +84,7 @@ export default function Home() {
                         <h1 className='text-[30px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-8 font-bold'>One Stop Destination For Your FRM Exams.</h1>
                         <div className='flex justify-around m-5 lg:m-9'>
                             <Image className='max-h-[80px] sm:max-h-[130px] ml-5 sm:ml-0' width={130} height={130} src="/Garp.svg" alt="Garp svg" priority={true} />
-                            <h1 className='text-[20px]font-medium sm:text-[25px] lg:text-[40px] border-l-[3px] px-[20px] lg:px-[40px] sm:ml-9'>We&apos;re a <span className='font-bold'>GARP approved</span> exam prep provider</h1>
+                            <h1 className='text-[20px]font-medium sm:text-[25px] lg:text-[35px] border-l-[3px] px-[20px] lg:px-[40px] sm:ml-9'>We&apos;re a <span className='font-bold'>GARP approved</span> exam prep provider</h1>
                         </div>
                         <button className="border mx-auto sm:mx-0 sm:mb-[85px] rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[80px] m-5 sm:text-[20px] lg:text-[30px] font-semibold py-5">SIGNUP NOW</button>
                     </div>
