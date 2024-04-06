@@ -78,8 +78,8 @@ export default function Home() {
         <div className=''>
             <Navbar />
             {/* Hero Section */}
-            <div className=' text-[#F9F2DF] bg-[#6A1C1A]'>
-                <div className='max-w-[1440px] sm:px-4 md:flex  justify-around mx-auto'>
+            <div className=' text-[#F9F2DF] bg-[rgb(106,28,26)]'>
+                <div className='max-w-[1440px]  md:px-[5%] md:flex  justify-around mx-auto'>
                     <div className='w-[90%] mx-auto sm:w-[85%] md:w-[62%] lg:w-[60%]  flex flex-col justify-start'>
                         <h1 className='text-[24px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-[25px] font-bold'>One Stop Destination For Your FRM Exams.</h1>
                         <div className='flex justify-around m-5 lg:m-9'>
@@ -110,7 +110,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className='max-w-[1440px] mx-auto mb-5'>
+            <div className='max-w-[1440px] md:px-[5%] mx-auto mb-5'>
                 <h1 className='text-center text-[24px] md:text-[36px] lg:text-[50px] font-bold '>What sets us <span className='text-[#9A381D]'>apart</span>?</h1>
                 <div className='grid grid-cols-1 gap-3 md:gap-1 lg:gap-1 sm:gap-[60px] mx-4 sm:mx-1 sm:grid-cols-3  justify-around mt-9'>
                     <div className='text-center w-auto'>
@@ -184,7 +184,7 @@ export default function Home() {
 
                 </div>
             </div>
-            <div className='max-w-[1440px] mx-auto py-9 sm:mb-5'>
+            <div className='max-w-[1440px] md:px-[5%] 2xl:px-0 mx-auto py-9 sm:mb-5'>
                 <div className='grid grid-cols-1 sm:grid-cols-2'>
                     <div className=' text-left sm:p-[40px]'>
                         <h1 className='text-center sm:text-left text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Recent <span className='text-[#BE4E1E]'>Performance</span> <br /> Highlights</h1>
@@ -196,7 +196,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className='max-w-[1440px] mx-auto py-1 mb-5'>
+            <div className='max-w-[1440px] md:px-[5%] 2xl:px-0 mx-auto py-1 mb-5'>
                 <h1 className='text-center text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Where our Students <span className='text-[#BE4E1E]'>Work </span></h1>
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-8 lg:m-10  m-5 gap-5'>
                     {Logos.map((el, ind) => {
@@ -204,7 +204,7 @@ export default function Home() {
                     })}
                 </div>
             </div>
-            <div className='max-w-[1500px] mx-auto py-3 mb-5'>
+            <div className='max-w-[1500px] md:px-[5%] 2xl:px-0 mx-auto py-3 mb-5'>
                 <div>
                     <h1 className='text-center  text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Frequently <span className='text-[#6A1C1A]'>Asked</span> Questions</h1>
                 </div>
