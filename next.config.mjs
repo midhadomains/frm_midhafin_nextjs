@@ -7,6 +7,12 @@ const nextConfig = {
                 hostname: 'files.midhafin.com',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'api.eduzan.com',
+                port: '',
+                pathname: '/**',
             }
         ]
     }
