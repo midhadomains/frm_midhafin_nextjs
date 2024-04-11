@@ -145,7 +145,7 @@ export default function Page() {
                         )}
                         {activeOverview1 === "Week 5-8" && (
                             <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
-                                <div className='bg-[#FFF78A33] px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFE38233] px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>05</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -154,7 +154,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Insurance Companies and Pension Plans <span className='text-[#BE4E1E]'>[FMP-2]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33] px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFE38233] px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>06</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -165,7 +165,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Futures Markets  <span className='text-[#BE4E1E]'>[FMP-7]]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33] px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFE38233] px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>07</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -175,7 +175,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Foreign Exchange Markets <span className='text-[#BE4E1E]'>[FMP-9]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33] px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFE38233] px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>08</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -190,7 +190,7 @@ export default function Page() {
                         )}
                         {activeOverview1 === "Week 9-12" && (
                             <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
-                                <div className='bg-[#FFF78A33] px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFC47E33] px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>09</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -200,7 +200,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Anatomy of Great Financial Crisis  <span className='text-[#BE4E1E]'>[FRM-10]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33]  px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFC47E33]  px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>10</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -211,7 +211,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Banks  <span className='text-[#BE4E1E]'>[FMP-1]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33]  px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFC47E33]  px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>11</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -221,7 +221,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'> Simulation and Bootstrapping <span className='text-[#BE4E1E]'>[QTA-13]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33]  px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFC47E33]  px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>12</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -235,7 +235,7 @@ export default function Page() {
                         )}
                         {activeOverview1 === "Week 13-16" && (
                             <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
-                                <div className='bg-[#FFF78A33]  px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFAD8433]  px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>13</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -245,7 +245,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Stress Testing [VRM-8] <span className='text-[#BE4E1E]'>[FMP-2]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33]  px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFAD8433]  px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>14</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -255,7 +255,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Measuring Credit Risk [VRM-6] <span className='text-[#BE4E1E]'>[FMP-16]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33]  px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFAD8433]  px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>15</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -265,7 +265,7 @@ export default function Page() {
                                         <li className='text-[12px] sm:text-[18px]'>Risk Data Aggregation and Reporting Principles [FRM-7]<span className='text-[#BE4E1E]'>[FMP-9]</span></li>
                                     </ul>
                                 </div>
-                                <div className='bg-[#FFF78A33]  px-2 sm:px-6 py-9 rounded-xl border'>
+                                <div className='bg-[#FFAD8433]  px-2 sm:px-6 py-9 rounded-xl border'>
                                     <h3 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h3>
                                     <h1 className='text-[46px] sm:text-[60px] font-semibold'>16</h1>
                                     <ul className='list-disc list-outside mx-5'>
@@ -319,7 +319,7 @@ export default function Page() {
                             </div>
                         </div>
                         <div className='grid  my-4 lg:grid-cols-4 gap-4'>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFE38233] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>05</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -328,7 +328,7 @@ export default function Page() {
                                     <li className='text-[20px]'>Insurance Companies and Pension Plans <span className='text-[#BE4E1E]'>[FMP-2]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFE38233] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>06</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -336,10 +336,10 @@ export default function Page() {
                                     <li className='text-[20px]'>Exchanges and OTC Markets <span className='text-[#BE4E1E]'>[FMP-5]</span></li>
                                     <li className='text-[20px]'>Central Clearing <span className='text-[#BE4E1E]'>[FMP-6]</span></li>
                                     <li className='text-[20px]'>Properties of Interest Rates (Part 1) <span className='text-[#BE4E1E]'>[FMP-16]</span></li>
-                                    <li className='text-[20px]'>Futures Markets  <span className='text-[#BE4E1E]'>[FMP-7]]</span></li>
+                                    <li className='text-[20px]'>Futures Markets  <span className='text-[#BE4E1E]'>[FMP-7]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFE38233] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>07</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -349,7 +349,7 @@ export default function Page() {
                                     <li className='text-[20px]'>Foreign Exchange Markets <span className='text-[#BE4E1E]'>[FMP-9]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFE38233] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>08</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -362,7 +362,7 @@ export default function Page() {
                             </div>
                         </div>
                         <div className='grid  my-4 lg:grid-cols-4 gap-4'>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFC47E33] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>09</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -372,7 +372,7 @@ export default function Page() {
                                     <li className='text-[20px]'>Anatomy of Great Financial Crisis  <span className='text-[#BE4E1E]'>[FRM-10]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFC47E33] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>10</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -383,7 +383,7 @@ export default function Page() {
                                     <li className='text-[20px]'>Banks  <span className='text-[#BE4E1E]'>[FMP-1]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFC47E33] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>11</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -393,7 +393,7 @@ export default function Page() {
                                     <li className='text-[20px]'> Simulation and Bootstrapping <span className='text-[#BE4E1E]'>[QTA-13]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFC47E33] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>12</h1>
                                 <ul className='list-disc list-outside mx-5'>
@@ -405,44 +405,44 @@ export default function Page() {
                             </div>
                         </div>
                         <div className='grid  my-4 lg:grid-cols-4 gap-4'>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFAD8433] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>13</h1>
                                 <ul className='list-disc list-outside mx-5'>
-                                    <li className='text-[20px]'>External and Internal Credit Ratings [VRM-4] <span className='text-[#BE4E1E]'>[QTA-10]</span></li>
-                                    <li className='text-[20px]'>Country Risk: Determinants, Measures, and Implications [VRM-5] <span className='text-[#BE4E1E]'>[QTA-11]</span></li>
-                                    <li className='text-[20px]'>Operational Risk [VRM-7] <span className='text-[#BE4E1E]'>[FMP-2]</span></li>
-                                    <li className='text-[20px]'>Stress Testing [VRM-8] <span className='text-[#BE4E1E]'>[FMP-2]</span></li>
+                                    <li className='text-[20px]'>External and Internal Credit Ratings  <span className='text-[#BE4E1E]'>[VRM-4]</span></li>
+                                    <li className='text-[20px]'>Country Risk: Determinants, Measures, and Implications  <span className='text-[#BE4E1E]'>[VRM-5]</span></li>
+                                    <li className='text-[20px]'>Operational Risk  <span className='text-[#BE4E1E]'>[VRM-7]</span></li>
+                                    <li className='text-[20px]'>Stress Testing  <span className='text-[#BE4E1E]'>[VRM-8]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFAD8433] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>14</h1>
                                 <ul className='list-disc list-outside mx-5'>
-                                    <li className='text-[20px]'>Interest Rate Futures [FMP-19]<span className='text-[#BE4E1E]'>[FMP-4]</span></li>
-                                    <li className='text-[20px]'>Swaps [FMP-20] <span className='text-[#BE4E1E]'>[FMP-5]</span></li>
-                                    <li className='text-[20px]'>Credit Risk TransferMechanisms [FRM-4] <span className='text-[#BE4E1E]'>[FMP-6]</span></li>
-                                    <li className='text-[20px]'>Measuring Credit Risk [VRM-6] <span className='text-[#BE4E1E]'>[FMP-16]</span></li>
+                                    <li className='text-[20px]'>Interest Rate Futures <span className='text-[#BE4E1E]'>[FMP-19]</span></li>
+                                    <li className='text-[20px]'>Swaps  <span className='text-[#BE4E1E]'>[FMP-20]</span></li>
+                                    <li className='text-[20px]'>Credit Risk TransferMechanisms  <span className='text-[#BE4E1E]'>[FRM-4]</span></li>
+                                    <li className='text-[20px]'>Measuring Credit Risk  <span className='text-[#BE4E1E]'>[VRM-6]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFAD8433] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>15</h1>
                                 <ul className='list-disc list-outside mx-5'>
-                                    <li className='text-[20px]'>The Building Blocks of Risk Management [FRM-1] <span className='text-[#BE4E1E]'>[FMP-8]</span></li>
-                                    <li className='text-[20px]'>How Do Firms Manage Financial Risk? [FRM-2] <span className='text-[#BE4E1E]'>[FMP-10]</span></li>
-                                    <li className='text-[20px]'>The Governance of Risk Management [FRM-3] <span className='text-[#BE4E1E]'>[FMP-11]</span></li>
-                                    <li className='text-[20px]'>Risk Data Aggregation and Reporting Principles [FRM-7]<span className='text-[#BE4E1E]'>[FMP-9]</span></li>
+                                    <li className='text-[20px]'>The Building Blocks of Risk Management  <span className='text-[#BE4E1E]'>[FRM-1]</span></li>
+                                    <li className='text-[20px]'>How Do Firms Manage Financial Risk?  <span className='text-[#BE4E1E]'>[FRM-2]</span></li>
+                                    <li className='text-[20px]'>The Governance of Risk Management  <span className='text-[#BE4E1E]'>[FRM-3]</span></li>
+                                    <li className='text-[20px]'>Risk Data Aggregation and Reporting Principles <span className='text-[#BE4E1E]'>[FRM-7]</span></li>
                                 </ul>
                             </div>
-                            <div className='bg-[#FFF78A33] px-6 py-9 rounded-xl border'>
+                            <div className='bg-[#FFAD8433] px-6 py-9 rounded-xl border'>
                                 <h3 className='text-[20px] font-bold'>WEEK</h3>
                                 <h1 className='text-[60px] font-semibold'>16</h1>
                                 <ul className='list-disc list-outside mx-5'>
-                                    <li className='text-[20px]'>Learning from Financial Disasters [FRM 9]  <span className='text-[#BE4E1E]'>[FMP-16]</span></li>
-                                    <li className='text-[20px]'>GARP Code of Conduct [FRM-11] <span className='text-[#BE4E1E]'>[VRM-9]</span></li>
-                                    <li className='text-[20px]'>Enterprise Risk Management and Future Trends [FRM-8] <span className='text-[#BE4E1E]'>[VRM-10]</span></li>
-                                    <li className='text-[20px]'>Fund Management [FMP-3] <span className='text-[#BE4E1E]'>[VRM-11]</span></li>
+                                    <li className='text-[20px]'>Learning from Financial Disasters   <span className='text-[#BE4E1E]'>[FRM 9]</span></li>
+                                    <li className='text-[20px]'>GARP Code of Conduct  <span className='text-[#BE4E1E]'>[FRM-11]</span></li>
+                                    <li className='text-[20px]'>Enterprise Risk Management and Future Trends  <span className='text-[#BE4E1E]'>[FRM-8]</span></li>
+                                    <li className='text-[20px]'>Fund Management  <span className='text-[#BE4E1E]'>[FMP-3]</span></li>
                                 </ul>
                             </div>
                         </div>
