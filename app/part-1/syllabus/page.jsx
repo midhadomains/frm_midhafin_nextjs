@@ -1,3 +1,5 @@
+import Footer from '@/components/SiteFooter';
+import Navbar from '@/components/SiteHeader';
 import Image from 'next/image';
 import React from 'react'
 
@@ -97,12 +99,13 @@ function Syllabus() {
 
     return (
         <div>
+            <Navbar />
             <div className='bg-syllabusbg p-4 md:p-8 text-center pt-7 mb-9'>
                 <h3 className='text-[22px] sm:text-[28px] lg:text-[35px] font-medium text-[#BE4E1E]'>FRM part-1</h3>
                 <h1 className='text-[30px]  sm:text-[35px]  md:text-[45px] lg:text-[55px] font-semibold text-[#6A1C1A]'>Syllabus</h1>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9'>
+                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9 px-2 sm:px-2'>
                     <div>
                         <Image width={200} height={200} src={data[0].img} alt="frm" />
                     </div>
@@ -136,9 +139,9 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-between -mb-5 sm:-mb-9'>
+                <div className='w-[100%] flex justify-between -mb-5 sm:-mb-9 px-2 sm:px-2'>
 
-                <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
+                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
                         <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
                         <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[1].module}</h1>
                     </div>
@@ -171,7 +174,7 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9'>
+                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9 px-2 sm:px-2'>
                     <div>
                         <Image width={200} height={200} src={data[2].img} alt="fmp" />
                     </div>
@@ -205,8 +208,8 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9'>
-                <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
+                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9 px-2 sm:px-2'>
+                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
                         <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
                         <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[3].module}</h1>
                     </div>
@@ -238,6 +241,7 @@ function Syllabus() {
                     </table>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
