@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Accordion from "@/components/Accordian";
-import Footer from '@/components/SiteFooter'
-import Navbar from '@/components/SiteHeader'
+import Footer from '@/components/SiteFooter';
+import Navbar from '@/components/SiteHeader';
 
 export default function page() {
   const buttonsData = [
