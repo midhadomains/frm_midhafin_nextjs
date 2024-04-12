@@ -97,21 +97,21 @@ function Syllabus() {
 
     return (
         <div>
-            <div className='bg-syllabusbg h-[140px] text-center pt-7'>
-                <h3 className='text-[25px] font-medium text-[#BE4E1E]'>FRM part-1</h3>
-                <h1 className='text-[30px]  sm:text-[35px]  md:text-[45px] lg:text-[50px] font-semibold text-[#6A1C1A]'>Syllabus</h1>
+            <div className='bg-syllabusbg p-4 md:p-8 text-center pt-7 mb-9'>
+                <h3 className='text-[22px] sm:text-[28px] lg:text-[35px] font-medium text-[#BE4E1E]'>FRM part-1</h3>
+                <h1 className='text-[30px]  sm:text-[35px]  md:text-[45px] lg:text-[55px] font-semibold text-[#6A1C1A]'>Syllabus</h1>
             </div>
-            <div className='max-w-[1300px] mx-auto'>
+            <div className='max-w-[1300px] mx-auto sm:mt-5'>
                 <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9'>
                     <div>
                         <Image width={200} height={200} src={data[0].img} alt="frm" />
                     </div>
-                    <div className='p-[2px] lg:p-5 sm:mx-5'>
-                        <h2 className='text-[#69351f] text-[18px] sm:text-[25px] lg:text-[35px] font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[50px] lg:text-[75px] font-bold'>0{data[0].module}</h1>
+                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
+                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
+                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[0].module}</h1>
                     </div>
-                    <div>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[45px] m-1 sm:m-0 text-center'>{data[0].tittle}</h1>
+                    <div className=''>
+                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[0].tittle}</h1>
                     </div>
                 </div>
                 <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
@@ -135,15 +135,15 @@ function Syllabus() {
                     </table>
                 </div>
             </div>
-            <div className='max-w-[1300px] mx-auto'>
+            <div className='max-w-[1300px] mx-auto sm:mt-5'>
                 <div className='w-[100%] flex justify-between -mb-5 sm:-mb-9'>
 
-                    <div className='p-[2px] lg:p-5 sm:mx-5'>
-                        <h2 className='text-[#69351f] text-[18px] sm:text-[25px] lg:text-[35px] font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[50px] lg:text-[75px] font-bold'>0{data[1].module}</h1>
+                <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
+                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
+                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[1].module}</h1>
                     </div>
-                    <div className='mx-auto'>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[45px] m-1 sm:m-0 text-center'>{data[1].tittle}</h1>
+                    <div className=''>
+                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[1].tittle}</h1>
                     </div>
                     <div className='w-[40%] flex justify-end'>
                         <Image width={200} height={200} src={data[1].img} alt="qta" />
@@ -170,17 +170,17 @@ function Syllabus() {
                     </table>
                 </div>
             </div>
-            <div className='max-w-[1300px] mx-auto'>
+            <div className='max-w-[1300px] mx-auto sm:mt-5'>
                 <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9'>
                     <div>
                         <Image width={200} height={200} src={data[2].img} alt="fmp" />
                     </div>
-                    <div className='p-[2px] lg:p-5 sm:mx-5'>
-                        <h2 className='text-[#69351f] text-[18px] sm:text-[25px] lg:text-[35px] font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[50px] lg:text-[75px] font-bold'>0{data[2].module}</h1>
+                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
+                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
+                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[2].module}</h1>
                     </div>
-                    <div>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[45px] m-1 sm:m-0 text-center'>{data[2].tittle}</h1>
+                    <div className=''>
+                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[2].tittle}</h1>
                     </div>
                 </div>
                 <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
@@ -204,15 +204,14 @@ function Syllabus() {
                     </table>
                 </div>
             </div>
-            <div className='max-w-[1300px] mx-auto'>
+            <div className='max-w-[1300px] mx-auto sm:mt-5'>
                 <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9'>
-
-                    <div className='p-[2px] lg:p-5 sm:mx-5'>
-                        <h2 className='text-[#69351f] text-[18px] sm:text-[25px] lg:text-[35px] font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[50px] lg:text-[75px] font-bold'>0{data[3].module}</h1>
+                <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
+                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
+                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[3].module}</h1>
                     </div>
-                    <div >
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[45px] m-1 sm:m-0 text-center'>{data[3].tittle}</h1>
+                    <div className=''>
+                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[3].tittle}</h1>
                     </div>
                     <div>
                         <Image width={200} height={200} src={data[3].img} alt="vrm" />
