@@ -72,7 +72,7 @@ export default function Courses() {
                 <h2 className="text-[40px] font-semibold">Courses Offered</h2>
                 <Link href='https://edu.midhafin.com/s/store' className="flex text-[24px] font-semibold text-[#BE4E1E] my-auto">View More Courses <FaAngleRight className="mt-2" /></Link>
             </div>
-            <div className="flex justify-center xl:justify-between flex-wrap ">
+            <div className="flex justify-around flex-wrap ">
                 {
                     Frm_p1.map((a, index) => (
                         <CourseCard a={a} key={index} />
