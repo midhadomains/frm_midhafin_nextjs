@@ -82,10 +82,11 @@ export default function Home() {
                 <div className='max-w-[1440px]  md:px-[5%] 2xl:px-0 md:flex  justify-around mx-auto'>
                     <div className='w-[90%] mx-auto sm:w-[85%] md:w-[62%] lg:w-[60%]  flex flex-col justify-start'>
                         <h1 className='text-[24px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-[25px] font-bold'>One Stop Destination For Your FRM Exams.</h1>
-                        <div className='flex justify-around m-5 lg:m-9'>
-                            <Image className='max-h-[67px] sm:max-h-[130px] sm:ml-5 md:ml-0' width={95} height={76} src="/Garp.svg" alt="Garp svg" priority={true} />
-                            <div className='w-[65%] border-l-[3px] flex flex-col justify-center'>
-                                <h1 className='text-[14px] font-medium sm:text-[25px] lg:text-[35px] ml-3 sm:ml-9'>We&apos;re a <span className='font-bold'>GARP approved</span> exam prep provider</h1>
+                        <div className='flex justify-between w-[100%] max-w-[700px] my-7'>
+                            <Image className='max-h-[67px] sm:max-h-[130px]  ' width={350} height={76} src="/Garp.svg" alt="Garp" priority={true} />
+                            <div className='border-l-[3px]'></div>
+                            <div className='w-fit  flex flex-col justify-center'>
+                                <h1 className='text-[14px] font-[400] sm:text-[20px] lg:text-[25px] max-w-[260px]'>We are one of the first <span className='font-semibold'>GARP Approved </span>Prep Partner</h1>
                             </div>
                         </div>
                         <button className="border mx-auto md:mx-0 md:mb-[85px] rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[42px] md:px-[80px] m-[18px] text-[14px] sm:text-[20px] lg:text-[30px] font-semibold py-[15px] md:py-5">SIGNUP NOW</button>
