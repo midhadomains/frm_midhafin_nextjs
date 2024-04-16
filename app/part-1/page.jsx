@@ -63,7 +63,7 @@ export default function page() {
       {/* Small screen */}
       <div className="w-[100%] lg:hidden mt-[15%] sm:mt-[25%] ">
         <div className="bg-[#FFF4DA] h-[150px] mt-auto relative ">
-          <Image src='/part-1/Part-1left.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 fixed " />
+          <Image src='/part-1/Part-1left.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 absolute " />
         </div>
         <div className="px-6 max-w-[700px] mx-auto">
           <h2 className="text-[15px] md:text-[20px] lg:text-[25px] font-bold ">Eligibility and/or Pre-Requisites</h2>
