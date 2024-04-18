@@ -72,8 +72,8 @@ const Navbar = () => {
                         </li> */}
 
                         <NavItem to="https://edu.midhafin.com/s/store" name="Courses" />
-                        <NavItem to="https://www.frm.midhafin.com/reviews" name="Reviews" />
-                        <NavItem to="https://www.midhafin.com/contact-us" name="Contact Us" />
+                        <NavItem to="https://frm.midhafin.com/reviews" name="Reviews" />
+                        <NavItem to="/contact-us" name="Contact Us" />
                         <Link href='https://edu.midhafin.com/s/authenticate' className="text-[1.2rem] font-[500] cursor-pointe">
                             <li className="relative group bg-[#6A1C1A] hover:bg-[#BE4E1E] rounded-3xl py-2 px-9 text-white text-[20px] transition duration-300 flex-shrink-0">
                                 Log In
@@ -92,7 +92,7 @@ const Navbar = () => {
                         <hr />
                         <SmNavItem to="https://frm.midhafin.com/reviews" name="Reviews" />
                         <hr />
-                        <SmNavItem to="https://www.midhafin.com/contact-us" name="Contact Us" />
+                        <SmNavItem to="/contact-us" name="Contact Us" />
                     </ul>
                 </div>
             </div>
