@@ -14,7 +14,25 @@ module.exports = {
         "contactbgimage": "url('/Vector 10.svg')",
         "syllabusbg": "url('/rectangle 4.png')"
       },
+    },
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
 
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'mg': '900px',
+      // => @media (min-width: 900px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
     },
   },
   plugins: [],

@@ -44,6 +44,7 @@ export default function Home() {
         " https://files.midhafin.com/wp-content/uploads/Mask-group.png",
         " https://files.midhafin.com/wp-content/uploads/TCS.png",
         " https://files.midhafin.com/wp-content/uploads/UBS.png",
+        "https://files.midhafin.com/wp-content/uploads/JP-Morgan.png"
     ]
 
     const buttonsData = [
@@ -79,20 +80,20 @@ export default function Home() {
             <Navbar />
             {/* Hero Section */}
             <div className=' text-[#F9F2DF] bg-[#6A1C1A]'>
-                <div className='max-w-[1440px]  md:px-[5%] 2xl:px-0 md:flex  justify-around mx-auto'>
-                    <div className='w-[90%] mx-auto sm:w-[85%] md:w-[62%] lg:w-[60%]  flex flex-col justify-start'>
-                        <h1 className='text-[24px] sm:text-[40px] lg:text-[60px] text-center sm:text-left mt-[25px] font-bold'>One Stop Destination For Your FRM Exams.</h1>
-                        <div className='flex justify-between w-[100%] max-w-[700px] my-7'>
-                            <Image className='max-h-[67px] sm:max-h-[130px]  ' width={350} height={76} src="/Garp.svg" alt="Garp" priority={true} />
-                            <div className='border-l-[3px]'></div>
+                <div className='max-w-[1300px]  md:px-[5%] 2xl:px-0 mg:flex  justify-center mx-auto'>
+                    <div className='w-[90%] sm:w-[85%]  lg:w-[60%]  flex flex-col justify-around mx-auto mg:mr-[20px] max-w-[665px] h-auto'>
+                        <h1 className='text-[24px] sm:text-[40px] lg:text-[50px] text-center mg:text-left mt-[25px] font-bold max-w-[700px]'>One Stop Destination For Your FRM Exams.</h1>
+                        <div className='flex justify-center sm:justify-between flex-wrap sm:flex-nowrap w-[100%] max-w-[700px] my-7'>
+                            <Image className='max-h-[67px] sm:max-h-[130px] w-[50%] mb-5 sm:mb-0' width={350} height={76} src="/Garp.svg" alt="Garp" priority={true} />
+                            <div className='border-l-[3px] hidden sm:block mx-4'></div>
                             <div className='w-fit  flex flex-col justify-center'>
-                                <h1 className='text-[14px] font-[400] sm:text-[20px] lg:text-[25px] max-w-[260px]'>We are one of the first <span className='font-semibold'>GARP Approved </span>Prep Partner</h1>
+                                <h1 className='text-[14px] font-[400] sm:text-[20px] lg:text-[25px] max-w-[265px] min-w-[205px] mg:min-w-[265px] text-center sm:text-left flex-shrink-0'>We are one of the first <span className='font-bold tracking-[1px]'>GARP Approved </span>Prep Partners</h1>
                             </div>
                         </div>
-                        <button className="border mx-auto md:mx-0 md:mb-[85px] rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[42px] md:px-[80px] m-[18px] text-[14px] sm:text-[20px] lg:text-[30px] font-semibold py-[15px] md:py-5">SIGNUP NOW</button>
+                        <button className="border-[#F9ECC7] border text-[#F9ECC7] mx-auto mg:mx-0  rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[42px] md:px-[110px] m-[18px] text-[14px] sm:text-[20px] lg:text-[30px] font-semibold py-[15px] md:py-4">SIGNUP NOW</button>
                     </div>
-                    <div className='w-[70%] sm:w-[65%] md:w-[38%] flex flex-col mx-auto lg:w-[40%] justify-end'>
-                        <Image className='max-h-[570px] -mb-[2%]' width={550} height={550} src="/HeroImg.png" alt='Micky Midha' priority={true} />
+                    <div className='w-[70%] sm:w-[65%] mg:w-[38%] flex flex-col justify-end items-center mx-auto flex-shrink-0 '>
+                        <Image className='max-h-[500px] -mb-[2%] flex-shrink-0 ' width={500} height={500} src="/HeroImg.png" alt='Micky Midha' priority={true} />
                     </div>
                 </div>
             </div>
@@ -200,18 +201,20 @@ export default function Home() {
             <div className='max-w-[1440px] md:px-[5%] 2xl:px-0 mx-auto py-1 mb-5'>
                 <h1 className='text-center text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Where our Students <span className='text-[#BE4E1E]'>Work </span></h1>
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-8 lg:m-10  m-5 gap-5'>
-                    {Logos.map((el, ind) => {
-                        return <Image className=' mx-auto ' key={ind} src={el} height={100} width={130} alt="Logo" />
-                    })}
+                    {
+                        Logos.map((el, ind) => {
+                            return <Image className=' mx-auto ' key={ind} src={el} height={100} width={130} alt="Logo" />
+                        })
+                    }
                 </div>
             </div>
             <div className='max-w-[1500px] md:px-[5%] 2xl:px-0 mx-auto py-3 mb-5'>
                 <div>
-                    <h1 className='text-center  text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Frequently <span className='text-[#6A1C1A]'>Asked</span> Questions</h1>
+                    <h1 className='text-center  text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Frequently <span className='text-[#6A1C1A]'>Asked</span> Queries</h1>
                 </div>
                 <Accordion buttonsData={buttonsData} />
             </div>
-            <div className=' text-[#F9F2DF] bg-[#6A1C1A] w-[100%] '>
+            <div className=' text-[#F9F2DF] bg-[#6A1C1A] w-[100%] px-5'>
                 <div className='max-w-[1300px] sm:px-4 flex flex-wrap sm:flex-nowrap mx-auto'>
                     <div className='flex sm:flex-col w-fit justify-end mx-auto '>
                         <Image className='mt-9 sm:mt-0 mx-3' src="/Contact-us.svg" height={500} width={500} alt='contact-us' />
