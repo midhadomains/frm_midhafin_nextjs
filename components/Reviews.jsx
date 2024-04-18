@@ -53,7 +53,7 @@ export default async function Reviews() {
           <p className='text-center text-xl my-3'>Loading...</p>
         )}
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }
