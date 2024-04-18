@@ -32,7 +32,7 @@ export default function Home() {
         "https://files.midhafin.com/wp-content/uploads/HSBC.png",
         "https://files.midhafin.com/wp-content/uploads/IDBI.png",
         "https://files.midhafin.com/wp-content/uploads/infosys.png",
-        "https://files.midhafin.com/wp-content/uploads/JP-Morgan-Chase-Co.png",
+        "https://files.midhafin.com/wp-content/uploads/SoftBank.png",
         "https://files.midhafin.com/wp-content/uploads/JusPay.png",
         "https://files.midhafin.com/wp-content/uploads/Kotak.png",
         "https://files.midhafin.com/wp-content/uploads/KPMG.png",
@@ -204,7 +204,7 @@ export default function Home() {
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-7 lg:grid-cols-8 lg:m-10  m-5 gap-5'>
                     {
                         Logos.map((el, ind) => {
-                            return <Image className=' mx-auto ' key={ind} src={el} height={100} width={130} alt="Logo" />
+                            return <Image className=' m-auto ' key={ind} src={el} height={100} width={130} alt="Logo" />
                         })
                     }
                 </div>
