@@ -91,7 +91,7 @@ export default function Home() {
                                 <h1 className='text-[14px] font-[400] sm:text-[20px] lg:text-[25px] max-w-[265px] min-w-[205px] mg:min-w-[265px] text-center sm:text-left flex-shrink-0'>We are one of the first <span className='font-bold tracking-[1px]'>GARP Approved </span>Prep Partners</h1>
                             </div>
                         </div>
-                        <button className="border-[#F9ECC7] border text-[#F9ECC7] mx-auto mg:mx-0  rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[42px] md:px-[110px] m-[18px] text-[14px] sm:text-[20px] lg:text-[30px] font-semibold py-[15px] md:py-4">SIGNUP NOW</button>
+                        <button className="border-[#F9ECC7] border text-[#F9ECC7] mx-auto mg:mx-0  rounded-[54px] hover:bg-[#BE4E1E] w-fit px-[42px] md:px-[110px] m-[18px] text-[14px] sm:text-[20px] lg:text-[30px] font-semibold py-[15px] md:py-4"><Link href='https://edu.midhafin.com/s/authenticate'>SIGNUP NOW</Link></button>
                     </div>
                     <div className='w-[70%] sm:w-[65%] mg:w-[38%] flex flex-col justify-end items-center mx-auto flex-shrink-0 '>
                         <Image className='max-h-[500px] -mb-[2%] flex-shrink-0 ' width={500} height={500} src="/HeroImg.png" alt='Micky Midha' priority={true} />
