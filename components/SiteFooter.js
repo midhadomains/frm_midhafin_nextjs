@@ -74,7 +74,7 @@ function Footer() {
 
                 <hr className="my-6  md:my-8 border-gray-700" />
 
-                <h1 className="text-center text-md sm:text-md m-2 italic text-white">GARP does not endorse, promote, review or warrant the accuracy of the products or services offered by MIdhaFin of GARP Exam related information, nor does it endorse any pass rates that may be claimed by MidhaFin.
+                <h1 className="text-center text-sm sm:text-md m-2 italic text-white">GARP does not endorse, promote, review or warrant the accuracy of the products or services offered by MIdhaFin of GARP Exam related information, nor does it endorse any pass rates that may be claimed by MidhaFin.
                     Further, GARP is not responsible for any fees or costs paid by the user to MidhaFin nor is GARP responsible for any fees or costs of any person or entity providing any services to MidhaFin. SCR®, FRM®, GARP® and Global Association of Risk Professionals™ , is standard character and/or stylized
                     form, are trademarks owned by the Global Association of Risk Professionals, Inc.</h1>
 

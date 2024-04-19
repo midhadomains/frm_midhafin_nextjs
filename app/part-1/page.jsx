@@ -61,13 +61,13 @@ export default function page() {
         </div>
       </div>
       {/* Small screen */}
-      <div className="w-[100%] lg:hidden mt-[15%] sm:mt-[25%] ">
+      <div className="w-[100%] lg:hidden mt-[18%] sm:mt-[25%] ">
         <div className="bg-[#FFF4DA] h-[150px] mt-auto relative ">
-          <Image src='/part-1/Part-1left.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 absolute " />
+          <Image src='/part-1/Part-1left.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
         </div>
-        <div className="px-6 max-w-[700px] mx-auto">
-          <h2 className="text-[15px] md:text-[20px] lg:text-[25px] font-bold ">Eligibility and/or Pre-Requisites</h2>
-          <p>The FRM course welcomes candidates from various academic backgrounds, without any specific educational field prerequisites. There are NO ELIGLIBILITY CRITERIA for potential candidates; even those in the early stages of their undergraduate education can embark on the FRM journey by taking the Part 1 examination.</p>
+        <div className="px-4 max-w-[700px] mx-auto">
+          <h2 className="text-[18px] md:text-[20px] lg:text-[25px] font-bold my-5 ">Eligibility and/or Pre-Requisites</h2>
+          <p className="text-[14px] sm:text-[16px]">The FRM course welcomes candidates from various academic backgrounds, without any specific educational field prerequisites. There are NO ELIGLIBILITY CRITERIA for potential candidates; even those in the early stages of their undergraduate education can embark on the FRM journey by taking the Part 1 examination.</p>
         </div>
       </div>
       {/* About the exam */}
@@ -86,44 +86,54 @@ export default function page() {
       </div>
       {/* Small screen */}
 
+      <div className="w-[100%] lg:hidden mt-[120px] sm:mt-[30%] ">
+        <div className="bg-[#FFF4DA] h-[150px] mt-auto relative ">
+          <Image src='/part-1/Part-1right.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
+        </div>
+        <div className="px-4 max-w-[700px] mx-auto">
+          <h2 className="text-[18px] md:text-[20px] lg:text-[25px] font-bold my-5 ">About the Exam - <span className="text-[#BE4E1E]"> FRM Part 1</span></h2>
+          <p className=" text-[14px] sm:text-[16px]"> FRM Part 1 is the first level of the Financial Risk Manager (FRM) certification offered by the Global Association of Risk Professionals (GARP). It involves an examination that assesses candidates&apos; understanding of foundational concepts in risk management This encompasses a comprehensive exploration of quantitative analysis, fundamental concepts in risk management, the intricacies of financial markets and products, and the application of valuation and risk models. The examination assesses candidates&apos; proficiency in these core areas, laying the foundation for a solid understanding of risk management principles and practices in the financial domain.Various modules carry different weights in the exam, and to pass FRM Part 1, a minimum score is required in each module.</p>
+        </div>
+      </div>
+
       {/* weightage module */}
-      <div className="max-w-[1350px] mx-auto px-4 w-[100%] mt-[100px]">
-        <h1 className="text-[20px] md:text-[30px]  lg:text-[40px] font-semibold text-left my-[50px]">The specific weightage for each module in the exam is as follows:</h1>
+      <div className="max-w-[1350px] mx-auto px-4 w-[100%] sm:mt-[100px]">
+        <h1 className="text-[20px] md:text-[30px]  lg:text-[40px] font-semibold text-left my-[30px]  sm:my-[50px]">The specific weightage for each module in the exam is as follows:</h1>
         <ul className="">
           <li className="flex ">
-            <div className=" aspect-square  bg-[#FFE9CA] max-w-[180px] w-[100%] text-center flex flex-col justify-center ">
-              <h2 className="text-[40px] font-bold text-[#6A1C1A]">20%</h2>
+            <div className=" aspect-square  bg-[#FFE9CA] min-w-[70px]   sm:max-w-[180px] sm:w-[100%] text-center flex flex-col justify-center ">
+              <h2 className="text-[25px] sm:text-[40px] font-bold text-[#6A1C1A]">20%</h2>
             </div>
-            <div className="max-w-[1000px] lg:ml-10 my-auto">
-              <h3 className="md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]">Foundations of Risk Management (20%):</h3>
-              <p className="text-[20px] lg:text-[24px] leading-[40px] font-[400] ">This module lays the groundwork for understanding key concepts and principles in risk management.</p>
-            </div>
-          </li>
-          <li className="flex ">
-            <div className=" aspect-square  bg-[#FFD9A3] max-w-[180px] w-[100%] text-center flex flex-col justify-center ">
-              <h2 className="text-[40px] font-bold text-[#6A1C1A]">20%</h2>
-            </div>
-            <div className="max-w-[1000px] lg:ml-10 my-auto">
-              <h3 className="md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]"> Quantitative Analysis (20%):</h3>
-              <p className="text-[20px] lg:text-[24px] leading-[40px] font-[400] "> Focusing on quantitative techniques, this module assesses candidates&apos; ability to analyze and interpret data for risk management purposes. </p>
+            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0">
+              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]">Foundations of Risk Management (20%):</h3>
+              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] ">This module lays the groundwork for understanding key concepts and principles in risk management.</p>
             </div>
           </li>
           <li className="flex ">
-            <div className="  bg-[#FFCD86] max-w-[180px] w-[100%] h-[270px]  flex-shrink-0 text-center flex flex-col justify-center ">
-              <h2 className="text-[40px] font-bold text-[#6A1C1A]">30%</h2>
+            <div className=" aspect-square  bg-[#FFD9A3] min-w-[70px]   sm:max-w-[180px] sm:w-[100%] text-center flex flex-col justify-center ">
+              <h2 className="text-[25px] sm:text-[40px] font-bold text-[#6A1C1A]">20%</h2>
             </div>
-            <div className="max-w-[1000px] lg:ml-10 my-auto">
-              <h3 className="md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]">Financial Markets and Products (30%):  </h3>
-              <p className="text-[20px] lg:text-[24px] leading-[40px] font-[400] "> Exploring the intricacies of financial markets and various financial instruments, this module evaluates candidates’ knowledge of market structures and products. </p>
+            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0" >
+              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]"> Quantitative Analysis (20%):</h3>
+              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] "> Focusing on quantitative techniques, this module assesses candidates&apos; ability to analyze and interpret data for risk management purposes. </p>
             </div>
           </li>
           <li className="flex ">
-            <div className="  bg-[#FFBC5E] max-w-[180px] w-[100%] h-[270px] text-center flex flex-col justify-center ">
-              <h2 className="text-[40px] font-bold text-[#6A1C1A]">30%</h2>
+            <div className="  bg-[#FFCD86] max-w-[180px] min-w-[70px]  sm:w-[100%] sm:h-[270px]  flex-shrink-0 text-center flex flex-col justify-center ">
+              <h2 className="text-[25px] font-bold text-[#6A1C1A]">30%</h2>
             </div>
-            <div className="max-w-[1000px] lg:ml-10 my-auto">
-              <h3 className="md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]"> Valuation and Risk Models (30%): </h3>
-              <p className="text-[20px] lg:text-[24px] leading-[40px] font-[400] "> This module delves into the valuation of financial instruments and the application of risk models in assessing and managing risk. </p>
+            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0">
+              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]">Financial Markets and Products (30%):  </h3>
+              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] "> Exploring the intricacies of financial markets and various financial instruments, this module evaluates candidates’ knowledge of market structures and products. </p>
+            </div>
+          </li>
+          <li className="flex ">
+            <div className="  bg-[#FFBC5E] max-w-[180px] min-w-[70px]  sm:w-[100%] sm:h-[270px] text-center flex flex-col justify-center ">
+              <h2 className="text-[25px] font-bold text-[#6A1C1A]">30%</h2>
+            </div>
+            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0">
+              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]"> Valuation and Risk Models (30%): </h3>
+              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] "> This module delves into the valuation of financial instruments and the application of risk models in assessing and managing risk. </p>
             </div>
           </li>
         </ul>
@@ -160,6 +170,7 @@ export default function page() {
         </div>
       </div>
       {/* Composition and Exam Structure */}
+      {/* large screen */}
       <div className="hidden  lg:flex h-[520px] justify-center my-[70px] mt-[150px]">
         <div className="bg-[#FFF4DA] min-w-[300px] flex justify-end relative w-[50%]">
           <Image src='/part-1/caes.svg' width={400} height={450} alt="image" className="absolute -right-[60px] top-[40px]" />
@@ -171,25 +182,28 @@ export default function page() {
           </div>
         </div>
       </div>
+      {/* Small screen */}
+
+      <div className="w-[100%] lg:hidden mt-[120px] sm:mt-[30%] ">
+        <div className="bg-[#FFF4DA] h-[150px] mt-auto relative ">
+          <Image src='/part-1/caes.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
+        </div>
+        <div className="px-4 max-w-[700px] mx-auto">
+          <h2 className="text-[18px] md:text-[20px] lg:text-[25px] font-bold my-5 ">Composition and Exam Structure</h2>
+          <p className=" text-[14px] sm:text-[16px] text-center"> FRM Part 1 comprises 100 equally weighted questions presented in a multiple-choice format on a computer-based test (CBT). In this modern and efficient testing experience, you have four hours to complete the exam by selecting the correct answers from the provided options. The objective is to evaluate your knowledge, application abilities, and decision-making skills within a defined timeframe.<br />In both GARP FRM exams (Parts 1 and 2), no negative marking is applied. Candidates do not face penalties for providing incorrect answers.</p>
+        </div>
+      </div>
       {/* study plan */}
-      <div className="max-w-[1300px] mx-auto flex justify-center md:justify-between flex-wrap p-5">
-        <div className="max-w-[680px] mt-auto">
-          <h2 className="text-[30px] xl:text-[35px] mb-[30px] xl:mb-[50px]  font-semibold">Study Plan</h2>
+      <div className="max-w-[1300px] mx-auto flex justify-center md:justify-between flex-wrap lg:flex-nowrap p-5">
+        <div className="lg:max-w-[680px] min-w-[600px] mt-auto w-[100%] lg:w-[50%] text-center lg:text-left">
+          <h2 className="text-[30px] xl:text-[35px] mb-[10px] xl:mb-[50px]  font-semibold">Study Plan</h2>
           <p className="text-[20px] xl:text-[24px] leading-[40px] font-[400]  ">Ideally, a candidate preparing for the FRM Part 1 exam should complete the whole curriculum in 16 weeks with 30-35 hours of study every week. This study plan provides a 16-week road map with relevant chapters that should be covered every week It also provides a carefully researched chapter sequence that can be followed to ensure maximum understanding of the FRM Part 1 curriculum.</p>
         </div>
-        <div className="flex-shrink-0">
-          <div className="my-8 w-[100%]" style={{ width: "100%", maxWidth: "500px",minWidth:"200px", }}>
-            <div style={{ position: "relative", paddingBottom: "62.5%", height: "0", overflow: "hidden", maxWidth: "100%",  }}>
-              <iframe
-                src="https://www.youtube.com/embed/6sTEUkR40uI?si=sDonMG5jq4orT3Ue"
-                title="YouTube video player"
-                style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "90%", borderRadius: "10px" }}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen={true}
-              ></iframe>
-            </div>
+        <div className="w-[50%] max-w-[500px]">
+          <div className="w-[100%]  border ">
+            <iframe style={{width:"100%", height:"auto",aspectRatio:"16:9" }} src="https://www.youtube.com/embed/6sTEUkR40uI?si=HNhS66nIiKIDAfia" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
-          <h2 className="w-[300px] border mx-auto bg-[#BE4E1E] py-3  text-[24px] rounded-full text-center font-semibold text-white -mt-[30px]"><Link href='/part-1/study-plan'>Go to Study Plan</Link></h2>
+          <h2 className="w-[300px] border mx-auto bg-[#BE4E1E] py-3  text-[24px] rounded-full text-center font-semibold text-white mt-4 "><Link href='/part-1/study-plan'>Go to Study Plan</Link></h2>
         </div>
       </div>
       {/* Preparation Tips */}
