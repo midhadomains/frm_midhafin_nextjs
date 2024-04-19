@@ -19,7 +19,7 @@ const Accordion = ({ buttonsData }) => {
                             }`}
                         onClick={() => toggleAccordion(button.id)}
                     >
-                        <h1 className="flex-grow px-2 text-[17px] tracking-[.7px]  font-[600] duration-500">{button.text}</h1>
+                        <h1 className="flex-grow px-2 text-[17px]   font-[600] duration-500">{button.text}</h1>
                         <h1 className='mr-[5%]'>{selectedButton === button.id ? <AiOutlineUp className="text-lg sm:text-2xl" /> : <AiOutlineDown className="text-lg sm:text-2xl" />}</h1>
                     </button>
                     {selectedButton === button.id && (
