@@ -79,7 +79,6 @@ export default function Home() {
 
     return (
         <div className=''>
-        <Module_Details/>
             <Navbar />
             {/* Hero Section */}
             <div className=' text-[#F9F2DF] bg-[#6A1C1A]'>
