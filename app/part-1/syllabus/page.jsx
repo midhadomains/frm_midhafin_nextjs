@@ -2,6 +2,7 @@ import Footer from '@/components/SiteFooter';
 import Navbar from '@/components/SiteHeader';
 import Image from 'next/image';
 import React from 'react'
+import Link from 'next/link';
 
 function Syllabus() {
     const data = [{
@@ -195,13 +196,18 @@ function Syllabus() {
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
                 <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9 px-2 sm:px-2'>
                     <div>
-                        <Image width={200} height={200} src={data[0].img} alt="frm" />
+                        <Image width={270} height={270} src={data[0].img} alt="frm" />
                     </div>
                     <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
                         <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
                         <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[0].module}</h1>
                     </div>
-                    <div className=''>
+                    <div className='mt-[140px]'>
+                    <Link href = "../components/common/Module_Details.jsx">
+                    <button className='border rounded-2xl w-[150px] h-[4vh] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] text-white'>View for Free</button>
+                    </Link>
+                    </div>
+                    <div className='-mt-[20px]'>
                         <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[0].tittle}</h1>
                     </div>
                 </div>
