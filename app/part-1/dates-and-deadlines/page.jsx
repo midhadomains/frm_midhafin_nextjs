@@ -25,8 +25,8 @@ export default function page() {
 
       
         <div class="border-l-4 border-gray-400  ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part I - May 11 - 17, 2024</h1>
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part II - May 18  - 22, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part I - May 11 - 17, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part II - May 18  - 22, 2024</h1>
         </div>   
 
            <div className="max-w-[1350px] mx-auto px-[25px] ">
@@ -36,8 +36,8 @@ export default function page() {
       </div>   
 
       <div class="border-l-4 border-gray-400  ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Early - Dec 1, 2023 - Jan 31, 2024</h1>
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Standard - Feb 1 - March 31, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Early - Dec 1, 2023 - Jan 31, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Standard - Feb 1 - March 31, 2024</h1>
         </div> 
 
         <div className="max-w-[1350px] mx-auto px-[25px] ">
@@ -47,7 +47,7 @@ export default function page() {
       </div>   
 
       <div class="border-l-4  border-gray-400 ml-[79px] sm:ml-[459px] ">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pt-8 h-1"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/><span className="font-semibold -mt-1">Window to Select an Exam - </span>&nbsp;<span className="-mt-1 ml-[35px] sm:ml-0">Dec 1, 2023 - April 26, 2024</span></h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] pt-8 h-1"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/><span className="font-semibold -mt-1">Window to Select an Exam - </span>&nbsp;<span className="-mt-1 ml-[35px] sm:ml-0">Dec 1, 2023 - April 26, 2024</span></h1>
         </div> 
 
         <div className="bg-[#FFEFCB] py-4 mt-[97px]">
@@ -63,8 +63,8 @@ export default function page() {
       </div>
 
       <div class="border-l-4 border-gray-400 ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part I - August 9 - 10, 2024 AM Sessions</h1>
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part II - August 9  - 22, 2024 PM Sessions</h1>
+          <h1 className="text-[14px] sm:text-[24px]  flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part I - August 9 - 10, 2024 AM Sessions</h1>
+          <h1 className="text-[14px] sm:text-[24px]  flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part II - August 9  - 22, 2024 PM Sessions</h1>
         </div>  
 
         <div className="max-w-[1350px] mx-auto px-[25px] ">
@@ -74,8 +74,8 @@ export default function page() {
       </div>   
 
       <div class="border-l-4 border-gray-400 ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Early - March 1 - April 30, 2024</h1>
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Standard - May 1 - June 30, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px]  flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Early - March 1 - April 30, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px]  flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Standard - May 1 - June 30, 2024</h1>
         </div> 
 
         
@@ -86,7 +86,7 @@ export default function page() {
       </div>   
 
       <div class="border-l-4 border-gray-400 ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pt-8 h-1"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/><span className="font-semibold -mt-1">Window to Select an Exam - </span>&nbsp;<span className="-mt-1">March 1 - July 26, 2024</span></h1>
+          <h1 className="text-[14px] sm:text-[24px]  flex -ml-[9px] sm:-ml-[14px] pt-8 h-1"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/><span className="font-semibold -mt-1">Window to Select an Exam - </span>&nbsp;<span className="-mt-1">March 1 - July 26, 2024</span></h1>
         </div> 
 
         <div className="bg-[#FFEFCB] py-4 mt-[97px]">
@@ -102,8 +102,8 @@ export default function page() {
       </div>
 
       <div class="border-l-4 border-gray-400 ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part I - Nov 9 - 15, 2024</h1>
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part II - Nov 16  - 19, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part I - Nov 9 - 15, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Part II - Nov 16  - 19, 2024</h1>
         </div>  
 
         <div className="max-w-[1350px] mx-auto px-[25px] ">
@@ -113,8 +113,8 @@ export default function page() {
       </div>   
 
       <div class="border-l-4 border-gray-400 ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Early - May 1 - July 31, 2024</h1>
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Standard - Aug 1 - Sept 30, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] py-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Early - May 1 - July 31, 2024</h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] pb-4"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/>Standard - Aug 1 - Sept 30, 2024</h1>
         </div> 
 
         <div className="max-w-[1350px] mx-auto px-[25px] ">
@@ -125,7 +125,7 @@ export default function page() {
 
        
       <div class="border-l-4 border-gray-400 ml-[79px] sm:ml-[459px]">
-          <h1 className="text-[14px] sm:text-[24px] ml-2 flex -ml-[9px] sm:-ml-[14px] pt-4 h-1"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/><span className="font-semibold -mt-1">Window to Select an Exam - </span>&nbsp;<span className="-mt-1">May 1 - Oct 25, 2024</span></h1>
+          <h1 className="text-[14px] sm:text-[24px] flex -ml-[9px] sm:-ml-[14px] pt-4 h-1"><FaCircle className="my-auto mr-5 text-[#BE4E1E]"/><span className="font-semibold -mt-1">Window to Select an Exam - </span>&nbsp;<span className="-mt-1">May 1 - Oct 25, 2024</span></h1>
         </div> 
 
    

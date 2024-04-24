@@ -34,11 +34,11 @@ export default function CourseCard({ a, index }) {
             <h1 className='md:text-[1.5rem] text-[1.3rem] font-[500] md:my-[10px] my-[5px] flex'>{checkOther(a.other)}</h1>
           </div>
           <ul >
-            <li className='flex text-[14px] md:text-[17px] my-1'><FaRegClock className='mt-1 mr-2 '/><p>{a.details[0]}</p></li>
-            <li className='flex text-[14px] md:text-[17px] my-1'><TbDevices className='mt-1 mr-2 ' /><p>{a.details[1]}</p></li>
-            <li className='flex text-[14px] md:text-[17px] my-1'><PiMedal className='mt-1 mr-2 ' /><p>{a.details[2]}</p></li>
-            <li className='flex text-[14px] md:text-[17px] my-1'><LuBookOpenCheck className='mt-1 mr-2 '/><p>{a.details[3]}</p></li>
-            <li className='flex text-[14px] md:text-[17px] my-1'><LuPencilLine className='mt-1 mr-2' /><p>{a.details[4]}</p></li>
+            <li className='flex text-[12px] md:text-[17px] my-1'><FaRegClock className='mt-1 mr-2 '/><p>{a.details[0]}</p></li>
+            <li className='flex text-[12px] md:text-[17px] my-1'><TbDevices className='mt-1 mr-2 ' /><p>{a.details[1]}</p></li>
+            <li className='flex text-[12px] md:text-[17px] my-1'><PiMedal className='mt-1 mr-2 ' /><p>{a.details[2]}</p></li>
+            <li className='flex text-[12px] md:text-[17px] my-1'><LuBookOpenCheck className='mt-1 mr-2 '/><p>{a.details[3]}</p></li>
+            <li className='flex text-[12px] md:text-[17px] my-1'><LuPencilLine className='mt-1 mr-2' /><p>{a.details[4]}</p></li>
           </ul>
         </div>
       </div>
@@ -47,25 +47,3 @@ export default function CourseCard({ a, index }) {
     </div >
   )
 }
-
-// <div >
-//   <div >
-//     <a href="#"><Image width={400} height={400} src={a.image} alt="image" /></a>
-//   </div>
-//   <div className='h-[70px] overflow-hidden hover:h-[200px]'>
-//     <div className=''><a href="#">{a.tp}</a></div>
-//     <div className='flex justify-between my-2'>
-//       <h2 className='text-2xl uppercase '>By : {a.instructor}</h2>
-//       <h1 className='text-2xl'>{checkOther(a.other)}</h1>
-//     </div>
-//     <ul >
-//       <li><FaRegClock className='mb-auto mr-2 mt-1 sm:mt-[6px]' /><p>{a.details[0]}</p></li>
-//       <li><TbDevices className='mb-auto mr-2 mt-1 sm:mt-[6px]' /><p>{a.details[1]}</p></li>
-//       <li><PiMedal className='mb-auto mr-2 mt-1 sm:mt-[6px]' /><p>{a.details[2]}</p></li>
-//       <li><LuBookOpenCheck className='mb-auto mr-2 mt-1 sm:mt-[6px]' /><p>{a.details[3]}</p></li>
-//       <li><LuPencilLine className='mb-auto mr-2 mt-1  sm:mt-[6px]' /><p>{a.details[4]}</p></li>
-//     </ul>
-//   </div>
-//   <hr className='border-2 border-[#6A1C1A]' />
-//   <h1 className='text-2xl leading-3 py-3  ' >&nbsp;&nbsp;&nbsp;<Link href={a.link} className='flex justify-center  '> <TbListDetails className='mr-2 -mt-2' />VIEW DETAILS</Link></h1>
-// </div>
