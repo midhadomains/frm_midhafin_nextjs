@@ -65,8 +65,8 @@ export default function page() {
     {
       "name": "FRM® Part-2 Self Paced Course",
       "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-2-Self-paced-course.png",
-      "price": "₹ 14,850",
-      "other": "₹ 23,364",
+      "price": "",
+      "other": "",
       "instructor": "Micky Midha",
       "details": [
         "250+ Hrs Of Videos",
@@ -80,12 +80,31 @@ export default function page() {
       "tp": "TP-1",
       "category": "frm",
       "sub_category": "part-2_self_paced_course"
-    }
+    },
+    {
+      "name": "FRM® Part-1 and Part-2 Combined Package",
+      "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-1-TP2-plus-FRM-Part-2-TP1.png",
+      "price": "",
+      "other": "",
+      "instructor": "Micky Midha",
+      "details": [
+        "450+ Hrs Of Videos",
+        "Available On Web,IOS & Android",
+        "Access Until You Pass",
+        "Complete Study Material",
+        "Quizzes,Question Bank & Mock tests"
+      ],
+      "link": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-1-2-Training-Package-1-Self-Paced-Course.png",
+      "rating": 4.5,
+      "tp": "TP-1",
+      "category": "frm",
+      "sub_category": "part-1_and_part-2_combined_package"
+    },
 
   ]
 
   return (
-    <div className="bg-white">
+    <div className="bg-white  ">
       <Navbar />
       <div className="text-center bg-gradient-to-b from-[#ffe4a4a0] from-[1%] to-[100%] p-4 max-h-[300px]">
         {/* <div className=" h-[50px] max-w-[700px] mx-auto  "></div> */}
@@ -94,169 +113,162 @@ export default function page() {
           <span className="text-[#BF4E1E]">R</span>isk&nbsp;
           <span className="text-[#BF4E1E]">M</span>anagement
         </h1>
-        <h1 className="text-[#6A1C1A] text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px]  font-bold">FRM Part - 1</h1>
+        <h1 className="text-[#6A1C1A] text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px]  font-bold">FRM Part - 2</h1>
       </div>
-      <Courses course={course} />
+      <Courses course={course} className="scale-90	" />
       {/* Eligibility and pre Requisites */}
 
       {/* Large screem */}
-      <div className="hidden  lg:flex h-[420px] justify-center my-[70px]">
-        <div className="bg-[#FFF4DA] min-w-[300px] flex justify-end relative w-[50%]">
-          <Image src='/part-1/Part-1left.svg' width={350} height={450} alt="image" className="absolute -right-[60px]" />
+      <div className="hidden  lg:flex h-[420px] justify-center my-[70px] ">
+        <div className="bg-[#FFF4DA] min-w-[300px] flex justify-end relative w-[40%] flex-shrink-0">
+          <Image src='/part-2/Part2left.svg' width={350} height={450} alt="image" className=" -mr-[340px] flex-shrink-0 w-[550px] -bottom-5 " />
         </div>
         <div className=" flex justify-start w-[80%] ml-[100px] ">
-          <div className="max-w-[800px] h-[100%] flex flex-col justify-center pr-4">
+          <div className="max-w-[800px] h-[100%] flex flex-col justify-top pr-4">
             <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] mb-[20px] xl:mb-[40px] font-semibold">Eligibility and/or <span className="text-[#BE4E1E]"> Pre-Requisites</span> </h1>
-            <p className="text-[20px] xl:text-[24px] leading-[40px] font-[400]  ">The FRM course welcomes candidates from various academic backgrounds, without any specific educational field prerequisites. There are NO ELIGLIBILITY CRITERIA for potential candidates; even those in the early stages of their undergraduate education can embark on the FRM journey by taking the Part 1 examination.</p>
+            <p className="text-[20px] xl:text-[24px] leading-[40px] font-[400]  ">In order for your Part 2 examination to be evaluated, you <span className="text-[#BE4E1E]">must successfully complete FRM Part 1.</span></p>
           </div>
         </div>
       </div>
       {/* Small screen */}
       <div className="w-[100%] lg:hidden mt-[18%] sm:mt-[25%] ">
-        <div className="bg-[#FFF4DA] h-[150px] mt-auto relative ">
-          <Image src='/part-1/Part-1left.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
+        <div className="bg-[#FFF4DA] h-[150px] mt-[100px] xs:mt-[200px] relative ">
+          <Image src='/part-2/Part2left.svg' width={170} height={100} alt="image" className="mx-auto w-[60%] xs:w-[350px] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
         </div>
         <div className="px-5 max-w-[700px] mx-auto">
           <h2 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-bold my-5 ">Eligibility and/or <span className="text-[#BE4E1E]"> Pre-Requisites</span></h2>
-          <p className="text-[14px] sm:text-[16px]">The FRM course welcomes candidates from various academic backgrounds, without any specific educational field prerequisites. There are NO ELIGLIBILITY CRITERIA for potential candidates; even those in the early stages of their undergraduate education can embark on the FRM journey by taking the Part 1 examination.</p>
+          <p className="text-[14px] sm:text-[16px]">In order for your Part 2 examination to be evaluated, you <span className="text-[#BE4E1E]">must successfully complete FRM Part 1.</span></p>
         </div>
       </div>
       {/* About the exam */}
 
       {/* Large screem */}
-      <div className="hidden  lg:flex h-[450px] justify-center mt-[200px]">
+      <div className="hidden  lg:flex  justify-center mt-[200px]">
         <div className=" flex justify-end w-[80%] mr-[100px] ">
           <div className="max-w-[900px] h-[100%] flex flex-col justify-end pl-4">
             <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] mb-[20px] xl:mb-[40px] font-semibold">About the Exam - <span className="text-[#BF4E1E]">FRM Part 1</span></h1>
-            <p className="text-[20px] xl:text-[24px] leading-[40px] font-[400] ">FRM Part 1 is the first level of the Financial Risk Manager (FRM) certification offered by the Global Association of Risk Professionals (GARP). It involves an examination that assesses candidates’ understanding of foundational concepts in risk management This encompasses a comprehensive exploration of quantitative analysis, fundamental concepts in risk management, the intricacies of financial markets and products, and the application of valuation and risk models. The examination assesses candidates’ proficiency in these core areas, laying the foundation for a solid understanding of risk management principles and practices in the financial domain.Various modules carry different weights in the exam, and to pass FRM Part 1, a minimum score is required in each module.</p>
+            <p className="text-[20px] xl:text-[24px] leading-[40px] font-[400] ">FRM Part 2 is the second level of the Financial Risk Manager (FRM) examination, offered by the Global Association of Risk Professionals (GARP). This segment of the FRM certification delves into practical applications of the knowledge acquired in FRM Part 1. It offers a more in-depth exploration of key areas, including market risk, credit risk, operational, liquidity risk, risk management in investment, and a study of current issues in the financial markets.<br/>
+              There are portions which primarily focus on applying the knowledge and concepts acquired in Part 1, and hence it is assumed that candidates already possess a foundational understanding of the concepts covered in Part 1. But there are certain areas of Part 2 that introduce entirely new or more advanced concepts that candidates may not have encountered in Part 1. This signifies that Part 2 combines both the application of existing knowledge from Part 1 and the introduction of fresh, potentially challenging material.</p>
           </div>
         </div>
-        <div className="bg-[#FFF4DA] min-w-[300px] flex justify-end relative w-[50%]">
-          <Image src='/part-1/part-1right.svg' width={400} height={350} alt="image" className="absolute -left-[60px] bottom-0" />
+        <div className="bg-[#FFF4DA] min-w-[300px] max-h-[450px] flex justify-end relative w-[50%] mt-[150px] ">
+          <Image src='/part-2/part2right.svg' width={400} height={350} alt="image" className="absolute -left-[100px] -bottom-9" />
         </div>
       </div>
       {/* Small screen */}
 
-      <div className="w-[100%] lg:hidden mt-[120px] sm:mt-[30%] ">
-        <div className="bg-[#FFF4DA] h-[150px] mt-auto relative ">
-          <Image src='/part-1/Part-1right.svg' width={170} height={100} alt="image" className="mx-auto sm:w-[30%] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
+      <div className="w-[100%] lg:hidden mt-[30%] ">
+        <div className="bg-[#FFF4DA] h-[150px] mt-[100px] xs:mt-[250px] relative ">
+          <Image src='/part-2/Part2right.svg' width={170} height={100} alt="image" className="mx-auto w-[40%] xs:w-[270px] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
         </div>
         <div className="px-5 max-w-[700px] mx-auto">
           <h2 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-bold my-5 ">About the Exam - <span className="text-[#BE4E1E]"> FRM Part 1</span></h2>
-          <p className=" text-[14px] sm:text-[16px]"> FRM Part 1 is the first level of the Financial Risk Manager (FRM) certification offered by the Global Association of Risk Professionals (GARP). It involves an examination that assesses candidates&apos; understanding of foundational concepts in risk management This encompasses a comprehensive exploration of quantitative analysis, fundamental concepts in risk management, the intricacies of financial markets and products, and the application of valuation and risk models. The examination assesses candidates&apos; proficiency in these core areas, laying the foundation for a solid understanding of risk management principles and practices in the financial domain.Various modules carry different weights in the exam, and to pass FRM Part 1, a minimum score is required in each module.</p>
+          <p className=" text-[14px] sm:text-[16px]">FRM Part 2 is the second level of the Financial Risk Manager (FRM) examination, offered by the Global Association of Risk Professionals (GARP). This segment of the FRM certification delves into practical applications of the knowledge acquired in FRM Part 1. It offers a more in-depth exploration of key areas, including market risk, credit risk, operational, liquidity risk, risk management in investment, and a study of current issues in the financial markets.<br />
+            There are portions which primarily focus on applying the knowledge and concepts acquired in Part 1, and hence it is assumed that candidates already possess a foundational understanding of the concepts covered in Part 1. But there are certain areas of Part 2 that introduce entirely new or more advanced concepts that candidates may not have encountered in Part 1. This signifies that Part 2 combines both the application of existing knowledge from Part 1 and the introduction of fresh, potentially challenging material.</p>
         </div>
       </div>
 
       {/* weightage module */}
-      <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px]">
-        <h1 className="text-[18px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-semibold text-left my-[30px]  sm:my-[50px]">The specific weightage for each module in the exam is as follows:</h1>
-        <ul className="">
-          <li className="flex ">
-            <div className=" aspect-square  bg-[#FFE9CA] min-w-[70px]   sm:max-w-[180px] sm:w-[100%] text-center flex flex-col justify-center ">
-              <h2 className="text-[25px] sm:text-[40px] font-bold text-[#6A1C1A]">20%</h2>
-            </div>
-            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0">
-              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]">Foundations of Risk Management (20%):</h3>
-              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] ">This module lays the groundwork for understanding key concepts and principles in risk management.</p>
-            </div>
-          </li>
-          <li className="flex ">
-            <div className=" aspect-square  bg-[#FFD9A3] min-w-[70px]   sm:max-w-[180px] sm:w-[100%] text-center flex flex-col justify-center ">
-              <h2 className="text-[25px] sm:text-[40px] font-bold text-[#6A1C1A]">20%</h2>
-            </div>
-            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0" >
-              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]"> Quantitative Analysis (20%):</h3>
-              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] "> Focusing on quantitative techniques, this module assesses candidates&apos; ability to analyze and interpret data for risk management purposes. </p>
-            </div>
-          </li>
-          <li className="flex ">
-            <div className="  bg-[#FFCD86] max-w-[180px] min-w-[70px]  sm:w-[100%] sm:h-[270px]  flex-shrink-0 text-center flex flex-col justify-center ">
-              <h2 className="text-[25px] sm:text-[40px] font-bold text-[#6A1C1A]">30%</h2>
-            </div>
-            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0">
-              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]">Financial Markets and Products (30%):  </h3>
-              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] "> Exploring the intricacies of financial markets and various financial instruments, this module evaluates candidates’ knowledge of market structures and products. </p>
-            </div>
-          </li>
-          <li className="flex ">
-            <div className="  bg-[#FFBC5E] max-w-[180px] min-w-[70px]  sm:w-[100%] sm:h-[270px] text-center flex flex-col justify-center ">
-              <h2 className="text-[25px] sm:text-[40px] font-bold text-[#6A1C1A]">30%</h2>
-            </div>
-            <div className="max-w-[1000px] ml-5 lg:ml-10 my-auto py-2 sm:py-0">
-              <h3 className="text-[14px] md:text-[30px] lg:text-[35px] font-bold text-[#6A1C1A]"> Valuation and Risk Models (30%): </h3>
-              <p className="text-[12px]  sm:text-[18px] lg:text-[24px] sm:leading-[40px] font-[400] "> This module delves into the valuation of financial instruments and the application of risk models in assessing and managing risk. </p>
-            </div>
-          </li>
+      <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px] ">
+        <h1 className="text-[18px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-semibold text-left my-[30px]  sm:my-[50px]">FRM Part 2 is composed of <span className="text-[#BE4E1E]"> six modules</span> </h1>
+        <ul>
+          
         </ul>
         {/* desc section */}
         {/* large screen */}
         <div className="max-w-[1300px] mx-auto hidden md:block">
           <div className="flex justify-between  mt-[80px]">
             <div className="max-w-[1000px] pr-5">
-              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Foundations of Risk Management</h2>
-              <p className="text-[20px] lg:text-[24px]">This module is designed to impart fundamental knowledge of the basis of risk management. It introduces the principles and process of risk management. It also provides a primer for risk governance, risk measurement, and the roles, responsibilities and duties of a successful risk manager. Along with best practices for good risk management and governance, it also provides insight into past financial crises and business failures which were caused due to poor risk management.</p>
+              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Market Risk Measurement and Management</h2>
+              <p className="text-[20px] lg:text-[24px] lg:leading-[40px]">This module builds upon the FRM Part 1 curriculum and delves into the challenging realm of market risk. It covers various topics, including VaR and other risk metrics, estimation methods like parametric and non-parametric approaches, VaR mapping, backtesting VaR, coherent risk measures like expected shortfall (ES), Extreme Value Theory (EVT), modeling dependence through correlations and copulas, term structure models of interest rates, volatility with considerations for smiles and term structures, and the Fundamental Review of the Trading Book (FRTB).</p>
             </div>
-            <Image src='/part-1/desc_frm.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
+            <Image src='/part-2/mr.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
           </div>
           <div className="flex justify-between  mt-[80px]">
             <div className="max-w-[1000px] pr-5">
-              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Quantitative Analysis</h2>
-              <p className="text-[20px] lg:text-[24px]"> The main focus of this module is to impart and equip candidates with crucial quantitative tools and techniques necessary for risk assessment and measurement. It deeply covers topics like probability theory, Statistics (Basic as well as advanced), Regression analysis, and time series analysis. It also provides a primer for the most recent technological developments being used in the industry such as machine learning and artificial intelligence.</p>
+              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Credit Risk Measurement and Management</h2>
+              <p className="text-[20px] lg:text-[24px] lg:leading-[40px]">This module is dedicated to assessing and managing the risk of default by borrowers or counterparties. It explores advanced techniques and models such as credit rating methodologies, credit derivatives, and credit portfolio management. Key areas of focus include credit analysis, quantitative methods for assessing default risk, expected and unexpected loss, Credit VaR, counterparty risk, credit derivatives, and structured finance and securitization.</p>
             </div>
-            <Image src='/part-1/desc_vrm.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
+            <Image src='/part-2/cr.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
           </div>
           <div className="flex justify-between  mt-[80px]">
             <div className="max-w-[1000px] pr-5">
-              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Financial Markets and Products</h2>
-              <p className="text-[20px] lg:text-[24px]"> This module attempts to provide a detailed overview of various financial instruments including derivatives, securities, and structured products. The module aims to provide a sound understanding of different types of financial assets such as fixed-income securities, money market instruments, FX products, commodities, derivatives (F&O and swaps, etc), and alternative investments such as CDOs, CLOs, ABS, etc. and introduces the concept of hedging as an important tool of risk management.</p>
+              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Operational Risk and Resilience</h2>
+              <p className="text-[20px] lg:text-[24px] lg:leading-[40px]">This module attempts to provide a detailed overview of various financial instruments including derivatives, securities, and structured products. The module aims to provide a sound understanding of different types of financial assets such as fixed-income securities, money market instruments, FX products, commodities, derivatives (F&O and swaps, etc), and alternative investments such as CDOs, CLOs, ABS, etc. and introduces the concept of hedging as an important tool of risk management. </p>
             </div>
-            <Image src='/part-1/desc_fmp.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
+            <Image src='/part-2/or.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
           </div>
           <div className="flex justify-between  mt-[80px]">
             <div className="max-w-[1000px] pr-5">
-              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Valuation and Risk Models</h2>
-              <p className="text-[20px] lg:text-[24px]">This module is essential for understanding the valuation of various financial instruments including fixed income, equity, and derivatives (Swaps, Options, Eurodollars, dollar roll, etc.) valuation. It also provides a basic understanding of risk modelling, encompassing interest rate risk, credit risk, and operational risk. This module equips candidates with the essential skills to accurately value financial instruments and manage associated risks.</p>
+              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Liquidity and Treasury Risk Measurement and Management</h2>
+              <p className="text-[20px] lg:text-[24px] lg:leading-[40px]">This module equips financial institutions with tools to recognize, quantify, and manage liquidity risks. It emphasizes maintaining adequate liquidity levels, implementing effective funding strategies, and aligning with regulatory guidelines. Topics include liquidity risk principles and metrics, liquidity portfolio management, cash-flow modeling, liquidity stress testing, contingency funding plans, funding models, funds transfer pricing, cross-currency funding, balance sheet management, and asset liquidity. </p>
             </div>
-            <Image src='/part-1/desc_qta.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
+            <Image src='/part-2/lr.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
+          </div>
+          <div className="flex justify-between  mt-[80px]">
+            <div className="max-w-[1000px] pr-5">
+              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Risk Management and Investment Management</h2>
+              <p className="text-[20px] lg:text-[24px] lg:leading-[40px]"> This module revisits some content from FRM Part 1 and introduces additional conceptual, numerical, and theoretical chapters. It explores applying risk management techniques to the investment management process, covering factor theory, portfolio construction, risk metrics, risk budgeting, monitoring and performance measurement, portfolio-based performance analysis, and hedge funds.</p>
+            </div>
+            <Image src='/part-2/rm.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
+          </div>
+          <div className="flex justify-between  mt-[80px]">
+            <div className="max-w-[1000px] pr-5">
+              <h2 className="md:text-[30px] lg:text-[35px] font-bold ">Current Issues in Financial Markets</h2>
+              <p className="text-[20px] lg:text-[24px] lg:leading-[40px]">This module focuses on significant topics with a substantial impact on financial markets. It includes machine learning (ML) and artificial intelligence (AI), climate risk, inflation risk, and emerging technologies like blockchain, cryptocurrency, and decentralized finance. </p>
+            </div>
+            <Image src='/part-2/ci.svg' width={250} height={250} alt="frm" className="flex-shrink-0" />
           </div>
         </div>
         {/* small screen */}
 
         <div className="max-w-[1300px] mx-auto flex justify-center flex-wrap   md:hidden mt-[30px]">
           <div className='md:w-[350px] md:h-[350px] w-[320px] h-[320px]  rounded-3xl relative  bg-[#FFF4DA] m-3 flex-shrink-0  overflow-hidden border'>
-            <Image src="/part-1/desc_frm.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
-            <div className='md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[340px]  transition-height duration-500 ease-in-out shadow-xl'>
-              <IoIosArrowUp className="text-center mx-auto text-[30px] " />
-              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] my-[5px]'>Foundations of Risk Management</h1>
-              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module is designed to impart fundamental knowledge of the basis of risk management. It introduces the principles and process of risk management. It also provides a primer for risk governance, risk measurement, and the roles, responsibilities and duties of a successful risk manager. Along with best practices for good risk management and governance, it also provides insight into past financial crises and business failures which were caused due to poor risk management.</p>
-              <IoIosArrowDown className="text-center mx-auto text-[30px] " />
+            <Image src="/part-2/mr.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
+            <div className='group md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[305px]  transition-height duration-500 ease-in-out shadow-xl'>
+              <IoIosArrowUp className="text-center mx-auto text-[30px] group-hover:rotate-180 	transition-transform duration-500 ease-in-out" />
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] mb-[5px] '>Market Risk Measurement<br/> and Management</h1>
+              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module builds upon the FRM Part 1 curriculum and delves into the challenging realm of market risk. It covers various topics, including VaR and other risk metrics, estimation methods like parametric and non-parametric approaches, VaR mapping, backtesting VaR, coherent risk measures like expected shortfall (ES), Extreme Value Theory (EVT), modeling dependence through correlations and copulas, term structure models of interest rates, volatility with considerations for smiles and term structures, and the Fundamental Review of the Trading Book (FRTB).</p>
             </div>
           </div>
           <div className='md:w-[350px] md:h-[350px] w-[320px] h-[320px]  rounded-3xl relative  bg-[#FFF4DA] m-3 flex-shrink-0  overflow-hidden border'>
-            <Image src="/part-1/desc_vrm.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
-            <div className='md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[340px]  transition-height duration-500 ease-in-out shadow-xl'>
-              <IoIosArrowUp className="text-center mx-auto text-[30px] " />
-              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] my-[5px] mb-8'>Quantitative Analysis</h1>
-              <p className=' text-[#6A1C1A]  text-[12px] px-2'> The main focus of this module is to impart and equip candidates with crucial quantitative tools and techniques necessary for risk assessment and measurement. It deeply covers topics like probability theory, Statistics (Basic as well as advanced), Regression analysis, and time series analysis. It also provides a primer for the most recent technological developments being used in the industry such as machine learning and artificial intelligence.</p>
-              <IoIosArrowDown className="text-center mx-auto text-[30px] " />
+            <Image src="/part-2/cr.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
+            <div className='group md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[270px]  transition-height duration-500 ease-in-out shadow-xl'>
+              <IoIosArrowUp className="text-center mx-auto text-[30px] group-hover:rotate-180 	transition-transform duration-500 ease-in-out " />
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] mb-[5px]'>Credit Risk Measurement<br /> and Management</h1>
+              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module is dedicated to assessing and managing the risk of default by borrowers or counterparties. It explores advanced techniques and models such as credit rating methodologies, credit derivatives, and credit portfolio management. Key areas of focus include credit analysis, quantitative methods for assessing default risk, expected and unexpected loss, Credit VaR, counterparty risk, credit derivatives, and structured finance and securitization.</p>
             </div>
           </div>
           <div className='md:w-[350px] md:h-[350px] w-[320px] h-[320px]  rounded-3xl relative  bg-[#FFF4DA] m-3 flex-shrink-0  overflow-hidden border'>
-            <Image src="/part-1/desc_fmp.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
-            <div className='md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[340px]  transition-height duration-500 ease-in-out shadow-xl'>
-              <IoIosArrowUp className="text-center mx-auto text-[30px] " />
-              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] my-[5px]'>Financial Markets and <br /> Products</h1>
-              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module attempts to provide a detailed overview of various financial instruments including derivatives, securities, and structured products. The module aims to provide a sound understanding of different types of financial assets such as fixed-income securities, money market instruments, FX products, commodities, derivatives (F&O and swaps, etc), and alternative investments such as CDOs, CLOs, ABS, etc. and introduces the concept of hedging as an important tool of risk management.</p>
-              <IoIosArrowDown className="text-center mx-auto text-[30px] " />
+            <Image src="/part-2/or.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
+            <div className='group md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[285px]  transition-height duration-500 ease-in-out shadow-xl'>
+              <IoIosArrowUp className="text-center mx-auto text-[30px] group-hover:rotate-180 	transition-transform duration-500 ease-in-out" />
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] mb-[5px]'>Operational Risk and<br />Resilience</h1>
+              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module attempts to provide a detailed overview of various financial instruments including derivatives, securities, and structured products. The module aims to provide a sound understanding of different types of financial assets such as fixed-income securities, money market instruments, FX products, commodities, derivatives (F&O and swaps, etc), and alternative investments such as CDOs, CLOs, ABS, etc. and introduces the concept of hedging as an important tool of risk management. </p>
             </div>
           </div>
           <div className='md:w-[350px] md:h-[350px] w-[320px] h-[320px]  rounded-3xl relative  bg-[#FFF4DA] m-3 flex-shrink-0  overflow-hidden border'>
-            <Image src="/part-1/desc_qta.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
-            <div className='md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[340px]  transition-height duration-500 ease-in-out shadow-xl'>
-              <IoIosArrowUp className="text-center mx-auto text-[30px] " />
-              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] my-[5px] mb-5'>Valuation and Risk <br />Models</h1>
-              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module is essential for understanding the valuation of various financial instruments including fixed income, equity, and derivatives (Swaps, Options, Eurodollars, dollar roll, etc.) valuation. It also provides a basic understanding of risk modelling, encompassing interest rate risk, credit risk, and operational risk. This module equips candidates with the essential skills to accurately value financial instruments and manage associated risks.</p>
-              <IoIosArrowDown className="text-center mx-auto text-[30px] " />
+            <Image src="/part-2/lr.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
+            <div className='group md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[285px]  transition-height duration-500 ease-in-out shadow-xl'>
+              <IoIosArrowUp className="text-center mx-auto text-[30px] group-hover:rotate-180 	transition-transform duration-500 ease-in-out" />
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] mb-[5px]'>Liquidity & Treasury Risk Measurement & Management</h1>
+              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module equips financial institutions with tools to recognize, quantify, and manage liquidity risks. It emphasizes maintaining adequate liquidity levels, implementing effective funding strategies, and aligning with regulatory guidelines. Topics include liquidity risk principles and metrics, liquidity portfolio management, cash-flow modeling, liquidity stress testing, contingency funding plans, funding models, funds transfer pricing, cross-currency funding, balance sheet management, and asset liquidity.</p>
+            </div>
+          </div>
+          <div className='md:w-[350px] md:h-[350px] w-[320px] h-[320px]  rounded-3xl relative  bg-[#FFF4DA] m-3 flex-shrink-0  overflow-hidden border'>
+            <Image src="/part-2/rm.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
+            <div className='group md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[260px]  transition-height duration-500 ease-in-out shadow-xl'>
+              <IoIosArrowUp className="text-center mx-auto text-[30px] group-hover:rotate-180 	transition-transform duration-500 ease-in-out" />
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:mb-[10px] mb-[5px]'>Risk Management and Investment Management</h1>
+              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module revisits some content from FRM Part 1 and introduces additional conceptual, numerical, and theoretical chapters. It explores applying risk management techniques to the investment management process, covering factor theory, portfolio construction, risk metrics, risk budgeting, monitoring and performance measurement, portfolio-based performance analysis, and hedge funds.</p>
+            </div>
+          </div>
+          <div className='md:w-[350px] md:h-[350px] w-[320px] h-[320px]  rounded-3xl relative  bg-[#FFF4DA] m-3 flex-shrink-0  overflow-hidden border'>
+            <Image src="/part-2/ci.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
+            <div className='group md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[230px]  transition-height duration-500 ease-in-out shadow-xl'>
+              <IoIosArrowUp className="text-center mx-auto text-[30px] group-hover:rotate-180 	transition-transform duration-500 ease-in-out" />
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] mb-[5px]'>Current Issues in <br />Financial Markets</h1>
+              <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module focuses on significant topics with a substantial impact on financial markets. It includes machine learning (ML) and artificial intelligence (AI), climate risk, inflation risk, and emerging technologies like blockchain, cryptocurrency, and decentralized finance.</p>
             </div>
           </div>
 
