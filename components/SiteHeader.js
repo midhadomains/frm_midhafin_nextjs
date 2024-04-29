@@ -28,7 +28,7 @@ const Navbar = () => {
             className="mx-auto sticky top-0 z-10 bg-[#FFFDF6] shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]">
             <div className='max-w-full '>
                 <div className="flex items-center justify-between w-[100%] h-[55px] md:h-[70px] max-w-[2500px] mx-auto">
-                    <Link href='/'>
+                    <Link href='https://www.midhafin.com'>
                         <Image
                             width={250}
                             height={40}
