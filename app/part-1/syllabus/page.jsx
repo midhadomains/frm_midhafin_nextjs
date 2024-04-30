@@ -5,7 +5,8 @@ import React from 'react'
 import Link from 'next/link';
 
 function Syllabus() {
-    const data = [{
+    const data = [
+        {
         img: "/group 315.png",
         module: 1,
         tittle: 'Foundations of Risk Management (FRM)',

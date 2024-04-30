@@ -22,6 +22,7 @@ export default function page() {
         <h1 className="bg-[#EBEBEB]  w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Exam Dates
         </h1>
+
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
         Part I - May 11 - 17,2024
@@ -48,6 +49,7 @@ export default function page() {
           Schedule
         </h1>
 
+
         <div className="text-[14px] sm:text-[24px]  flex   -ml-2  sm:-ml-[14px] pt-8 h-1">
           <FaCircle className="my-auto  mr-4 text-[#BE4E1E] flex-shrink-0" />
           <ul className="list-none flex flex-wrap -mt-1 ">
@@ -69,6 +71,7 @@ export default function page() {
         <h1 className="bg-[#EBEBEB]  w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Exam Dates
         </h1>
+
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
         Part I - August 9 - 10,2024  AM Sessions
@@ -79,8 +82,10 @@ export default function page() {
         </p>
 
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px] text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
+
           Registration
         </h1>
+
 
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
@@ -90,6 +95,7 @@ export default function page() {
           <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
         Standard - May 1 - June 30,2024
         </p>
+
 
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Schedule
@@ -125,8 +131,10 @@ export default function page() {
         </p>
 
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px] text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
+
           Registration
         </h1>
+
 
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
@@ -136,6 +144,7 @@ export default function page() {
           <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
           Standard - Aug 1 - Sept 30,2024
         </p>
+
 
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Schedule

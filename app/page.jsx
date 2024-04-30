@@ -6,7 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import CounterUpPage from '@/components/CounterUpPage'
 import Accordion from '@/components/Accordian'
-import Module_Details from '@/components/Common/Module_Details'
 
 export const metadata = {
     title: 'MidhaFin',
@@ -267,7 +266,7 @@ export default function Home() {
                 </div>
             </div>
             <Footer />
-            
+
         </div>
     )
 }
