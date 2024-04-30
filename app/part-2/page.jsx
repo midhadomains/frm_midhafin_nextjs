@@ -146,8 +146,8 @@ export default function page() {
       <div className="hidden  lg:flex  justify-center mt-[200px]">
         <div className=" flex justify-end w-[80%] mr-[100px] ">
           <div className="max-w-[900px] h-[100%] flex flex-col justify-end pl-4">
-            <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] mb-[20px] xl:mb-[40px] font-semibold">About the Exam - <span className="text-[#BF4E1E]">FRM Part 1</span></h1>
-            <p className="text-[20px] xl:text-[24px] leading-[40px] font-[400] ">FRM Part 2 is the second level of the Financial Risk Manager (FRM) examination, offered by the Global Association of Risk Professionals (GARP). This segment of the FRM certification delves into practical applications of the knowledge acquired in FRM Part 1. It offers a more in-depth exploration of key areas, including market risk, credit risk, operational, liquidity risk, risk management in investment, and a study of current issues in the financial markets.<br/>
+            <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] mb-[20px] xl:mb-[40px] font-semibold">About the Exam - <span className="text-[#BF4E1E]">FRM Part 2</span></h1>
+            <p className="text-[20px] xl:text-[24px] leading-[40px] font-[400] ">FRM Part 2 is the second level of the Financial Risk Manager (FRM) examination, offered by the Global Association of Risk Professionals (GARP). This segment of the FRM certification delves into practical applications of the knowledge acquired in FRM Part 1. It offers a more in-depth exploration of key areas, including market risk, credit risk, operational, liquidity risk, risk management in investment, and a study of current issues in the financial markets.<br />
               There are portions which primarily focus on applying the knowledge and concepts acquired in Part 1, and hence it is assumed that candidates already possess a foundational understanding of the concepts covered in Part 1. But there are certain areas of Part 2 that introduce entirely new or more advanced concepts that candidates may not have encountered in Part 1. This signifies that Part 2 combines both the application of existing knowledge from Part 1 and the introduction of fresh, potentially challenging material.</p>
           </div>
         </div>
@@ -169,10 +169,35 @@ export default function page() {
       </div>
 
       {/* weightage module */}
-      <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px] ">
-        <h1 className="text-[18px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-semibold text-left my-[30px]  sm:my-[50px]">FRM Part 2 is composed of <span className="text-[#BE4E1E]"> six modules</span> </h1>
-        <ul>
-          
+      <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px]">
+        <h1 className="text-[18px] sm:text-[27px] lg:text-[33px] xl:text-[40px] leading-[50px] font-semibold text-left mt-[30px]  sm:mt-[50px] text-center">FRM Part 2 is composed of <span className="text-[#BE4E1E]"> six modules</span> </h1>
+        <p className="text-center text-[10px] sm:text-[15px] lg:text-[24px] text-[#737373] mt-[10px] ">Each with its respective weighting as follows:</p>
+
+        <ul className="mt-[20px] ">
+          <li className="flex  bg-[#FFF8ED] h-[101px] sm:h-[120px] lg:h-[140px] border border-[#FFD59B]">
+            <h1 className="text-[#6A1C1A] font-black w-[25%] sm:w-[18%] text-center text-[20px]  lg:text-[48px] sm:text-[30px] my-auto">20%</h1>
+            <h1 className="font-bold  text-[#6A1C1A]  2xl:text-[36px] sm:text-[25px] text-[14px]  my-auto ">Market Risk Measurement (MR)</h1>
+          </li>
+          <li className="flex bg-[#FFF2E1] h-[101px] sm:h-[120px] lg:h-[140px] border border-[#FFB494]">
+            <h1 className="text-[#6A1C1A] font-black  w-[25%] sm:w-[18%] flex-shrink-0 text-center text-[20px]  lg:text-[48px] sm:text-[30px] my-auto">20%</h1>
+            <h1 className="font-bold  text-[#6A1C1A]  2xl:text-[36px] sm:text-[25px] text-[14px]  my-auto  ">Credit Risk Measurement and Management (CR)</h1>
+          </li>
+          <li className="flex bg-[#FFEDD3] h-[102px] sm:h-[120px] lg:h-[140px] border border-[#FFD59B]">
+            <h1 className="text-[#6A1C1A] font-black  w-[25%] sm:w-[18%] text-center text-[20px]  lg:text-[48px] sm:text-[30px] my-auto flex-shrink-0 ">20%</h1>
+            <h1 className="font-bold  text-[#6A1C1A] 2xl:text-[36px] sm:text-[25px] text-[14px]  my-auto   ">Operational Risk and Resiliency (OR)</h1>
+          </li>
+          <li className="flex bg-[#FFE5C1]  h-[75px] sm:h-[95px] lg:h-[105px] border border-[#FFB494]">
+            <h1 className="text-[#6A1C1A] font-black  w-[25%] sm:w-[18%] text-center text-[20px]  lg:text-[48px] sm:text-[30px] my-auto flex-shrink-0 ">15%</h1>
+            <h1 className="font-bold  text-[#6A1C1A] 2xl:text-[36px] sm:text-[25px] text-[14px]  my-auto  ">Liquidity Risk Measurement (LR)</h1>
+          </li>
+          <li className="flex bg-[#FFDBAA] h-[77px] sm:h-[100px] lg:h-[105px] border border-[#FFB494]">
+            <h1 className="text-[#6A1C1A] font-black  w-[25%] sm:w-[18%] text-center text-[20px]  lg:text-[48px] sm:text-[30px] my-auto flex-shrink-0 ">15%</h1>
+            <h1 className="font-bold  text-[#6A1C1A]  2xl:text-[36px] sm:text-[25px] text-[14px]  my-auto ">Risk Management and Investment Management (RM)</h1>
+          </li>
+          <li className="flex bg-[#FFD59B] h-[50px] sm:h-[100px] lg:h-[105px] border border-[#FFB494]">
+            <h1 className="text-[#6A1C1A] font-black  w-[25%] sm:w-[18%] text-center text-[20px]  lg:text-[48px] sm:text-[30px] my-auto flex-shrink-0 ">10%</h1>
+            <h1 className="font-bold  text-[#6A1C1A]  2xl:text-[36px] sm:text-[25px] text-[14px]  my-auto   ">Current Issues in Financial Markets (CI)</h1>
+          </li>
         </ul>
         {/* desc section */}
         {/* large screen */}
@@ -227,7 +252,7 @@ export default function page() {
             <Image src="/part-2/mr.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
             <div className='group md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[305px]  transition-height duration-500 ease-in-out shadow-xl'>
               <IoIosArrowUp className="text-center mx-auto text-[30px] group-hover:rotate-180 	transition-transform duration-500 ease-in-out" />
-              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] mb-[5px] '>Market Risk Measurement<br/> and Management</h1>
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] mb-[5px] '>Market Risk Measurement<br /> and Management</h1>
               <p className=' text-[#6A1C1A]  text-[12px] px-2'>This module builds upon the FRM Part 1 curriculum and delves into the challenging realm of market risk. It covers various topics, including VaR and other risk metrics, estimation methods like parametric and non-parametric approaches, VaR mapping, backtesting VaR, coherent risk measures like expected shortfall (ES), Extreme Value Theory (EVT), modeling dependence through correlations and copulas, term structure models of interest rates, volatility with considerations for smiles and term structures, and the Fundamental Review of the Trading Book (FRTB).</p>
             </div>
           </div>
@@ -316,31 +341,31 @@ export default function page() {
       {/* Preparation Tips */}
       <div className="my-[30px] md:my-[100px] max-w-[1300px] mx-auto px-5 ">
         <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-bold text-center my-[10px]">Preparation <span className="text-[#BE4E1E]">Tips </span></h1>
-        <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[25px] xl:leading-[34px] font-[400] ">Preparing for FRM Part 1 involves careful consideration of several crucial aspects. The effective selection and management of these factors play a pivotal role in ensuring a robust preparation:</p>
+        <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[18px] xl:leading-[34px] font-[400] ">Preparing for FRM Part 1 involves careful consideration of several crucial aspects. The effective selection and management of these factors play a pivotal role in ensuring a robust preparation:</p>
         <div className="grid md:grid-cols-2 grid-cols-1 mt-[10px] lg:mt-[40px] overflow-hidden">
           <div className="min-w-[300px] max-w-[600px] w-[100%] my-3  md:m-5   ">
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] text-[#6A1C1A] ">1. Preparation Window </h2>
-            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[25px] xl:leading-[34px] font-[400] md:pr-5">Allocating a preparation window of at least 5 months for FRM Part 1 is advisable.</p>
+            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[18px] xl:leading-[34px] font-[400] md:pr-5">Allocating a preparation window of at least 5 months for FRM Part 1 is advisable.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] w-[100%] my-3 md:m-5   ">
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] text-[#6A1C1A] ">2. Time Required </h2>
-            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[25px] xl:leading-[34px] font-[400] md:pr-5">To achieve thorough preparation, it is recommended to dedicate around 600 hours to FRM Part 1. Avoiding shortcuts is emphasized to ensure a deep understanding of risk management concepts and tools, facilitating ease in answering interview questions.</p>
+            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[18px] xl:leading-[34px] font-[400] md:pr-5">To achieve thorough preparation, it is recommended to dedicate around 600 hours to FRM Part 1. Avoiding shortcuts is emphasized to ensure a deep understanding of risk management concepts and tools, facilitating ease in answering interview questions.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] w-[100%] my-3   md:m-5  ">
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] text-[#6A1C1A] ">3. Material</h2>
-            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[25px] xl:leading-[34px] font-[400] md:pr-5">Choosing the right study material is paramount. MidhaFin, as one of the first GARP Authorized Prep Providers for FRM, offers comprehensive study material, including over 200 hours of content videos, 85 plus hours of question-solving videos, and 100 plus hours of revision videos.</p>
+            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[18px] xl:leading-[34px] font-[400] md:pr-5">Choosing the right study material is paramount. MidhaFin, as one of the first GARP Authorized Prep Providers for FRM, offers comprehensive study material, including over 200 hours of content videos, 85 plus hours of question-solving videos, and 100 plus hours of revision videos.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] w-[100%]  my-3 md:m-5   ">
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] text-[#6A1C1A] ">4. Questions</h2>
-            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[25px] xl:leading-[34px] font-[400] md:pr-5">Solving a substantial number of questions is key to preparation success. MidhaFin provides question banks with over 3000 questions, closely aligned with recent exam trends. GARP sample paper questions from the past 15 years are also included.</p>
+            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[18px] xl:leading-[34px] font-[400] md:pr-5">Solving a substantial number of questions is key to preparation success. MidhaFin provides question banks with over 3000 questions, closely aligned with recent exam trends. GARP sample paper questions from the past 15 years are also included.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] w-[100%] my-3  md:m-5   ">
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] text-[#6A1C1A] ">5. Periodic Tests</h2>
-            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[25px] xl:leading-[34px] font-[400] md:pr-5 ">Implementing regular quizzes is integral to the active learning philosophy at MidhaFin. Four monthly tests are conducted, focusing on the curriculum taught during the respective month. Graded tests enable students to monitor their performance consistently.</p>
+            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[18px] xl:leading-[34px] font-[400] md:pr-5 ">Implementing regular quizzes is integral to the active learning philosophy at MidhaFin. Four monthly tests are conducted, focusing on the curriculum taught during the respective month. Graded tests enable students to monitor their performance consistently.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] w-[100%]  my-3 md:m-5   pr-5">
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] text-[#6A1C1A] ">6. Mock Tests</h2>
-            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[25px] xl:leading-[34px] font-[400] md:pr-5 ">MidhaFin conducts 5 mock tests towards the end of the preparation period, starting approximately a month before the exam. These full-length mock tests cover the entire syllabus and are graded, providing quartile analysis similar to the actual GARP FRM exams.</p>
+            <p className="text-left  mx-auto text-[14px] md:text-[20px] xl:text-[24px] leading-[18px] xl:leading-[34px] font-[400] md:pr-5 ">MidhaFin conducts 5 mock tests towards the end of the preparation period, starting approximately a month before the exam. These full-length mock tests cover the entire syllabus and are graded, providing quartile analysis similar to the actual GARP FRM exams.</p>
           </div>
         </div>
       </div>
