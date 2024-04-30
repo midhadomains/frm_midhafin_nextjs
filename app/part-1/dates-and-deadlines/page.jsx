@@ -17,25 +17,6 @@ export default function page() {
         </h1>
       </div>
 
-      {/* <div className="max-w-[1350px] mx-auto px-[25px] mt-[41px]">
-        <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[300px] py-[15px] rounded-full text-[14px] sm:text-[24px] font-bold text-center">
-          Exam Dates
-        </h1>
-      </div> */}
-
-      {/* <div>
-        <div className="border-l-4 border-gray-400 m-9 max-w-[600px] mx-auto md:ml-[150px] ml-[70px]">
-          <h1 className="bg-[#EBEBEB] md:w-[300px] w-[112px] text-center font-bold py-[15px] rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px] ">
-            Exam Dates
-          </h1>
-          <p className="flex -ml-[13px] my-4">
-            <FaCircle className="my-auto mr-3 text-[22px] text-[#BE4E1E]" /> Part I - May 11 - 17, 2024
-          </p>
-          <p className="flex -ml-[13px] my-4">
-            <FaCircle className="my-auto mr-3 text-[22px] text-[#BE4E1E]" /> Part II - May 18 - 22, 2024
-          </p>
-        </div>
-      </div> */}
       <div>
       <div class="border-l-2 sm:border-l-4  max-w-[700px] mx-auto ml-[70px] md:ml-[220px] lg:ml-[449px]  m-9 ">
         <h1 className="bg-[#EBEBEB]  w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
