@@ -46,6 +46,7 @@
 // };
 
 // export default TabsComponent;
+
 'use client';
 import { useState, useEffect, useRef } from 'react';
 
@@ -83,7 +84,7 @@ const TabsComponent = ({ items }) => {
                             ref={index === 0 ? firstBtnRef : index === items.length - 1 ? lastBtnRef : null}
                             key={index}
                             onClick={() => setSelectedTab(index)}
-                            className={`w-full p-2 hover:bg-[#b87f67] rounded-2xl text-center text-[10px] focus:ring-2 focus:outline-blue-900 focus:bg-white focus:text-[#e9825a] ${selectedTab === index ? 'ring-2 bg-white text-[#c47654]' : ''
+                            className={`w-full p-2 hover:bg-[#b87f67] rounded-2xl text-center text-[10px] focus:ring-2 focus:outline-none focus:bg-white focus:text-[#e9825a] ${selectedTab === index ? 'ring-2 bg-white text-[#c47654]' : ''
                                 } `}
                         >
                             {item.title}
