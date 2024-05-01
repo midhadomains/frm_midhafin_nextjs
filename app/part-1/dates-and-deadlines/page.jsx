@@ -23,6 +23,7 @@ export default function page() {
           Exam Dates
         </h1>
 
+
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
         Part I - May 11 - 17,2024
@@ -62,6 +63,7 @@ export default function page() {
 
       <div className="bg-[#FFEFCB] py-4 mt-[97px]">
         <h1 className="font-bold mx-auto max-w-[1350px] text-center  px-[25px] text-[14px] sm:text-[36px]">
+
           AUGUST EXAMS
         </h1>
       </div>
@@ -71,6 +73,7 @@ export default function page() {
         <h1 className="bg-[#EBEBEB]  w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Exam Dates
         </h1>
+
 
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
@@ -112,6 +115,7 @@ export default function page() {
       </div>
       <div className="bg-[#FFEFCB] py-4 mt-[97px]">
         <h1 className="font-bold mx-auto max-w-[1350px] text-center  px-[25px] text-[14px] sm:text-[36px]">
+
           NOVEMBER EXAMS
         </h1>
       </div>
@@ -159,6 +163,7 @@ export default function page() {
         </div>
       </div>
       </div>
+
     </div>
   );
 }
