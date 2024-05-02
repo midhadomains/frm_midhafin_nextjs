@@ -24,6 +24,7 @@ export default function page() {
         </h1>
 
 
+
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
         Part I - May 11 - 17,2024
@@ -33,9 +34,11 @@ export default function page() {
           Part II - May 18 - 22,2024
         </p>
 
+
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px] text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Registration
         </h1>
+
 
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
@@ -46,10 +49,10 @@ export default function page() {
           Standard - Feb 1 - March 31,2024
         </p>
 
+
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Schedule
         </h1>
-
 
         <div className="text-[14px] sm:text-[24px]  flex   -ml-2  sm:-ml-[14px] pt-8 h-1">
           <FaCircle className="my-auto  mr-4 text-[#BE4E1E] flex-shrink-0" />
@@ -100,9 +103,11 @@ export default function page() {
         </p>
 
 
+
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Schedule
         </h1>
+
 
         <div className="text-[14px] sm:text-[24px]  flex   -ml-2  sm:-ml-[14px] pt-8 h-1">
           <FaCircle className="my-auto  mr-4 text-[#BE4E1E] flex-shrink-0" />
@@ -134,11 +139,12 @@ export default function page() {
         Part II - Nov 16 - 19,2024
         </p>
 
+
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px] text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
+
 
           Registration
         </h1>
-
 
         <p className="text-[14px] sm:text-[24px] flex -ml-2 sm:-ml-[14px] my-4">
         <FaCircle className="my-auto mr-3 text-[#BE4E1E]" />
@@ -153,7 +159,6 @@ export default function page() {
         <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
           Schedule
         </h1>
-
         <div className="text-[14px] sm:text-[24px]  flex   -ml-2  sm:-ml-[14px] pt-8 h-1">
           <FaCircle className="my-auto  mr-4 text-[#BE4E1E] flex-shrink-0" />
           <ul className="list-none flex flex-wrap -mt-1 ">
