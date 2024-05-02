@@ -5,7 +5,8 @@ import React from 'react'
 import Link from 'next/link';
 
 function Syllabus() {
-    const data = [{
+    const data = [
+        {
         img: "/group 315.png",
         module: 1,
         tittle: 'Foundations of Risk Management (FRM)',
@@ -203,7 +204,9 @@ function Syllabus() {
                         <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[0].module}</h1>
                     </div>
                     <div className='mt-[140px]'>
+
                     <Link href={data[0].tittle}>
+
                     <button className='border rounded-2xl w-[150px] h-[4vh] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] text-white'>View for Free</button>
                     </Link>
                     </div>
