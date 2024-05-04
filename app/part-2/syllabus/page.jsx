@@ -103,25 +103,18 @@ function Syllabus() {
                 <h3 className='text-[22px] sm:text-[28px] lg:text-[35px] font-medium text-[#BE4E1E]'>FRM part-2</h3>
                 <h1 className='text-[30px]  sm:text-[35px]  md:text-[45px] lg:text-[55px] font-semibold text-[#6A1C1A]'>Syllabus</h1>
             </div>
-            <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9 px-2 sm:px-2'>
-                    <div>
-                        {/* <Image width={270} height={270} src={} alt="frm" /> */}
+            <div className='max-w-[1300px] mx-auto  sm:mt-5'>
+                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[0].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[0].module_no}</h1>
-                    </div>
-                    <div className='mt-[140px]'>
-                        <Link href={data[0].module_title}>
-                            <button className='border rounded-2xl w-[150px] h-[4vh] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] text-white'>View for Free</button>
-                        </Link>
-                    </div>
-                    <div className='-mt-[20px]'>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[0].module_title}</h1>
+                    <div className='pl-[5%]  '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[0].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-auto sm:text-[30px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[0].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
@@ -142,21 +135,18 @@ function Syllabus() {
                     </table>
                 </div>
             </div>
-            <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-between -mb-5 sm:-mb-9 px-2 sm:px-2'>
-
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[1].module_no}</h1>
+            <div className='max-w-[1300px] mx-auto  pt-5 sm:mt-5'>
+                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[1].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className=''>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[1].module_title}</h1>
-                    </div>
-                    <div className='w-[40%] flex justify-end'>
-                        {/* <Image width={200} height={200} src={part-1/pt_pw.svg} alt="qta" /> */}
+                    <div className='pl-[5%]  '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[1].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-auto sm:text-[30px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[1].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF]  py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto ' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
@@ -178,19 +168,17 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9 px-2 sm:px-2'>
-                    <div>
-                        {/* <Image width={200} height={200} src={part-1/pt_pw.svg} alt="fmp" /> */}
+                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[2].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[2].module_no}</h1>
-                    </div>
-                    <div className=''>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[2].module_title}</h1>
+                    <div className='pl-[5%]  '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[2].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[2].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto ' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
@@ -212,19 +200,17 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9 px-2 sm:px-2'>
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[3].module_no}</h1>
+                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[3].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className=''>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[3].module_title}</h1>
-                    </div>
-                    <div>
-                        {/* <Image width={200} height={200} src={part-1/pt_pw.svg} alt="vrm" /> */}
+                    <div className='pl-[5%]  '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[3].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[3].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto ' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
@@ -245,17 +231,81 @@ function Syllabus() {
                     </table>
                 </div>
             </div>
+            <div className='max-w-[1300px] mx-auto sm:mt-5'>
+            <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[4].img} className='w-[100%] flex-shrink-0' alt="frm" />
+                    </div>
+                    <div className='pl-[5%]  '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[4].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[4].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
+                    </div>
+                </div>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
+                    <table className='w-[90%] sm:w-[80%] mx-auto ' >
+                        <thead>
+                            <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
+                                <th className='border-r border-b border-[#BE4E1E9C] w-[15%]'>Chapter</th>
+                                <th className='border-l border-b border-[#BE4E1E9C]'>Topics</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                data[4].topics.map((el) => {
+                                    return <tr className='text-[12px] sm:text-[16px] lg:text-[20px]' key={el.id} >
+                                        <td className='border-r border-t border-[#BE4E1E9C] py-2 w-[15%] text-center'>{el.id}</td>
+                                        <td className='border-l border-t border-[#BE4E1E9C] py-2 pl-[3%]'>{el.data}</td>
+                                    </tr>
+                                })
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div className='max-w-[1300px] mx-auto sm:mt-5'>
+                 <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[5].img} className='w-[100%] flex-shrink-0' alt="frm" />
+                    </div>
+                    <div className='pl-[5%]  '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[5].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[5].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
+                    </div>
+                </div>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
+                    <table className='w-[90%] sm:w-[80%] mx-auto ' >
+                        <thead>
+                            <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
+                                <th className='border-r border-b border-[#BE4E1E9C] w-[15%]'>Chapter</th>
+                                <th className='border-l border-b border-[#BE4E1E9C]'>Topics</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                data[5].topics.map((el) => {
+                                    return <tr className='text-[12px] sm:text-[16px] lg:text-[20px]' key={el.id} >
+                                        <td className='border-r border-t border-[#BE4E1E9C] py-2 w-[15%] text-center'>{el.id}</td>
+                                        <td className='border-l border-t border-[#BE4E1E9C] py-2 pl-[3%]'>{el.data}</td>
+                                    </tr>
+                                })
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
             <Footer />
         </div>
     )
 }
-
 export default Syllabus;
 
 
 const data = [
     {
-        img: "/group 315.png",
+        img: "/Group 391.png",
         module_no: 1,
         module_title: 'Market Risk Measurement and Management (MR)',
         topics: [
@@ -278,7 +328,7 @@ const data = [
         ]
     },
     {
-        img: "/group 316.png",
+        img: "/Group 392.png",
         module_no: 2,
         module_title: 'Credit Risk Measurement and Management (CR)',
         topics: [
@@ -309,7 +359,7 @@ const data = [
 
     },
     {
-        img: "/group 317.png",
+        img: "/Group 393.png",
         module_no: 3,
         module_title: "Operational Risk and Resilience (OR)",
         topics: [
@@ -340,7 +390,7 @@ const data = [
         ]
     },
     {
-        img: "/group 317.png",
+        img: "/Group 394.png",
         module_no: 4,
         module_title: "Liquidity and Treasury Risk Measurement and Management (LR)",
         topics: [
@@ -362,6 +412,40 @@ const data = [
             { id: 17, data: "Covered Interest Parity Lost: Understanding the Cross-Currency Basis" },
             { id: 18, data: "Risk Management for Changing Interest Rates: Asset-Liability Management and Duration Techniques" },
             { id: 19, data: "Illiquid Assets" }
+        ]
+    }, {
+        img: "/Group 395.png",
+        module_no: 5,
+        module_title: "Risk Management and Investment Management (RI)",
+        topics: [
+            { id: 1, data: "Factor Theory" },
+            { id: 2, data: "Factors" },
+            { id: 3, data: "Alpha" },
+            { id: 4, data: "Portfolio Construction" },
+            { id: 5, data: "Portfolio Risk: Analytical Methods" },
+            { id: 6, data: "VaR and Risk Budgeting in Investment Management" },
+            { id: 7, data: "Risk Monitoring and Performance Measurement" },
+            { id: 8, data: "Portfolio Performance Evaluation" },
+            { id: 9, data: "Hedge Funds" },
+            { id: 10, data: "Performing Due Diligence on Specific Managers and Funds" },
+            { id: 11, data: "Predicting Fraud by Investment Managers" }
+        ]
+    },
+    {
+        img: "/Group 396.png",
+        module_no: 6,
+        module_title: "Current Issues in Financial Markets (CI)",
+        topics: [
+            { id: 1, data: "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank" },
+            { id: 2, data: "The Credit Suisse CoCo Wipeout: Facts, Misperceptions, and Lessons for Financial Regulation" },
+            { id: 3, data: "Artificial Intelligence and Bank Supervision - Federal Reserve Bank of Richmond, Second Quarter 2023" },
+            { id: 4, data: "Financial Risk Management and Explainable, Trustworthy, Responsible AI" },
+            { id: 5, data: "Artificial Intelligence Risk Management Framework" },
+            { id: 6, data: "Climate-related Risk drivers and Their transmission channels" },
+            { id: 7, data: "Climate-related Financial Risks – Measurement methodologies" },
+            { id: 8, data: "Principles for the effective management and supervision of climate-related financial risks" },
+            { id: 9, data: "The Crypto Ecosystem: Key Elements and Risks" },
+            { id: 10, data: "Digital Resilience and Financial Stability. The Quest for Policy Tools in The Financial Sector" }
         ]
     }
 ]
