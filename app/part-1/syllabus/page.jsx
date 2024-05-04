@@ -8,8 +8,8 @@ function Syllabus() {
     const data = [
         {
         img: "/group 315.png",
-        module: 1,
-        tittle: 'Foundations of Risk Management (FRM)',
+        module_no: 1,
+        module_title: 'Foundations of Risk Management (FRM)',
         topics: [
             { id: 1, data: "The Building Blocks of Risk Management" },
             { id: 2, data: 'How Do Firms Manage Financial Risk ?' },
@@ -25,9 +25,9 @@ function Syllabus() {
         ]
     },
     {
-        img: "/group 316.png",
-        module: 2,
-        tittle: 'Quantitative Analysis',
+        img: "/Group 316.png",
+        module_no: 2,
+        module_title: 'Quantitative Analysis (QTA)',
         topics: [
             { "id": 1, "data": "Fundamentals of Probability" },
             { "id": 2, "data": "Random Variables" },
@@ -48,9 +48,9 @@ function Syllabus() {
 
     },
     {
-        img: "/group 317.png",
-        module: 3,
-        tittle: 'Financial Market and Products (FMP)',
+        img: "/Group 317.png",
+        module_no: 3,
+        module_title: 'Financial Market and Products (FMP)',
         topics: [
             { "Chapter": 1, "data": "Banks" },
             { "Chapter": 2, "data": "Insurance Companies and Pension Plans" },
@@ -75,9 +75,9 @@ function Syllabus() {
         ]
     },
     {
-        img: "/group 318.png",
-        module: 4,
-        tittle: 'Valuation and Risk Management (VRM)',
+        img: "/Group 318.png",
+        module_no: 4,
+        module_title: 'Valuation and Risk Management (VRM)',
         topics: [
             { "Chapter": 1, "data": "Measures of Financial Risk" },
             { "Chapter": 2, "data": "Calculating and Applying VaR" },
@@ -100,8 +100,8 @@ function Syllabus() {
     ]
 
     const Module1_data = {
-        title: "Foundations of Risk Management (FRM)",
-        module: "01",
+        module_title: "Foundations of Risk Management (FRM)",
+        module_no: "01",
         image: "https://www.frm.midhafin.com/part-1/desc_frm.svg",
         desc: "A proprietary book for FRM candidates has been created to cover these broad knowledge points. While detailed learning objectives associated with these readings are presented in the 2024 FRM Learning Objectives document, a summary of how to relate these readings to the knowledge points follows.",
     
@@ -186,7 +186,6 @@ function Syllabus() {
         ],
       };
     
-
     return (
         <div>
             <Navbar />
@@ -195,26 +194,17 @@ function Syllabus() {
                 <h1 className='text-[30px]  sm:text-[35px]  md:text-[45px] lg:text-[55px] font-semibold text-[#6A1C1A]'>Syllabus</h1>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9 px-2 sm:px-2'>
-                    <div>
-                        <Image width={270} height={270} src={data[0].img} alt="frm" />
+                <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[0].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[0].module}</h1>
-                    </div>
-                    <div className='mt-[140px]'>
-
-                    <Link href={data[0].tittle}>
-
-                    <button className='border rounded-2xl w-[150px] h-[4vh] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] text-white'>View for Free</button>
-                    </Link>
-                    </div>
-                    <div className='-mt-[20px]'>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[0].tittle}</h1>
+                    <div className='pl-[5%] w-full '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[0].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-[84px] lg:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[0].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto ' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
@@ -236,20 +226,17 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-between -mb-5 sm:-mb-9 px-2 sm:px-2'>
-
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[1].module}</h1>
+            <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[1].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className=''>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[1].tittle}</h1>
-                    </div>
-                    <div className='w-[40%] flex justify-end'>
-                        <Image width={200} height={200} src={data[1].img} alt="qta" />
+                    <div className='pl-[5%] w-full '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[1].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-[84px] lg:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[1].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto ' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
@@ -271,19 +258,17 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9 px-2 sm:px-2'>
-                    <div>
-                        <Image width={200} height={200} src={data[2].img} alt="fmp" />
+            <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px] sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[2].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[2].module}</h1>
-                    </div>
-                    <div className=''>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[2].tittle}</h1>
+                    <div className='pl-[5%] w-full '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[2].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-[84px] lg:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[2].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto ' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
@@ -305,19 +290,17 @@ function Syllabus() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto sm:mt-5'>
-                <div className='w-[100%] flex justify-start -mb-5 sm:-mb-9 px-2 sm:px-2'>
-                    <div className='p-[2px] lg:p-5 lg:pt-0 sm:mx-5'>
-                        <h2 className='text-[#BE4E1E] text-[18px] sm:text-[25px] lg:text-[35px]  font-semibold'>Module</h2>
-                        <h1 className='text-[#BE4E1E] text-[35px]  sm:text-[45px]  md:text-[50px] text-center leading-[35px] sm:leading-[40px] lg:leading-[60px] lg:text-[95px] font-bold'>0{data[3].module}</h1>
+            <div className='w-[100%] flex justify-around -mb-5 sm:-mb-9  px-2 sm:px-2'>
+                    <div className='w-[107px]   sm:w-[190px] lg:w-[250px] flex-shrink-0'>
+                        <Image width={180} height={180} src={data[3].img} className='w-[100%] flex-shrink-0' alt="frm" />
                     </div>
-                    <div className=''>
-                        <h1 className='font-bold text-[20px]  sm:text-[30px]  md:text-[35px] lg:text-[55px] leading-[25px] sm:leading-[55px] m-1 sm:m-0 text-center'>{data[3].tittle}</h1>
-                    </div>
-                    <div>
-                        <Image width={200} height={200} src={data[3].img} alt="vrm" />
+                    <div className='pl-[5%] w-full  '>
+                        <h2 className='text-[#BE4E1E] text-[14px] sm:text-[25px] lg:text-[30px]  font-semibold'>MODULE 0{data[3].module_no}</h2>
+                        <h1 className='font-bold text-[16px] h-11 sm:h-[84px] lg:h-auto sm:text-[30px] sm:h-[84px] lg:h-[110px]  md:text-[35px] lg:text-[50px] leading-[20px] sm:leading-[40px] lg:leading-[55px] p-1 pl-0 sm:m-0 '>{data[3].module_title}</h1>
+                        <button className='py-1 sm:py-2.5 px-4 sm:px-6 lg:px-8 text-[15px] text-white sm:text-[18px] lg:text-[28px] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] mt-2  sm:mt-2 lg:mt-5 rounded-[50px]'> View for FREE </button>
                     </div>
                 </div>
-                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9'>
+                <div className='mx-auto  bg-gradient-to-b from-[#FAF8F3] to-[#FFFFFF] py-9 sm:py-[50px]'>
                     <table className='w-[90%] sm:w-[80%] mx-auto ' >
                         <thead>
                             <tr className='text-[12px] sm:text-[16px] lg:text-[20px]'>
