@@ -380,7 +380,7 @@ export default function page() {
 
           <div className="my-auto text-center">
             <h1 className="font-[600] text-[26px] sm:text-[32px] lg:text-[40px] pt-6 sm:pt-4 ">Looking for an FRM Prep Provider?</h1>
-            <button className=" px-5 sm:px-9 mt-4 py-2 sm:py-3 bg-[#BE4E1E] mx-auto sm:mx-0 rounded-[112px] "><h1 className="font-semibold text-[#EDF1DF] text-[18px] sm:text-[22px] lg:text-[28px]">JOIN US TODAY</h1></button>
+            <button className=" px-5 sm:px-9 mt-4 py-2 sm:py-3 bg-[#BE4E1E] mx-auto sm:mx-0 rounded-[112px] hover:opacity-75 ease-in duration-150"><h1 className="font-semibold text-[#EDF1DF] text-[18px] sm:text-[22px] lg:text-[28px]"> <Link href="https://edu.midhafin.com/s/authenticate">JOIN US TODAY</Link> </h1></button>
           </div>
           <div className="w-[50%] mt-5 sm:mt-0 sm:w-auto mx-auto sm:mx-0 "> 
             <Image className="" src="/part-2/YT_Thumbnail-03 2.png" height={277} width={232} alt="image" />
