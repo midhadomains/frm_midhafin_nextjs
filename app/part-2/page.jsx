@@ -121,7 +121,7 @@ export default function page() {
       {/* Large screem */}
       <div className="hidden  lg:flex h-[420px] justify-center my-[70px] ">
         <div className="bg-[#FFF4DA] min-w-[300px] flex justify-end relative w-[40%] flex-shrink-0">
-          <Image src='/part-2/Part2left.svg' width={350} height={450} alt="image" className=" -mr-[340px] flex-shrink-0 w-[550px] -bottom-5 " />
+          <Image src='/part-2/part2left.svg' width={350} height={450} alt="image" className=" -mr-[340px] flex-shrink-0 w-[550px] -bottom-5 " />
         </div>
         <div className=" flex justify-start w-[80%] ml-[100px] ">
           <div className="max-w-[800px] h-[100%] flex flex-col justify-top pr-4">
@@ -133,7 +133,7 @@ export default function page() {
       {/* Small screen */}
       <div className="w-[100%] lg:hidden mt-[18%] sm:mt-[25%] ">
         <div className="bg-[#FFF4DA] h-[150px] mt-[100px] xs:mt-[200px] relative ">
-          <Image src='/part-2/Part2left.svg' width={170} height={100} alt="image" className="mx-auto w-[60%] xs:w-[350px] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
+          <Image src='/part-2/part2left.svg' width={170} height={100} alt="image" className="mx-auto w-[60%] xs:w-[350px] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
         </div>
         <div className="px-5 max-w-[700px] mx-auto">
           <h2 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-bold my-5 ">Eligibility and/or <span className="text-[#BE4E1E]"> Pre-Requisites</span></h2>
