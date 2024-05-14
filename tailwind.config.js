@@ -12,7 +12,8 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "contactbgimage": "url('/Vector 10.svg')",
-        "syllabusbg": "url('/rectangle 4.png')"
+        "syllabusbg": "url('/rectangle 4.png')",
+        "Reviewsbg": "url('/Reviewsbg.svg')",
       },
     },
     screens: {
