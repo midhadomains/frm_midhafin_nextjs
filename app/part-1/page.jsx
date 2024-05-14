@@ -35,7 +35,7 @@ export default function page() {
       data: "The FRM Part 1 exam is valid for a period of 4 years. Candidates must pass the FRM Part 2 exam before this period is over to earn FRM designation, otherwise, they will have to reappear for the FRM Part 1 exam.",
     },
   ];
-  const course= [
+  const course = [
     {
       "_id": "65dee4781c34e4d5d691626d",
       "name": "FRM® Part-1 Sample Course",
@@ -110,7 +110,7 @@ export default function page() {
         </h1>
         <h1 className="text-[#6A1C1A] text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px]  font-bold">FRM Part - 1</h1>
       </div>
-      <Courses  course={course}/>
+      <Courses course={course} />
       {/* Eligibility and pre Requisites */}
 
       {/* Large screem */}
@@ -160,6 +160,15 @@ export default function page() {
           <p className=" text-[14px] sm:text-[14px]"> FRM Part 1 is the first level of the Financial Risk Manager (FRM) certification offered by the Global Association of Risk Professionals (GARP). It involves an examination that assesses candidates&apos; understanding of foundational concepts in risk management This encompasses a comprehensive exploration of quantitative analysis, fundamental concepts in risk management, the intricacies of financial markets and products, and the application of valuation and risk models. The examination assesses candidates&apos; proficiency in these core areas, laying the foundation for a solid understanding of risk management principles and practices in the financial domain.Various modules carry different weights in the exam, and to pass FRM Part 1, a minimum score is required in each module.</p>
         </div>
       </div>
+      
+      {/* secondary navbar */}
+      <ul className="my-[8%] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] flex justify-around max-w-[1100px] mx-auto py-5 text-[16px] md:text-[24px] px-2 text-white font-[400] md:font-[500] tracking-wide rounded-full">
+        <Link href='/part-1/study-plan'><li>Study Plan</li> </Link>
+        <li>|</li>
+        <Link href='/part-1/syllabus'><li>Syllabus</li></Link>
+        <li>|</li>
+        <Link href='/dates-and-deadlines'><li>Dates & Deadlines</li></Link>
+      </ul>
 
       {/* weightage module */}
       <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px]">
@@ -268,7 +277,7 @@ export default function page() {
             <Image src="/part-1/desc_qta.svg" alt="img" width={260} height={200} className='mx-auto -mt-[20px]' />
             <div className='md:h-[120px] h-[100px] md:w-[350px] w-[320px] text-center bg-white rounded-3xl  absolute   overflow-hidden  bottom-0 hover:h-[340px]  transition-height duration-500 ease-in-out shadow-xl'>
               <IoIosArrowUp className="text-center mx-auto text-[30px] " />
-              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] my-[5px] mb-5'>Valuation and Risk <br/>Models</h1>
+              <h1 className='md:text-[1.75rem] text-[1.3rem] font-[700] md:my-[10px] my-[5px] mb-5'>Valuation and Risk <br />Models</h1>
               <p className=' text-[#6A1C1A]  text-[14px] px-2'>This module is essential for understanding the valuation of various financial instruments including fixed income, equity, and derivatives (Swaps, Options, Eurodollars, dollar roll, etc.) valuation. It also provides a basic understanding of risk modelling, encompassing interest rate risk, credit risk, and operational risk. This module equips candidates with the essential skills to accurately value financial instruments and manage associated risks.</p>
               <IoIosArrowDown className="text-center mx-auto text-[30px] " />
             </div>
@@ -277,7 +286,7 @@ export default function page() {
         </div>
 
       </div>
-      
+
       {/* Composition and Exam Structure */}
       {/* large screen */}
       <div className="hidden  lg:flex h-[520px] justify-center my-[70px] mt-[150px]">
@@ -309,7 +318,7 @@ export default function page() {
           <p className="text-[14px]  lg:text-[20px] sm:leading-[30px]   lg:leading-[35px] font-[400] mb-5">Ideally, a candidate preparing for the FRM Part 1 exam should complete the whole curriculum in 16 weeks with 30-35 hours of study every week. This study plan provides a 16-week road map with relevant chapters that should be covered every week It also provides a carefully researched chapter sequence that can be followed to ensure maximum understanding of the FRM Part 1 curriculum.</p>
         </div>
         <div className="md:w-[50%] max-w-[500px]  mx-auto ">
-          <div className="relative overflow-hidden w-full  mx-auto " style={{paddingTop:"56.25%"}}>
+          <div className="relative overflow-hidden w-full  mx-auto " style={{ paddingTop: "56.25%" }}>
             <iframe className="absolute top-0 left-0 bottom-0 right-0 w-full h-full" src="https://www.youtube.com/embed/6sTEUkR40uI?si=HNhS66nIiKIDAfia"></iframe>
           </div>
           <h2 className="w-[300px] border mx-auto bg-[#BE4E1E] py-3  text-[24px] rounded-full text-center font-semibold text-white mt-4 "><Link href='/part-1/study-plan'>Go to Study Plan</Link></h2>
@@ -321,32 +330,32 @@ export default function page() {
         <p className="text-left  mx-auto text-[14px] lg:text-[20px] leading-[25px] xl:leading-[34px] font-[400] ">Preparing for FRM Part 1 involves careful consideration of several crucial aspects. The effective selection and management of these factors play a pivotal role in ensuring a robust preparation:</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 mt-[10px] lg:mt-[40px] overflow-hidden ">
           <div className="min-w-[300px] max-w-[600px]  my-3  mx-auto md:m-5  bg-[#FFF4DA] md:p-6 p-3 rounded-xl  ">
-            <Image src='/part-1/pt_pw.svg' width={50} height={50} alt="Image"/>
+            <Image src='/part-1/pt_pw.svg' width={50} height={50} alt="Image" />
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] my-1 md:my-3 ">1. Preparation Window </h2>
             <p className="text-left  mx-auto text-[14px] lg:text-[16px]  leading-[25px] font-[400] md:pr-5">Allocating a preparation window of at least 5 months for FRM Part 1 is advisable.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] my-3  md:m-5  mx-auto bg-[#FFF4DA] md:p-6 p-3 rounded-xl ">
-            <Image src='/part-1/pt_tr.svg' width={50} height={50} alt="Image"/>
+            <Image src='/part-1/pt_tr.svg' width={50} height={50} alt="Image" />
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] my-1 md:my-3 ">2. Time Required </h2>
             <p className="text-left  mx-auto text-[14px] lg:text-[16px]  leading-[25px] font-[400] md:pr-5">To achieve thorough preparation, it is recommended to dedicate around 600 hours to FRM Part 1. Avoiding shortcuts is emphasized to ensure a deep understanding of risk management concepts and tools, facilitating ease in answering interview questions.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] my-3  md:m-5  mx-auto bg-[#FFF4DA] md:p-6 p-3 rounded-xl ">
-            <Image src='/part-1/pt_m.svg' width={50} height={50} alt="Image"/>
+            <Image src='/part-1/pt_m.svg' width={50} height={50} alt="Image" />
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] my-1 md:my-3 ">3. Material</h2>
             <p className="text-left  mx-auto text-[14px] lg:text-[16px]  leading-[25px] font-[400] md:pr-5">Choosing the right study material is paramount. MidhaFin, as one of the first GARP Authorized Prep Providers for FRM, offers comprehensive study material, including over 200 hours of content videos, 85 plus hours of question-solving videos, and 100 plus hours of revision videos.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] my-3  md:m-5  mx-auto bg-[#FFF4DA] md:p-6 p-3 rounded-xl ">
-            <Image src='/part-1/pt_q.svg' width={50} height={50} alt="Image"/>
+            <Image src='/part-1/pt_q.svg' width={50} height={50} alt="Image" />
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] my-1 md:my-3 ">4. Questions</h2>
             <p className="text-left  mx-auto text-[14px] lg:text-[16px]  leading-[25px] font-[400] md:pr-5">Solving a substantial number of questions is key to preparation success. MidhaFin provides question banks with over 3000 questions, closely aligned with recent exam trends. GARP sample paper questions from the past 15 years are also included.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] my-3  md:m-5  mx-auto bg-[#FFF4DA] md:p-6 p-3 rounded-xl ">
-            <Image src='/part-1/pt_pt.svg' width={50} height={50} alt="Image"/>
+            <Image src='/part-1/pt_pt.svg' width={50} height={50} alt="Image" />
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] my-1 md:my-3 ">5. Periodic Tests</h2>
             <p className="text-left  mx-auto text-[14px] lg:text-[16px]  leading-[25px] font-[400] md:pr-5 ">Implementing regular quizzes is integral to the active learning philosophy at MidhaFin. Four monthly tests are conducted, focusing on the curriculum taught during the respective month. Graded tests enable students to monitor their performance consistently.</p>
           </div>
           <div className="min-w-[300px] max-w-[600px] my-3  md:m-5  mx-auto bg-[#FFF4DA] md:p-6 p-3 rounded-xl ">
-            <Image src='/part-1/pt_mt.svg' width={50} height={50} alt="Image"/>
+            <Image src='/part-1/pt_mt.svg' width={50} height={50} alt="Image" />
             <h2 className="text-left  mx-auto text-[20px] xl:text-[24px] leading-[40px] font-[600] my-1 md:my-3 ">6. Mock Tests</h2>
             <p className="text-left  mx-auto text-[14px] lg:text-[16px]  leading-[25px] font-[400] md:pr-5 ">MidhaFin conducts 5 mock tests towards the end of the preparation period, starting approximately a month before the exam. These full-length mock tests cover the entire syllabus and are graded, providing quartile analysis similar to the actual GARP FRM exams.</p>
           </div>

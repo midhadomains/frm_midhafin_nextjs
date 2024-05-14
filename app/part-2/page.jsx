@@ -168,6 +168,15 @@ export default function page() {
         </div>
       </div>
 
+      {/* secondary navbar */}
+      <ul className="my-[8%] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] flex justify-around max-w-[1100px] mx-auto py-5 text-[16px] md:text-[24px] px-2 text-white font-[400] md:font-[500] tracking-wide rounded-full">
+        <Link href='/part-2/study-plan'><li>Study Plan</li> </Link>
+        <li>|</li>
+        <Link href='/part-2/syllabus'><li>Syllabus</li></Link>
+        <li>|</li>
+        <Link href='/dates-and-deadlines'><li>Dates & Deadlines</li></Link>
+      </ul>
+
       {/* weightage module */}
       <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px]">
         <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px]  font-semibold text-left mt-[30px]  sm:mt-[50px] text-center">FRM Part 2 is composed of <br /> <span className="text-[#BE4E1E]"> six modules</span> </h1>

@@ -101,7 +101,7 @@ const items = [
         title: 'Week 1-4',
         content: (
             <div className='grid  sm:grid-cols-2 lg:grid-cols-4 gap-4'>
-                <div className='bg-[#FFFDE8] px-2 sm:px-6 rounded-xl border border-[#E4BFAF] py-9'>
+                <div className='bg-[#FFFDE8] px-2  rounded-xl border border-[#E4BFAF] py-9'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -119,7 +119,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>VaR Mapping    <span className='text-[#BE4E1E]'>[MR-5]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFFDE8] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF] '>
+                <div className='bg-[#FFFDE8] px-2  py-9 rounded-xl border border-[#E4BFAF] '>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -136,7 +136,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Portfolio Performance Evaluation  <span className='text-[#BE4E1E]'>[iM-8]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFFDE8] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFFDE8] px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -153,7 +153,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Volatility Smiles  <span className='text-[#BE4E1E]'>[MR-15]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFFDE8] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFFDE8] px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -178,7 +178,7 @@ const items = [
         title: 'Week 5-8',
         content: (
             <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4'>
-                <div className='bg-[#FFF9E6] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF9E6] px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -196,7 +196,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Hedge Funds <span className='text-[#BE4E1E]'>[IM-9]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFF9E6] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF9E6] px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -214,7 +214,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Credit Scoring and Retail Credit Risk Management <span className='text-[#BE4E1E]'>[CR-15]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFF9E6] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF9E6] px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -232,7 +232,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>The Credit Transfer Markets-and Their Implications <span className='text-[#BE4E1E]'>[CR-16]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFF9E6] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF9E6] px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -257,7 +257,7 @@ const items = [
         title: 'Week 9-12',
         content: (
             <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4'>
-                <div className='bg-[#FFF3E5] px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF3E5] px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -276,7 +276,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Predicting Fraud by Investment Managers  <span className='text-[#BE4E1E]'>[IM-11]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFF3E5]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF3E5]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -295,7 +295,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Monitoring Liquidity  <span className='text-[#BE4E1E]'>[LR-7]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFF3E5]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF3E5]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -313,7 +313,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Contingency Funding Planning  <span className='text-[#BE4E1E]'>[LR-11]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFF3E5]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFF3E5]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -339,7 +339,7 @@ const items = [
         title: 'Week 13-18',
         content: (
             <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4'>
-                <div className='bg-[#FFEFE6]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -357,7 +357,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Covered Interest Parity Lost: Understanding the Cross-Currency Basis <span className='text-[#BE4E1E]'>[LR-17]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFEFE6]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -376,7 +376,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Risk Mitigation <span className='text-[#BE4E1E]'>[OR-5]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFEFE6]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -395,7 +395,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Risk Capital Attribution and Risk-Adjusted Performance Measurement <span className='text-[#BE4E1E]'>[OR-18]</span></li>
                     </ul>0
                 </div>
-                <div className='bg-[#FFEFE6]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -415,7 +415,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Case Study: Investor Protection & Compliance Risks in Investment Activities  <span className='text-[#BE4E1E]'>[OR-14]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFEFE6]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
@@ -433,7 +433,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Fundamental Review of the Trading Book (FRTB) <span className='text-[#BE4E1E]'>[MR-16]</span></li>
                     </ul>
                 </div>
-                <div className='bg-[#FFEFE6]  px-2 sm:px-6 py-9 rounded-xl border border-[#E4BFAF]'>
+                <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
