@@ -107,7 +107,7 @@ export default function Home() {
                 </h1>
               </div>
               <h1 className="text-[14px] lg:text-[24px] sm:text-[16px] font-[400] mt-5  lg:hidden text-center mg:text-left ">
-                We're a GARP approved exam prep provider
+                We&apos;re a GARP approved exam prep provider
               </h1>
             </div>
 
@@ -141,7 +141,7 @@ export default function Home() {
             <span className="text-[#BE4E1E]"> finance career?</span>{" "}
           </h1>
           <p className="text-[14px]  md:text-[16px] md:leading-[44px] xl:text-[20px]">
-            Choose Midha Fin's FRM courses and embark on a journey toward
+            Choose MidhaFin&apos;s FRM courses and embark on a journey toward
             success!
           </p>
         </div>
@@ -157,6 +157,7 @@ export default function Home() {
                 width={140}
                 height={140}
                 className="w-[25%]"
+                alt='Part-1'
               />
               <Link href="/part-1" className="cursor-pointer">
                 <p className="lg:text-[20px] text-[14px] text-[#BE4E1E] flex items-center  hover:opacity-75">
@@ -179,6 +180,7 @@ export default function Home() {
                 width={140}
                 height={140}
                 className="w-[25%] "
+                alt="Part-2"
               />
               <Link href="/part-2" className="cursor-pointer">
                 <p className="lg:text-[20px] text-[14px] text-[#BE4E1E] flex items-center hover:opacity-75">
@@ -341,7 +343,7 @@ export default function Home() {
           <h1 className="text-center  xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] font-semibold text-[#6A1C1A] mb-[20px] sm:mb-[26px] lg:mb-[71px]">
             Where our Students <span className="text-[#BE4E1E]">Work </span>
           </h1>
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 md:grid-cols-7 pb-[15px] sm:pb-[31px] md:pb-[91px] lg:grid-cols-8 gap-5">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6  pb-[15px] sm:pb-[31px] md:pb-[91px] lg:grid-cols-8 gap-5">
             {Logos.map((el, ind) => {
               return (
                 <Image
@@ -372,7 +374,7 @@ export default function Home() {
               Get a call back from us
             </h1>
             <p className="mb-[20px] min-w-[280px] text-[#50535C] font-medium lg:text-[20px] text-[16px]  sm:mb-[20px] lg:mb-[31px] w-fit ">
-              Fill the form and we'll ensure to get back to you promptly.
+              Fill the form and we&apos;ll ensure to get back to you promptly.
             </p>
           </div>
         <div className="max-w-[1400px] lg:px-[50px] px-[25px] flex justify-between flex-wrap-reverse sm:flex-nowrap mx-auto">
@@ -381,13 +383,14 @@ export default function Home() {
               Get a call back from us
             </h1>
             <p className="text-[#50535C] font-medium lg:text-[20px] text-[16px]  sm:mb-[20px] lg:mb-[31px] w-fit hidden sm:block">
-              Fill the form and we'll ensure to get back to you promptly.
+              Fill the form and we&apos;ll ensure to get back to you promptly.
             </p>
             <Image
               className=" max-w-[284px] w-[50%] min-w-[153px] mx-auto "
               src="/formlogo.svg"
               width={400}
               height={400}
+              alt="Logo"
             />
             <Image
               className="mt-[26px] sm:mt-[30px] sm:mt-0 mx-3 min-w-[178px] w-[100%]  max-w-[320px] sm:absolute  -bottom-[1.5px] right-0 "
