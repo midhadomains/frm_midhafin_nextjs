@@ -228,7 +228,7 @@ export default function Home() {
               Recent Performance{" "}
               <span className="text-[#BE4E1E]">Highlights</span>
             </h1>
-            <p className="mx-auto lg:leading-[40px] sm:leading-[24px] max-w-[520px] leading-[22px] text-center  md:text-left  xl:text-[20px] md:text-[16px] text-[14px] mb-[30px]">
+            <p className="sm:mx-0 mx-auto lg:leading-[40px] sm:leading-[24px] max-w-[520px] leading-[22px] text-center  md:text-left  xl:text-[20px] md:text-[16px] text-[14px] mb-[30px]">
               Through strategy, hardwork, and planning, we have achieved the
               success rate which stands second to none!
             </p>
