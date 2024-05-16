@@ -5,7 +5,7 @@ import Image from "next/image";
 import { IoClose } from "react-icons/io5";
 import { CgMenuLeftAlt } from "react-icons/cg";
 import { MdCall } from "react-icons/md";
-import { IoIosArrowDown } from "react-icons/io";
+
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -41,7 +41,7 @@ const Navbar = () => {
                 className={`mx-auto block sticky top-0 z-10 bg-[#FFFDF6] w-full shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] transition-all duration-300 ease-in-out ${visible ? 'transform translate-y-0' : '-translate-y-full'}`}
             >
                 <div className="">
-                    <div className="flex items-center justify-between  w-[100%] h-[55px] md:h-[70px] max-w-[2500px] mx-auto overflow:hidden">
+                    <div className="flex items-center justify-between  w-[100%] h-[55px] md:h-[70px] max-w-[1600px] md:px-[50px] px-[25px] mx-auto overflow:hidden">
                         <Link href='https://www.midhafin.com'>
                             <Image
                                 width={250}

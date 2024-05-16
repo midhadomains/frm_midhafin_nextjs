@@ -85,7 +85,7 @@ export default function Home() {
         <div className="max-w-[1400px] px-[20px] md:px-[50px] mg:flex  justify-center mx-auto ">
           <div className="w-[100%]  border-black  sm:w-[85%]   lg:w-[60%]  flex flex-col justify-around mx-auto mg:mr-[20px] max-w-[400px] lg:max-w-[801px] h-auto  ">
             <h1 className="text-[24px] md:text-[30px] lg:text-[50px] text-center mg:text-left mt-[19px]  sm:mt-[20px] lg:mt-[31px] font-bold max-w-[801px]">
-              One Stop Destination For Your FRM Exams.
+              One stop destination for your FRM exams.
             </h1>
             <div className="lg:flex justify-center w-[100%] max-w-[700px] lg:mt-[64px] sm:mt-[25px] mt-[15px] lg:mb-[48px] sm:mb-[30px] mb-[20px]  ">
               <Image
@@ -227,10 +227,10 @@ export default function Home() {
         <div className=" md:flex   max-w-[1300px] px-[25px] lg:px-[50px] justify-between mx-auto pt-[5.5%] pb-[5%]">
           <div className=" md:max-w-[700px] md:w-[50%] lg:w-[55%] mg:pl-[35px] pl-[25px]">
             <h1 className="sm:mb-[8px] mb-[6px] md:mb-[20px] xl:mb-[44px] mx-auto text-center md:text-left xl:text-[50px] lg:text-[40px] md:text-[30px] sm:text-[24px] text-[20px] text-[#6A1C1A] font-bold">
-              Recent Performance{" "}
-              <span className="text-[#BE4E1E]">Highlights</span>
+              Recent performance{" "}
+              <span className="text-[#BE4E1E]">highlights</span>
             </h1>
-            <p className="sm:mx-0 mx-auto lg:leading-[40px] sm:leading-[24px] max-w-[520px] leading-[22px] text-center  md:text-left  xl:text-[20px] md:text-[16px] text-[14px] mb-[30px]">
+            <p className="md:mx-0 mx-auto lg:leading-[40px] sm:leading-[24px] max-w-[500px] md:max-w-[580px] leading-[22px] text-center  md:text-left  xl:text-[20px] md:text-[16px] text-[14px] mb-[30px]">
               Through strategy, hardwork, and planning, we have achieved the
               success rate which stands second to none!
             </p>
@@ -242,7 +242,7 @@ export default function Home() {
       </div>
       <div className="max-w-[1400px] 2xl:px-0  mx-auto mb-5 ">
         <h1 className="text-center  px-[25px] mg:px-[50px]  xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] font-bold text-[#6A1C1A] mt-[37px] mg:mt-[45px] lg:mt-[91px] ">
-          What sets us <span className="text-[#BE4E1E]">apart</span>?
+          What sets us <span className="text-[#BE4E1E]">apart ?</span>
         </h1>
         <div className="mg:flex   max-w-[1400px] px-[25px] md:px-[50px]  justify-between ">
           <div className="mg:w-[32%]     pl-[25px] bg-[#FAF7ED] rounded-[20px] mt-[70px] md:mt-[80px] mg:mt-[160px] relative">
@@ -363,7 +363,7 @@ export default function Home() {
       <div className="max-w-[1400px] lg:px-[50px] px-[25px] mx-auto ">
         <div className=" sm:mt-[46px] mt-[30px] lg:mt-[81px]">
           <h1 className="text-center  text-[24px] md:text-[36px] lg:text-[50px] mb-2 font-bold text-[#6A1C1A]">
-            Frequently Asked <span className="text-[#BE4E1E]">Queries</span>
+            Frequently asked <span className="text-[#BE4E1E]">queries</span>
           </h1>
         </div>
         <Accordion buttonsData={buttonsData} />
@@ -371,7 +371,7 @@ export default function Home() {
       <div className=" text-[#F9F2DF] bg-[#F9F9F9]  lg:mt-[91px] sm:mt-[53px] mt-[37px] pt-[32px] md:pt-[46px] lg:pt-[75px]">
           <div className="block sm:hidden sm:w-fit mx-auto text-center  w-[280px] ">
             <h1 className="mb-[9px]  text-[#6A1C1A] font-semibold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] ">
-              Get a call back from us
+              Get a <span className="text-[#BE4E1E]">call back</span> from us
             </h1>
             <p className="mb-[20px] min-w-[280px] text-[#50535C] font-medium lg:text-[20px] text-[16px]  sm:mb-[20px] lg:mb-[31px] w-fit ">
               Fill the form and we&apos;ll ensure to get back to you promptly.
@@ -380,7 +380,7 @@ export default function Home() {
         <div className="max-w-[1400px] lg:px-[50px] px-[25px] flex justify-between flex-wrap-reverse sm:flex-nowrap mx-auto">
           <div className="flex flex-col w-[50%] justify-start   sm:mx-0 mx-auto  relative  xl:max-w-[560px] lg:max-w-[450px] md:max-w-[400px] sm:max-w-[280px] max-w-[560px] md:min-w-[400px]">
             <h1 className=" text-[#6A1C1A] font-semibold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] hidden sm:block">
-              Get a call back from us
+              Get a <span className="text-[#BE4E1E]">call back</span> from us
             </h1>
             <p className="text-[#50535C] font-medium lg:text-[20px] text-[16px]  sm:mb-[20px] lg:mb-[31px] w-fit hidden sm:block">
               Fill the form and we&apos;ll ensure to get back to you promptly.
