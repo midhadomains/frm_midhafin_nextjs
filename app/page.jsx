@@ -146,83 +146,58 @@ export default function Home() {
           </p>
         </div>
 
-        <div className=" max-w-[1400px]  mx-auto px-[25px] md:px-[50px] sm:flex justify-between ">
-          <div className="rounded-[12px]  md:w-[46%] max-w-[300px] md:max-w-[600px]   aspect-[3/2] mx-auto md:mx-0 bg-[#FAF7ED] flex justify-center items-center ">
-            <div className=" flex flex-col items-center  justify-between lg:min-w-[400px] min-w-[300px] w-[100%] h-[90%] md:h-[80%] ">
-              <h1 className="lg:text-[32px] text-[20px] font-bold text-[#6A1C1A]">
-                FRM <span className="text-[#BE4E1E]">Part-1</span>
-              </h1>
-              <Image
-                src="/Part-1.svg"
-                width={140}
-                height={140}
-                className="w-[25%]"
+        <div className=" max-w-[1400px]  mx-auto px-[25px] md:px-[50px] flex flex-wrap sm:flex-nowrap items-center justify-center gap-[30px] md:gap-[60px] xl:gap-[81px]">
+        <Link href='/part-1' className="group rounded-[16px]   w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64]  mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F]"> 
+        <div className="overflow-hidden">
+        <Image
+                src="/Part-1x.png"
+                width={500}
+                height={440}
+                className="w-[100%] rounded-t-2xl group-hover:scale-110 transition-all duration-500"
                 alt='Part-1'
+                quality={100}
+                priority={true}
               />
-              <Link href="/part-1" className="cursor-pointer">
-                <p className="lg:text-[20px] text-[14px] text-[#BE4E1E] flex items-center  hover:opacity-75">
-                  Unlocking Financial Mastery{" "}
-                  <span>
-                    <MdKeyboardArrowRight className="text-[14px] lg:text-[20px] flex-shrink-0 " />
-                  </span>
-                </p>
-              </Link>
-            </div>
-          </div>
-          <div className="border-l-[2px] my-auto md:h-[150px] h-[75px] lg:h-[200px] hidden sm:block  mx-4 border-[#EFD374]"></div>
-          <div className="rounded-[12px]  sm:w-[46%] max-w-[300px] md:max-w-[600px]  aspect-[3/2] mx-auto md:mx-0  mt-5 sm:mt-0 bg-[#FAF7ED] flex justify-center items-center">
-            <div className="flex flex-col items-center h-[90%] md:h-[80%] justify-between  lg:min-w-[300px] min-w-[300px] w-[100%]">
-              <h1 className="lg:text-[32px] text-[20px] font-bold text-[#6A1C1A]">
-                FRM <span className="text-[#BE4E1E]">Part-2</span>
-              </h1>
+        </div>
+              
+              <div className="">
               <Image
-                src="/Part-2.svg"
-                width={140}
-                height={140}
-                className="w-[25%] "
-                alt="Part-2"
+               src="/Part-1y.svg"
+               width={500}
+               height={163}
+               priority={true}
+               className="bg-[#FFFDF6]"
               />
-              <Link href="/part-2" className="cursor-pointer">
-                <p className="lg:text-[20px] text-[14px] text-[#BE4E1E] flex items-center hover:opacity-75">
-                  Advanced Risk Managing Techniques
-                  <span>
-                    <MdKeyboardArrowRight className="text-[14px] lg:text-[20px]  flex-shrink-0 " />
-                  </span>
-                </p>
-              </Link>
-            </div>
-          </div>
+              </div>
+          </Link>
+          {/* hover:shadow-[0px_0px_15px_1px_#ED9C7A] */}
+          <Link href='/part-2' className="rounded-[12px] group bg-[#FAF7ED] w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64] bg-[#FAF7ED]  mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F] "> 
+             <div className="overflow-hidden">
+             <Image
+                src="/Part-2x.png"
+                width={500}
+                height={440}
+                className="w-[100%] rounded-t-2xl group-hover:scale-110 transition-all duration-500"
+                alt="Part-2"
+                quality={100}
+                priority={true}
+              />
+             </div>
+             
+              <div className="">
+              <Image
+               src="/Part-2y.svg"
+               width={500}
+               height={163}
+               priority={true}
+
+              />
+              </div>
+         </Link>
+         
         </div>
       </div>
-      {/* <div className="5 bg-[#F9F9F9F5]">
-        <div className="grid grid-cols-1 sm:grid-cols-2  max-w-[1400px] px-[25px] md:px-[50px] mx-auto  py-[5rem]">
-          <div className="text-center md:text-left   md:pl-[40px]">
-            <h1 className="text-center md:text-left text-[20px] md:text-[33px] lg:text-[40px] lg:text-[45px] font-bold ">
-              Recent <span className="text-[#BE4E1E]">Performance</span> <br />{" "}
-              Highlights
-            </h1>
-            <p className="text-[14px] sm:text-[16px] lg:text-[20px] w-[80%] sm:w-full mx-auto  mt-[6px] md:mt-[8px] xl:mt-[40px] ">
-              Through strategy, hard work, and planning, we have achieved the
-              success rate which stands second to none!
-            </p>
-          </div>
-          <CounterUpPage />
-        </div>
-      </div> */}
-      {/* <div className="bg-[#F9F9F9F5] mt-[40px] md:mt-[47px] lg:mt-[90px] xl:mt-[125px]">
-
-      <div className='max-w-[1400px] px-[25px] md:px-[50px] mx-auto  py-9'>
-                <div className='grid grid-cols-1 sm:grid-cols-2'>
-                    <div className=' text-left p-[25px] lg:px-[50px]'>
-                        <h1 className='text-center sm:text-left text-[24px] md:text-[36px] lg:text-[50px] font-bold '>Recent <span className='text-[#BE4E1E]'>Performance</span> <br /> Highlights</h1>
-                        <p className='text-[12px] sm:text-[18px] lg:text-[20px] px-[12%] sm:px-0'>Through strategy, hard work, and planning, we have achieved the success rate which stands second to none!</p>
-                    </div>
-                    <div className='  mt-5 sm:mt-9'>
-                        <CounterUpPage />
-                    </div>
-                </div>
-            </div>
-      </div> */}
+      
       <div className=" bg-[#F9F9F9F5] mt-[40px] md:mt-[47px] lg:mt-[80px] xl:mt-[125px]">
         <div className=" md:flex   max-w-[1300px] px-[25px] lg:px-[50px] justify-between mx-auto pt-[5.5%] pb-[5%]">
           <div className=" md:max-w-[700px] md:w-[50%] lg:w-[55%] mg:pl-[35px] pl-[25px]">
@@ -245,18 +220,18 @@ export default function Home() {
           What sets us <span className="text-[#BE4E1E]">apart ?</span>
         </h1>
         <div className="mg:flex   max-w-[1400px] px-[25px] md:px-[50px]  justify-between ">
-          <div className="mg:w-[32%]     pl-[25px] bg-[#FAF7ED] rounded-[20px] mt-[70px] md:mt-[80px] mg:mt-[160px] relative">
+          <div className="mg:w-[33%] pr-[14px] mg:pr-[17px]  pl-[40px] pb-[32px] bg-[#FAF7ED] rounded-[20px] mt-[80px] mg:mt-[100px] relative">
             <Image
-              className="w-[85px]  sm:w-[90px] mg:w-[130px] mb-[15px] sm:mb-[20px] mg:mb-[26px] absolute -top-[52px] mg:-top-[100px] "
+              className="w-[80px]  sm:w-[90px] mg:w-[100px] mb-[15px] sm:mb-[20px] mg:mb-[26px] absolute -top-[52px] mg:-top-[60px] "
               src="/hc.png"
               alt="Highly Customized"
-              width={130}
-              height={130}
+              width={100}
+              height={100}
             />
-            <h1 className="text-[14px] md:text-[16px] mg:text-[24px] text-[#9A381D] font-bold text-left pt-[50px] mg:pt-[70px]">
+            <h1 className="text-[14px] md:text-[16px] mg:text-[24px] text-[#9A381D] font-bold text-left pt-[40px] sm:pt-[60px] mg:pt-[70px]">
               Highly Customized
             </h1>
-            <ul className="list-disc  text-[14px] md:text-[16px] xl:text-[20px]  mt-1 pb-2  leading-[20px] md:leading-[25px] lg:leading-[35px] ">
+            <ul className="list-disc  text-[14px] md:text-[16px] xl:text-[18px]  mt-1 pb-2  leading-[20px] md:leading-[25px] lg:leading-[35px] ">
               <li>Access to 1-to-1 Doubt Session.</li>
               <li>Customized Study Plan meeting.</li>
               <li>
@@ -270,19 +245,19 @@ export default function Home() {
             </ul>
           </div>
           {/* <div className="border-l-[1px] hidden mg:block h-[253px] border-[#EFD374] my-auto mx-5"></div> */}
-          <div className="mg:w-[32%]   pl-[25px] bg-[#FAF7ED] rounded-[20px] mt-[70px] md:mt-[80px] mg:mt-[160px] relative ">
+          <div className="mg:w-[33%] pr-[14px] mg:pr-[17px]   pl-[40px] pb-[32px] bg-[#FAF7ED] rounded-[20px] mt-[70px] md:mt-[80px] mg:mt-[100px] relative ">
             <Image
-              className="w-[85px]  sm:w-[90px] mg:w-[130px] mb-[15px] sm:mb-[20px] mg:mb-[26px] absolute -top-[52px] mg:-top-[100px] "
+              className="w-[80px]  sm:w-[90px] mg:w-[100] mb-[15px] sm:mb-[20px] mg:mb-[26px] absolute -top-[52px] mg:-top-[60px] "
               src="/qc.png"
               alt="Quality Content"
-              width={93}
-              height={130}
+              width={100}
+              height={100}
             />
-            <h1 className="text-[14px]  md:text-[16px] mg:text-[24px] text-[#9A381D] font-bold pt-[70px]">
+            <h1 className="text-[14px]  md:text-[16px] mg:text-[24px] text-[#9A381D] font-bold pt-[40px] sm:pt-[60px] mg:pt-[70px]">
               Quality Content
             </h1>
 
-            <ul className="list-disc  text-[14px]  md:text-[16px] xl:text-[20px]  mt-1 pb-2  leading-[20px] md:leading-[25px] lg:leading-[35px] ">
+            <ul className="list-disc  text-[14px]  md:text-[16px] xl:text-[18px]  mt-1 pb-2  leading-[20px] md:leading-[25px] lg:leading-[35px] ">
               <li>
                 Usage of Graphs, Tables, and charts to illustrate the concept.
               </li>
@@ -298,9 +273,9 @@ export default function Home() {
             </ul>
           </div>
           {/* <div className="border-l-[1px] hidden mg:block h-[253px] border-[#EFD374] my-auto mx-5"></div> */}
-          <div className="mg:w-[32%]  pl-[25px] bg-[#FAF7ED] rounded-[20px]  mt-[70px] md:mt-[80px] mg:mt-[160px] relative  ">
+          <div className="mg:w-[33%] pr-[14px] mg:pr-[17px]   pl-[40px] pb-[32px] bg-[#FAF7ED] rounded-[20px] mt-[70px] md:mt-[80px] mg:mt-[100px] relative  ">
             <Image
-              className="w-[80px]  sm:w-[100px] mg:w-[130px] mb-[15px] sm:mb-[20px] mg:mb-[26px] absolute -top-[52px] mg:-top-[100px] "
+              className="w-[80px]  sm:w-[100px] mg:w-[100] mb-[15px] sm:mb-[20px] mg:mb-[26px] absolute -top-[52px] mg:-top-[60px] "
               src="/gr.png"
               alt="GARP Related"
               width={130}
@@ -309,25 +284,8 @@ export default function Home() {
             <h1 className="text-[14px]  md:text-[16px] mg:text-[24px] text-[#9A381D] font-bold pt-[40px] sm:pt-[60px] mg:pt-[70px]">
               GARP Related
             </h1>
-            <ul className="list-disc  text-[14px]  md:text-[16px] xl:text-[20px]   pb-2  mt-1 leading-[20px] md:leading-[25px] lg:leading-[35px]">
-              {/* <div className="flex mb-1.5 sm:mb-2 lg:mb-3">
-                <li className="text-[12px] sm:text-[16px] lg:text-[20px]"></li>
-                <p className="text-[14px] md:text-[16px] xl:text-[20px] text-left">
-                  Resolving and addressing GARP related queries. 
-                </p>
-              </div>
-              <div className="flex mb-1.5 sm:mb-2 lg:mb-3">
-                <li className="text-[12px] sm:text-[16px] lg:text-[20px]"></li>
-                <p className="text-[14px] md:text-[16px] xl:text-[20px] text-left">
-                Related to exam scheduling, best practices to approach the exam.
-                </p>
-              </div>
-              <div className="flex mb-1.5 sm:mb-2 lg:mb-3">
-                <li className="text-[12px] sm:text-[16px] lg:text-[20px]"></li>
-                <p className="text-[14px] md:text-[16px] xl:text-[20px] text-left">
-                  Common do&apos;s & don&apos;t, exam Strategy
-                </p>
-              </div> */}
+            <ul className="list-disc  text-[14px]  md:text-[16px] xl:text-[18px]   pb-2  mt-1 leading-[20px] md:leading-[25px] lg:leading-[35px]">
+              
               <li>Resolving and addressing GARP related queries. </li>
               <li>
                 {" "}
