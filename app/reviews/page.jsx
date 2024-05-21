@@ -1,4 +1,3 @@
-import Navbar from "@/components/SiteHeader";
 import Image from 'next/image'
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
@@ -8,7 +7,6 @@ import { IoStar } from "react-icons/io5";
 export const metadata = {
     title: 'Reviews',
     description: " Don't believe us, Hear from our students ",
-    robots: "index,follow",
     keywords: "midhafin reviews, frm reviews"
 }
 export default function Page() {
@@ -367,7 +365,6 @@ export default function Page() {
     ]
     return (
         <>
-            <Navbar />
             <div className="bg-Reviewsbg max-h-[300px] h-[100%] shadow-xl">
                 <div className="max-w-[1200px] px-[20px] mg:px-[50px] mx-auto py-4 mg:py-9">
                     <h1 className="text-[30px] md:text-[40px] xl:text-[50px] my-2 mg:my-5 font-semibold text-[#6A1C1A]">Student <span className="text-[#BE4E1E]"> Reviews</span></h1>

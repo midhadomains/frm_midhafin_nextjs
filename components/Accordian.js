@@ -10,7 +10,7 @@ const Accordion = ({ buttonsData }) => {
     };
 
     return (
-        <div className="accordion-container max-w-[1440px] mx-auto  py-2 font-sans ">
+        <div className="accordion-container max-w-[1440px] mx-auto  py-2 font-sans mb-5 ">
            
             {buttonsData.map((button) => (
                 <div key={button.id} className="accordion-item ">

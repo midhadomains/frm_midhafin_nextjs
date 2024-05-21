@@ -1,11 +1,15 @@
-import Footer from "@/components/SiteFooter";
-import Navbar from "@/components/SiteHeader";
 import { FaCircle } from "react-icons/fa";
+
+export const metadata = {
+  title: 'FRM - Exam Dates',
+  description: 'Date and Deadlines of FRM exams',
+  keywords: "FRM exams dates, exam dates of FRM"
+}
 
 export default function page() {
   return (
     <div>
-      <Navbar />
+     
       <h1 className="bg-[#6A1C1a] text-white text-center text-[20px] sm:text-[70px] py-9 ">
         FRM -<span className="font-semibold"> Exam Dates</span>
       </h1>
@@ -162,7 +166,7 @@ export default function page() {
           <h1 className="bg-[#EBEBEB] w-[112px] sm:w-[226px] md:w-[300px]  text-center font-bold py-3 rounded-full text-[14px] sm:text-[24px] md:-ml-[150px] -ml-[60px]">
             Schedule
           </h1>
-          <div className="text-[14px] sm:text-[24px]  flex   -ml-2  sm:-ml-[14px] pt-8 h-1">
+          <div className="text-[14px] sm:text-[24px]  flex  -ml-2  sm:-ml-[14px] pt-8 pb-5 h-1">
             <FaCircle className="my-auto  mr-4 text-[#BE4E1E] flex-shrink-0" />
             <ul className="list-none flex flex-wrap -mt-1 ">
               <li className="pr-2  font-bold">Window to Select an Exam -</li>
@@ -171,7 +175,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

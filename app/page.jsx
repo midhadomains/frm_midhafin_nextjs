@@ -1,12 +1,11 @@
 import React from "react";
-import Footer from "@/components/SiteFooter";
-import Navbar from "@/components/SiteHeader";
 import Image from "next/image";
 import Link from "next/link";
 import CounterUpPage from "@/components/CounterUpPage";
 import Accordion from "@/components/Accordian";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdSearch } from "react-icons/md";
+
 export const metadata = {
   title: "MidhaFin",
   description: "Boost Your Career In Finance",
@@ -79,7 +78,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <Navbar />
+ 
       {/* Hero Section */}
       <div className=" text-[#F9F2DF] bg-[#6A1C1A] ">
         <div className="max-w-[1400px] px-[20px] md:px-[50px] mg:flex  justify-center mx-auto ">
@@ -326,7 +325,7 @@ export default function Home() {
         </div>
         <Accordion buttonsData={buttonsData} />
       </div>
-      <div className=" text-[#F9F2DF] bg-[#F9F9F9]  lg:mt-[91px] sm:mt-[53px] mt-[37px] pt-[32px] md:pt-[46px] lg:pt-[75px]">
+      <div className=" text-[#F9F2DF] bg-[#F9F9F9]  lg:mt-[61px] sm:mt-[53px] mt-[37px] pt-[32px] md:pt-[46px] lg:pt-[75px]">
           <div className="block sm:hidden sm:w-fit mx-auto text-center  w-[280px] ">
             <h1 className="mb-[9px]  text-[#6A1C1A] font-semibold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] ">
               Get a <span className="text-[#BE4E1E]">call back</span> from us
@@ -414,7 +413,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

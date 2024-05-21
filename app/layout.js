@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import '../styles/main.css';
 import Whatsapp from "@/components/Whatsapp";
+import Navbar from "@/components/SiteHeader";
+import Footer from "@/components/SiteFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Whatsapp/>
+        <Navbar/>
         {children}</body>
+        <Footer/>
     </html>
   );
 }
