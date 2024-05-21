@@ -84,7 +84,7 @@ export default function Home() {
       <div className=" text-[#F9F2DF] bg-[#6A1C1A] ">
         <div className="max-w-[1400px] px-[20px] md:px-[50px] mg:flex  justify-center mx-auto ">
           <div className="w-[100%]  border-black  sm:w-[85%]   lg:w-[60%]  flex flex-col justify-around mx-auto mg:mr-[20px] max-w-[400px] lg:max-w-[801px] h-auto  ">
-            <h1 className="text-[24px] md:text-[30px] lg:text-[50px] text-center mg:text-left mt-[19px]  sm:mt-[20px] lg:mt-[31px] font-bold max-w-[801px]">
+            <h1 className="text-[24px] md:text-[30px] lg:text-[50px] text-center mg:text-left mt-[19px]  sm:mt-[20px] lg:mt-[31px] font-semibold max-w-[801px]">
               One stop destination for your FRM exams.
             </h1>
             <div className="lg:flex justify-center w-[100%] max-w-[700px] lg:mt-[64px] sm:mt-[25px] mt-[15px] lg:mb-[48px] sm:mb-[30px] mb-[20px]  ">
