@@ -68,7 +68,6 @@ const Navbar = () => {
                                 />
                             )}
                         </div>
-
                         <ul className="hidden md:flex  justify-around flex-nowrap  max-w-[1000px] w-[100%]">
                             <NavItem to='/' name='Home' />
                             {/* <NavItem to="/blog" name="Blogs" /> */}

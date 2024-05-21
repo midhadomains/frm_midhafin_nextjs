@@ -1,11 +1,15 @@
 import Link from "next/link";
 import Accordion from "@/components/Accordian";
-import Footer from "@/components/SiteFooter";
-import Navbar from "@/components/SiteHeader";
 import Courses from "@/components/Part-1/Courses";
 import Image from "next/image";
 import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
+
+export const metadata = {
+  title: 'FRM part-2',
+  description: 'This page is about FRM part-2',
+  keywords: "FRM part-2, frm part-2, frm second part"
+}
 
 
 export default function page() {
@@ -105,7 +109,6 @@ export default function page() {
 
   return (
     <div className="bg-white  ">
-      <Navbar />
       <div className="text-center bg-gradient-to-b from-[#ffe4a4a0] from-[1%] to-[100%] p-4 max-h-[300px]">
         {/* <div className=" h-[50px] max-w-[700px] mx-auto  "></div> */}
         <h1 className="text-[24px] md:text-[30px] lg:text-[40px] xl:text-[50px] font-semibold text-[#6A1C1A] mt-[70px]">
@@ -151,7 +154,7 @@ export default function page() {
               There are portions which primarily focus on applying the knowledge and concepts acquired in Part 1, and hence it is assumed that candidates already possess a foundational understanding of the concepts covered in Part 1. But there are certain areas of Part 2 that introduce entirely new or more advanced concepts that candidates may not have encountered in Part 1. This signifies that Part 2 combines both the application of existing knowledge from Part 1 and the introduction of fresh, potentially challenging material.</p>
           </div>
         </div>
-        <div className="bg-[#FFF4DA] min-w-[300px] max-h-[450px] flex justify-end relative w-[50%] mt-[150px] ">
+        <div className="bg-[#FFF4DA] min-w-[300px] max-h-[450px] flex  justify-end relative w-[50%] mt-[150px] ">
           <Image src='/part-2/part2right.svg' width={400} height={350} alt="image" className="absolute -left-[100px] -bottom-9" />
         </div>
       </div>
@@ -402,7 +405,6 @@ export default function page() {
         <h1 className="text-[22px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-semibold mb-4 mt-4  md:my-[50px] text-center">Frequently Asked <span className="text-[#BE4E1E]"> Queries</span> </h1>
         <Accordion buttonsData={buttonsData} />
       </div>
-      <Footer />
     </div>
   );
 }

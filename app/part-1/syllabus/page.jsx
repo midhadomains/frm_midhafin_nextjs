@@ -1,8 +1,12 @@
-import Footer from '@/components/SiteFooter';
-import Navbar from '@/components/SiteHeader';
 import Image from 'next/image';
 import React from 'react'
 import Link from 'next/link';
+
+export const metadata = {
+    title: 'FRM part-1 syllabus',
+    description: 'Syllabus for FRM part-1 course',
+    keywords: "FRM part-1 syllabus, FRM exam syllabus"
+  }
 
 function Syllabus() {
     const data = [
@@ -188,7 +192,6 @@ function Syllabus() {
     
     return (
         <div>
-            <Navbar />
             <div className='bg-syllabusbg p-4 md:p-8 text-center pt-7 mb-9'>
                 <h3 className='text-[22px] sm:text-[28px] lg:text-[35px] font-medium text-[#BE4E1E]'>FRM part-1</h3>
                 <h1 className='text-[30px]  sm:text-[35px]  md:text-[45px] lg:text-[55px] font-semibold text-[#6A1C1A]'>Syllabus</h1>
@@ -321,7 +324,6 @@ function Syllabus() {
                     </table>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

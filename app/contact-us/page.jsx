@@ -3,13 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { CiMail } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
-import Navbar from "../../components/SiteHeader";
-import Footer from "../../components/SiteFooter";
+
+
+
+export const metadata = {
+  title: 'Contact page',
+  description: 'Contact us if you have any query',
+}
+
 export default function page() {
   //after submitting redirect to "/thankyou"
   return (
     <>
-      <Navbar />
       <div>
         <div className="bg-contactbgimage bg-contain bg-no-repeat bg-bottom md:bg-cover">
           <div className="max-w-[1100px] mx-auto flex-wrap-reverse sm:flex-nowrap flex sm:flex-none  sm:justify-around">
@@ -17,7 +22,7 @@ export default function page() {
               height={400}
               width={400}
               className="mx-auto"
-              src="/Group 161.svg"
+              src="/Group 161.png"
               alt="MidhaFin Image"
             />
             <div className="min-w-[100px] max-w-[400px] text-center leading-[35px] sm:text-left mx-auto my-[30px] sm:my-[50px] text-[20px] px-7 sm:px-0 ">
@@ -115,7 +120,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
