@@ -2,7 +2,8 @@ import { Inter } from "next/font/google";
 import '../styles/main.css';
 import Whatsapp from "@/components/Whatsapp";
 import Navbar from "@/components/SiteHeader";
-import Footer from "@/components/SiteFooter";
+import dynamic from "next/dynamic";
+const Footer = dynamic(() => import ("@/components/SiteFooter"), { ssr: false })
 
 const inter = Inter({ subsets: ["latin"] });
 
