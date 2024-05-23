@@ -97,7 +97,7 @@ export default function Home() {
               />
               <div className="border-l-[3px] hidden lg:block mx-4"></div>
               <div className="w-[50%] hidden lg:block">
-                <h1 className="text-[14px] font-[400]  sm:text-[20px] lg:text-[24px] max-w-[265px] min-w-[205px] mg:min-w-[265px] text-center md:text-left flex-shrink-0 text-center md:text-left">
+                <h1 className="text-[14px] font-[400]  sm:text-[20px] lg:text-[24px] max-w-[265px] min-w-[205px] mg:min-w-[265px] flex-shrink-0 text-center md:text-left">
                   We are one of the first{" "}
                   <span className="font-bold tracking-[1px]">
                     GARP Approved{" "}
@@ -166,11 +166,12 @@ export default function Home() {
                height={163}
                priority={true}
                className="bg-[#FFFDF6]"
+               alt="Part-1y"
               />
               </div>
           </Link>
           {/* hover:shadow-[0px_0px_15px_1px_#ED9C7A] */}
-          <Link href='/part-2' className="rounded-[12px] group bg-[#FAF7ED] w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64] bg-[#FAF7ED]  mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F] "> 
+          <Link href='/part-2' className="rounded-[12px] group bg-[#FAF7ED] w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64] mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F] "> 
              <div className="overflow-hidden">
              <Image
                 src="/Part-2x.png"
@@ -189,7 +190,7 @@ export default function Home() {
                width={500}
                height={163}
                priority={true}
-
+               alt="Part-2y"
               />
               </div>
          </Link>
@@ -350,7 +351,7 @@ export default function Home() {
               alt="Logo"
             />
             <Image
-              className="mt-[26px] sm:mt-[30px] sm:mt-0 mx-3 min-w-[178px] w-[100%]  max-w-[320px] sm:absolute  -bottom-[1.5px] right-0 "
+              className="mt-[26px] sm:mt-[30px] mx-3 min-w-[178px] w-[100%]  max-w-[320px] sm:absolute  -bottom-[1.5px] right-0 "
               src="/Contact-us.png"
               height={400}
               width={400}
