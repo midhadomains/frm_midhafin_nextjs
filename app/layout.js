@@ -3,6 +3,7 @@ import '../styles/main.css';
 import Whatsapp from "@/components/Whatsapp";
 import Navbar from "@/components/SiteHeader";
 import Footer from "@/components/SiteFooter";
+import Head from "next/head";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,6 +32,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+       <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta property="og:url" content={metadata.og.url} />
+        <meta property="og:type" content={metadata.og.type} />
+        <meta property="og:title" content={metadata.og.title} />
+        <meta property="og:description" content={metadata.og.description} />
+        <meta property="og:image" content={metadata.og.image} />
+        <meta name="twitter:card" content={metadata.twitter.card} />
+        <meta property="twitter:domain" content={metadata.twitter.domain} />
+        <meta property="twitter:url" content={metadata.twitter.url} />
+        <meta name="twitter:title" content={metadata.twitter.title} />
+        <meta name="twitter:description" content={metadata.twitter.description} />
+        <meta name="twitter:image" content={metadata.twitter.image} />
+      </Head>
       <body className={inter.className}>
         <Whatsapp/>
         <Navbar/>
