@@ -78,7 +78,7 @@ export default function Home() {
 
   return (
     <div className="">
- 
+
       {/* Hero Section */}
       <div className=" text-[#F9F2DF] bg-[#6A1C1A] ">
         <div className="max-w-[1400px] px-[20px] md:px-[50px] mg:flex  justify-center mx-auto ">
@@ -128,7 +128,7 @@ export default function Home() {
               height={500}
               src="https://midha-images.s3.ap-south-1.amazonaws.com/frm.Midhafin/home_page/mickymidha.webp"
               alt="Micky Midha"
-              priority={true}
+              // priority={true}
             />
           </div>
         </div>
@@ -146,58 +146,58 @@ export default function Home() {
         </div>
 
         <div className=" max-w-[1400px]  mx-auto px-[25px] md:px-[50px] flex flex-wrap sm:flex-nowrap items-center justify-center gap-[30px] md:gap-[60px] xl:gap-[81px]">
-        <Link href='/part-1' className="group rounded-[16px]   w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64]  mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F]"> 
-        <div className="overflow-hidden">
-        <Image
-                src="/Part-1x.png"
+          <Link href='/part-1' className="group rounded-[16px]   w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64]  mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F]">
+            <div className="overflow-hidden">
+              <Image
+                src="https://midha-images.s3.ap-south-1.amazonaws.com/frm.Midhafin/home_page/frm-part-1.webp"
                 width={500}
                 height={440}
                 className="w-[100%] rounded-t-2xl group-hover:scale-110 transition-all duration-500"
-                alt='Part-1'
+                alt='frm-Part-1'
                 quality={100}
-                priority={true}
+                // priority={true}
               />
-        </div>
-              
-              <div className="">
+            </div>
+
+            <div className="">
               <Image
-               src="/Part-1y.svg"
-               width={500}
-               height={163}
-               priority={true}
-               className="bg-[#FFFDF6]"
-               alt="Part-1y"
+                src="/Part-1y.svg"
+                width={500}
+                height={163}
+                // priority={true}
+                className="bg-[#FFFDF6]"
+                alt="Part-1y"
               />
-              </div>
+            </div>
           </Link>
           {/* hover:shadow-[0px_0px_15px_1px_#ED9C7A] */}
-          <Link href='/part-2' className="rounded-[12px] group bg-[#FAF7ED] w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64] mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F] "> 
-             <div className="overflow-hidden">
-             <Image
-                src="/Part-2x.png"
+          <Link href='/part-2' className="rounded-[12px] group bg-[#FAF7ED] w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64] mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F] ">
+            <div className="overflow-hidden">
+              <Image
+                src="https://midha-images.s3.ap-south-1.amazonaws.com/frm.Midhafin/home_page/frm-part-2.webp"
                 width={500}
                 height={440}
                 className="w-[100%] rounded-t-2xl group-hover:scale-110 transition-all duration-500"
-                alt="Part-2"
+                alt="frm-Part-2"
                 quality={100}
-                priority={true}
+                // priority={true}
               />
-             </div>
-             
-              <div className="">
+            </div>
+
+            <div className="">
               <Image
-               src="/Part-2y.svg"
-               width={500}
-               height={163}
-               priority={true}
-               alt="Part-2y"
+                src="/Part-2y.svg"
+                width={500}
+                height={163}
+                // priority={true}
+                alt="Part-2y"
               />
-              </div>
-         </Link>
-         
+            </div>
+          </Link>
+
         </div>
       </div>
-      
+
       <div className=" bg-[#F9F9F9F5] mt-[40px] md:mt-[47px] lg:mt-[80px] xl:mt-[125px]">
         <div className=" md:flex   max-w-[1300px] px-[25px] lg:px-[50px] justify-between mx-auto pt-[5.5%] pb-[5%]">
           <div className=" md:max-w-[700px] md:w-[50%] lg:w-[55%] mg:pl-[35px] pl-[25px]">
@@ -285,7 +285,7 @@ export default function Home() {
               GARP Related
             </h1>
             <ul className="list-disc  text-[14px]  md:text-[16px] xl:text-[18px]   pb-2  mt-1 leading-[20px] md:leading-[25px] lg:leading-[35px]">
-              
+
               <li>Resolving and addressing GARP related queries. </li>
               <li>
                 {" "}
@@ -327,14 +327,14 @@ export default function Home() {
         <Accordion buttonsData={buttonsData} />
       </div>
       <div className=" text-[#F9F2DF] bg-[#F9F9F9]  lg:mt-[61px] sm:mt-[53px] mt-[37px] pt-[32px] md:pt-[46px] lg:pt-[75px]">
-          <div className="block sm:hidden sm:w-fit mx-auto text-center  w-[280px] ">
-            <h1 className="mb-[9px]  text-[#6A1C1A] font-semibold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] ">
-              Get a <span className="text-[#BE4E1E]">call back</span> from us
-            </h1>
-            <p className="mb-[20px] min-w-[280px] text-[#50535C] font-medium lg:text-[20px] text-[16px]  sm:mb-[20px] lg:mb-[31px] w-fit ">
-              Fill the form and we&apos;ll ensure to get back to you promptly.
-            </p>
-          </div>
+        <div className="block sm:hidden sm:w-fit mx-auto text-center  w-[280px] ">
+          <h1 className="mb-[9px]  text-[#6A1C1A] font-semibold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] ">
+            Get a <span className="text-[#BE4E1E]">call back</span> from us
+          </h1>
+          <p className="mb-[20px] min-w-[280px] text-[#50535C] font-medium lg:text-[20px] text-[16px]  sm:mb-[20px] lg:mb-[31px] w-fit ">
+            Fill the form and we&apos;ll ensure to get back to you promptly.
+          </p>
+        </div>
         <div className="max-w-[1400px] lg:px-[50px] px-[25px] flex justify-between flex-wrap-reverse sm:flex-nowrap mx-auto">
           <div className="flex flex-col w-[50%] justify-start   sm:mx-0 mx-auto  relative  xl:max-w-[560px] lg:max-w-[450px] md:max-w-[400px] sm:max-w-[280px] max-w-[560px] md:min-w-[400px]">
             <h1 className=" text-[#6A1C1A] font-semibold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[24px] text-[20px] hidden sm:block">
