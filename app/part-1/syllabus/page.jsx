@@ -11,7 +11,7 @@ export const metadata = {
 function Syllabus() {
     const data = [
         {
-        img: "/group 315.png",
+        img: "/Group 315.png",
         module_no: 1,
         module_title: 'Foundations of Risk Management (FRM)',
         topics: [
