@@ -43,7 +43,7 @@ export default function page() {
     {
       "_id": "65dee4781c34e4d5d691626d",
       "name": "FRM® Part-1 Sample Course",
-      "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-1-Sample-Course.png",
+      "image": "https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/courses/mf_frm_part_1_sample_course_720.webp",
       "price": "",
       "other": "free",
       "instructor": "Micky Midha",
@@ -63,7 +63,7 @@ export default function page() {
     {
       "_id": "65deec862a8308b4a242d3ce",
       "name": "FRM® Part-1 Self Paced Course",
-      "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-1-Self-paced-course.png",
+      "image": "https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/courses/mf_frm_part_1_self-paced_course_720.webp",
       "price": "",
       "other": "",
       "instructor": "Micky Midha",
@@ -83,7 +83,7 @@ export default function page() {
     {
       "_id": "65df31c3c5e4ac767387dc92",
       "name": "FRM® Part-1 Live Online Classes",
-      "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-part-1-live-online-class.png",
+      "image": "https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/courses/mf_frm_part_1_live_online_class_720.webp",
       "price": "",
       "other": "",
       "instructor": "Micky Midha",

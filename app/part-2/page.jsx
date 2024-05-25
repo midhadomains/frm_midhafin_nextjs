@@ -49,7 +49,7 @@ export default function page() {
   const course = [
     {
       "name": "FRM® Part-2 Sample Course",
-      "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-PART-2-Sample-Course.png",
+      "image": "https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/courses/mf_frm_part_2_sample_course_720.webp",
       "price": "",
       "other": "free",
       "instructor": "Micky Midha",
@@ -60,7 +60,7 @@ export default function page() {
         "Lecture PDFs ",
         "class notes"
       ],
-      "link": "https://www.midhafin.com/courses/MidhaFin-FRM-Part-2-Sample-Course-6305cfe7e4b0559d1844da2b",
+      "link": "https://edu.midhafin.com/courses/MidhaFin-FRM-Part-2-Sample-Course-6305cfe7e4b0559d1844da2b",
       "rating": 4.5,
       "tp": "SC-2",
       "category": "frm",
@@ -68,7 +68,7 @@ export default function page() {
     },
     {
       "name": "FRM® Part-2 Self Paced Course",
-      "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-2-Self-paced-course.png",
+      "image": "https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/courses/mf_frm_part_2_self-paced_course_720.webp",
       "price": "",
       "other": "",
       "instructor": "Micky Midha",
@@ -79,7 +79,7 @@ export default function page() {
         "Complete Study Material",
         "Quizzes,Question Bank & Mock tests"
       ],
-      "link": "https://www.midhafin.com/courses/FRM-Part-2-Self-Paced-Course-628f55be0cf2d265f3bcb964",
+      "link": "https://edu.midhafin.com/courses/FRM-Part-2-Self-Paced-Course-628f55be0cf2d265f3bcb964",
       "rating": 4.5,
       "tp": "TP-1",
       "category": "frm",
@@ -87,7 +87,7 @@ export default function page() {
     },
     {
       "name": "FRM® Part-1 and Part-2 Combined Package",
-      "image": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-1-TP2-plus-FRM-Part-2-TP1.png",
+      "image": "https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/courses/mf_frm_part-1___2_training_package_1__self-paced_course__01_720.webp",
       "price": "",
       "other": "",
       "instructor": "Micky Midha",
@@ -98,7 +98,7 @@ export default function page() {
         "Complete Study Material",
         "Quizzes,Question Bank & Mock tests"
       ],
-      "link": "https://api.eduzan.com/wp-content/uploads/2024/02/MF_FRM-Part-1-2-Training-Package-1-Self-Paced-Course.png",
+      "link": "https://edu.midhafin.com/courses/FRM-Part-1-and-Part-2-Combined-Self-Paced-Course-62cfe0dd0cf26cb7b9d724dc",
       "rating": 4.5,
       "tp": "TP-1",
       "category": "frm",
@@ -182,9 +182,8 @@ export default function page() {
 
       {/* weightage module */}
       <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px]">
-        <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px]  font-semibold text-left mt-[30px]  sm:mt-[50px] text-center">FRM Part 2 is composed of <br /> <span className="text-[#BE4E1E]"> six modules</span> </h1>
-        <p className="text-center text-[11px] sm:text-[14px] lg:text-[20px] text-[#737373] ">Each with its respective weighting as follows:</p>
-
+        <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px]  font-semibold mt-[30px]  sm:mt-[50px] text-center">FRM Part 2 is composed of <span className="text-[#BE4E1E]"> six modules</span> </h1>
+        <p className="text-center text-[11px] sm:text-[14px] lg:text-[20px] text-[#737373] my-2 ">Each with its respective weighting as follows:</p>
         <ul className="mt-[20px] ">
           <li className="flex  bg-[#FFF8ED] h-[101px] sm:h-[120px] lg:h-[140px] border border-[#FFD59B]">
             <h1 className="text-[#6A1C1A] font-black w-[25%] sm:w-[18%] text-center lg:text-[36px] sm:text-[25px] text-[20px] my-auto">20%</h1>
@@ -353,7 +352,7 @@ export default function page() {
       {/* Preparation Tips */}
       <div className="my-[30px] md:my-[100px] max-w-[1350px] mx-auto px-5 ">
         <h1 className="text-[20px] sm:text-[27px] lg:text-[33px] xl:text-[40px] font-bold text-center my-[10px]">Preparation <span className="text-[#BE4E1E]">Tips </span></h1>
-        <p className="text-left  mx-auto text-[14px]  lg:text-[20px] leading-[25px] xl:leading-[34px] font-[400] text-center">Preparing for FRM Part 2 requires careful consideration and effective management of various key issues:</p>
+        <p className="  mx-auto text-[14px]  lg:text-[20px] leading-[25px] xl:leading-[34px] font-[400] text-center">Preparing for FRM Part 2 requires careful consideration and effective management of various key issues:</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 mt-[10px] lg:mt-[40px] overflow-hidden ">
           <div className="min-w-[300px] max-w-[600px]  my-3  mx-auto md:m-5  bg-[#FFF4DA] md:p-6 p-3 rounded-xl  ">
             <Image src='/part-2/pt_tn.png' width={50} height={50} alt="Image"/>

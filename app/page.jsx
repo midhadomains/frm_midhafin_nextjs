@@ -146,7 +146,7 @@ export default function Home() {
         </div>
 
         <div className=" max-w-[1400px]  mx-auto px-[25px] md:px-[50px] flex flex-wrap sm:flex-nowrap items-center justify-center gap-[30px] md:gap-[60px] xl:gap-[81px]">
-          <Link href='/part-1' className="group rounded-[16px]   w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64]  mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F]">
+          <Link href='/part-1' className="group rounded-[16px] max-h-[500px]   w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64]  mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F]">
             <div className="overflow-hidden">
               <Image
                 src="https://midha-images.s3.ap-south-1.amazonaws.com/frm.Midhafin/home_page/frm-part-1.webp"
@@ -171,7 +171,7 @@ export default function Home() {
             </div>
           </Link>
           {/* hover:shadow-[0px_0px_15px_1px_#ED9C7A] */}
-          <Link href='/part-2' className="rounded-[12px] group bg-[#FAF7ED] w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64] mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F] ">
+          <Link href='/part-2' className="rounded-[12px] group  max-h-[500px] bg-[#FAF7ED] w-[100%] md:w-[38.56%] max-w-[300px] md:max-w-[500px] aspect-[3/2.64] mx-auto md:mx-0 shadow-[0px_4px_4px_0px_#0000001F] ">
             <div className="overflow-hidden">
               <Image
                 src="https://midha-images.s3.ap-south-1.amazonaws.com/frm.Midhafin/home_page/frm-part-2.webp"

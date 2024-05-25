@@ -27,7 +27,7 @@ export default function CourseCard({ a, index }) {
   }
   return (
     <div key={index} className='shadow-2xl m-5 rounded-xl ' >
-      <div className='md:w-[400px] md:h-[300px] w-[310px] h-[240px]  relative   bg-white  flex-shrink-0 '>
+      <div className='md:w-[400px] md:h-[320px] w-[310px] h-[240px]  relative   bg-white  flex-shrink-0 '>
         <Image width={400} height={400} src={a.image} alt="image" className='rounded-xl' />
         <div className='group md:h-[70px] h-[50px] md:w-[400px] w-[310px] text-center rounded-xl bg-white  absolute  overflow-hidden  bottom-0 md:hover:h-[230px] hover:h-[200px] px-[15px]  transition-height duration-500 ease-in-out '>
           <IoIosArrowUp className='mx-auto text-3xl leading-0 group-hover:rotate-180 	transition-transform duration-500 ease-in-out -mt-1' />
