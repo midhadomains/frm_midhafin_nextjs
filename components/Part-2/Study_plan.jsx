@@ -61,7 +61,7 @@ export default function Study_plan2() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto p-[20px]'>
-                <h1 className=' text-[20px] md:text-[32px] lg:text-[40px] font-bold text-center text-[#6A1C1A]'>KEY used to represent the four modules:</h1>
+                <h1 className=' text-[20px] md:text-[32px] lg:text-[40px] font-bold text-center text-[#6A1C1A]'>KEY used to represent the five modules:</h1>
                 <div className='grid grid-cols-2 text-center'>
                     <div className='border-r border-b p-4'>
                         <h1 className='text-[#BE4E1E] font-bold text-[20px] sm:text-[35px]'>MR</h1>
