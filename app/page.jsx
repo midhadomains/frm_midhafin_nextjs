@@ -126,7 +126,7 @@ export default function Home() {
               className="max-h-[520px]  -mb-[1.6%]  flex-shrink-0  w-[100%] max-w-[400px] lg:max-w-[500px] sm:max-w-auto"
               width={520}
               height={500}
-              src="/HeroImg.png"
+              src="https://midha-images.s3.ap-south-1.amazonaws.com/frm.Midhafin/home_page/mickymidha.webp"
               alt="Micky Midha"
               priority={true}
             />
