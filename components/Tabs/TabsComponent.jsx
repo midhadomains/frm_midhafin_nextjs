@@ -78,13 +78,13 @@ const TabsComponent = ({ items }) => {
             tabIndex="0" // Needed to make the div focusable
         >
             <div className='max-w-full md:max-w-[1300px] flex flex-col gap-y-2 w-full'>
-                <div className='bg-[#FFFDF6] p-1 md:hidden rounded-xl flex justify-between items-center gap-x-2 font-bold text-[#BE4E1E]'>
+                <div className='bg-[#FFFDF6] sm:px-[60px] overflow-x-scroll  p-1 md:hidden rounded-xl flex justify-between items-center gap-x-4 font-bold text-[#BE4E1E]'>
                     {items.map((item, index) => (
                         <button
                             ref={index === 0 ? firstBtnRef : index === items.length - 1 ? lastBtnRef : null}
                             key={index}
                             onClick={() => setSelectedTab(index)}
-                            className={`w-full p-2 hover:bg-[#b87f67] rounded-2xl text-center text-[10px] focus:ring-2 focus:outline-none focus:bg-white focus:text-[#e9825a] ${selectedTab === index ? 'ring-2 bg-white text-[#c47654]' : ''
+                            className={`  p-2 flex-shrink-0 hover:bg-[#b87f67] rounded-2xl text-center text-[10px] focus:ring-2 focus:outline-none focus:bg-white focus:text-[#e9825a] ${selectedTab === index ? 'ring-2 bg-white text-[#c47654]' : ''
                                 } `}
                         >
                             {item.title}
@@ -101,7 +101,7 @@ const TabsComponent = ({ items }) => {
                 </div>
                 <div className='hidden md:block p-2  mx-auto rounded-xl'>
                     {items.map((item, index) => (
-                        <div key={index} className={`${selectedTab === ( 0 && 1 && 2 && 3) ? '' : 'hidden'} mb-3`}>
+                        <div key={index} className={`${selectedTab === ( 0 && 1 && 2 && 3 ) ? '' : 'hidden'} mb-3`}>
                             {item.content}
                         </div>
                     ))}
