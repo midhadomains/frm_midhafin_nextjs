@@ -11,7 +11,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "MidhaFin",
   description: "Boost Your Career In Finance",
-
   keywords: ["best frm courses", " best frm course in india,best frm courses online", "frm certification", "frm exam", "best frm coaching", "best frm coaching online", "best frm coaching in bangalore", "best frm coaching in mumbai", "best frm coaching in india",
     "best frm coaching in kolkata", "best frm coaching in chennai", "best frm coaching institute in india", "best frm online coaching in india",
     "best frm coaching in india quora", "best coaching for frm", "best coaching for frm in india", "best online coaching for frm", "Top-rated FRM coaching",
@@ -20,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <meta property="og:title" content="MidhaFin:- Best prep provider" />
         <meta property="og:description" content="Boost Your Career In Finance" />
         <meta property="og:type" content="website" />
@@ -30,7 +29,7 @@ export default function RootLayout({ children }) {
         <meta name="x:title" content="MidhaFin:- Best prep provider" />
         <meta name="x:description" content="Boost Your Career In Finance" />
         <meta name="x:image" content="https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/Homepage/open-graph-snippet_600*336.png.png" />
-      </head>
+      </Head>
       <body className={inter.className}>
         <Whatsapp />
         <Navbar />
