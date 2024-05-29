@@ -1,10 +1,8 @@
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosCall } from "react-icons/io";
 import { IoIosMail } from "react-icons/io";
-import { FaLocationDot } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
@@ -20,7 +18,7 @@ function Footer() {
                         <div className="flex flex-col sm:gap-[35px] gap-[30px] lg:gap-[41px] w-[100%] max-w-[345px]  lg:mx-0 mx-auto ">
                             <div className="flex flex-col gap-[17px]">
                                 <Image
-                                    src="/midhalogo.svg"
+                                    src="https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/logos/midhafinlogo.svg"
                                     width={100}
                                     height={100}
                                     className="sm:w-[152px] w-[112px] lg:w-[173px] mx-auto "
