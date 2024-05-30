@@ -162,7 +162,7 @@ export default function page() {
 
       <div className="w-[100%] lg:hidden mt-[30%] ">
         <div className="bg-[#FFF4DA] h-[150px] mt-[100px] xs:mt-[250px] relative ">
-          <Image src='/part-2/Part2right.svg' width={170} height={100} alt="image" className="mx-auto w-[40%] xs:w-[270px] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
+          <Image src='/part-2/part2right.svg' width={170} height={100} alt="image" className="mx-auto w-[40%] xs:w-[270px] bottom-0 absolute  center  left-0  right-0 text-center z-[1]" />
         </div>
         <div className="px-5 max-w-[700px] mx-auto">
           <h2 className="text-[20px] sm:text-[27px] lg:text-[35px] xl:text-[40px] font-bold my-5 ">About the Exam - <span className="text-[#BE4E1E]"> FRM Part 2</span></h2>
