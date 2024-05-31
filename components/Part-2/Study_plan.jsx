@@ -14,9 +14,6 @@ export default function Study_plan2() {
         setActiveOverview(overview);
     };
    
-
-
-
     return (
         <div className=''>
             <div className='bg-[#6A1C1A] p-7'>
@@ -61,7 +58,7 @@ export default function Study_plan2() {
                 </div>
             </div>
             <div className='max-w-[1300px] mx-auto p-[20px]'>
-                <h1 className=' text-[20px] md:text-[32px] lg:text-[40px] font-bold text-center text-[#6A1C1A]'>KEY used to represent the five modules:</h1>
+                <h1 className=' text-[20px] md:text-[32px] lg:text-[40px] font-bold text-center text-[#6A1C1A] mb-2 sm:mb-5 lg:mb-9'>KEY used to represent the five modules:</h1>
                 <div className='grid grid-cols-2 text-center'>
                     <div className='border-r border-b p-4'>
                         <h1 className='text-[#BE4E1E] font-bold text-[20px] sm:text-[35px]'>MR</h1>
@@ -79,10 +76,14 @@ export default function Study_plan2() {
                         <h1 className='text-[#BE4E1E] font-bold text-[20px] sm:text-[35px]'>LR</h1>
                         <p className='text-[12px] sm:text-[24px]'>Liquidity and Treasury Risk Management</p>
                     </div>
-                </div>
-                <div className=' w-[50%] mx-auto border-b p-4 text-center'>
-                    <h1 className='text-[#BE4E1E] font-bold text-[20px] sm:text-[35px]'>IM</h1>
-                    <p className='text-[12px] sm:text-[24px]'>Risk Management & Investment Management</p>
+                    <div className='border-t border-r border-b p-4'>
+                        <h1 className='text-[#BE4E1E] font-bold text-[20px] sm:text-[35px]'>IM</h1>
+                        <p className='text-[12px] sm:text-[24px]'>Risk Management & Investment Management</p>
+                    </div>
+                    <div className='border-t border-l border-b p-4'>
+                        <h1 className='text-[#BE4E1E] font-bold text-[20px] sm:text-[35px]'>CI</h1>
+                        <p className='text-[12px] sm:text-[24px]'>Current Issues in Financial Markets </p>
+                    </div>
                 </div>
             </div>
              <h1 className='text-[32px] text-[#6A1C1A] md:my-5 text-center font-bold'>Schedule</h1>
@@ -348,7 +349,7 @@ const items = [
                     <ul className='list-disc list-outside mx-5'>
                         <li className='text-[11px] sm:text-[18px]'>Managing and Pricing Deposit Services <span className='text-[#BE4E1E]'>[LR&#8209;12]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Managing Nondeposit Liabilities  <span className='text-[#BE4E1E]'>[LR&#8209;13]</span></li>
-                        <li className='text-[11px] sm:text-[18px]'>Liquidity Stress Testing <span className='text-[#BE4E1E]'>[LR&#8209;14]</span></li>
+                        <li className='text-[11px] sm:text-[18px]'>Repurchase Agreements and Financing <span className='text-[#BE4E1E]'>[LR&#8209;14]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>The Failure Mechanics of Dealer Banks <span className='text-[#BE4E1E]'>[LR&#8209;8]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Risk Management for Changing Interest Rates: Asset-Liability Management and Duration Techniques <span className='text-[#BE4E1E]'>[LR&#8209;18]</span></li>
                     </ul>

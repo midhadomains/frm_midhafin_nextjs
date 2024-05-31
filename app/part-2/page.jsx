@@ -6,8 +6,8 @@ import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 
 export const metadata = {
-  title: 'FRM part-2',
-  description: 'This page is about FRM part-2',
+  title: 'FRM Part-2',
+  description: 'This Page Is About FRM Part-2',
   keywords: "FRM part-2, frm part-2, frm second part"
 }
 
@@ -340,7 +340,7 @@ export default function page() {
       <div className="max-w-[1300px] mx-auto flex justify-start md:justify-around flex-wrap lg:flex-nowrap p-5 mt-[20px]">
         <div className="lg:max-w-[680px] sm:min-w-[600px]  w-[100%] lg:w-[50%] text-center lg:text-left flex flex-col justify-">
           <h2 className="text-[20px] lg:text-[30px] xl:text-[40px]  mb-[10px] xl:mb-[50px]  font-semibold">Study <span className="text-[#BE4E1E]"> Plan</span> </h2>
-          <p className="text-[14px]  lg:text-[20px] font-[400] mb-5">This study plan provides a 18-week road map with relevant chapters that should be covered every week.</p>
+          <p className="text-[14px]  lg:text-[20px] font-[400] mb-5">This study plan provides a 20-week road map with relevant chapters that should be covered every week.</p>
         </div>
         <div className="md:w-[50%] max-w-[500px]  mx-auto ">
           <div className="relative overflow-hidden w-full  mx-auto " style={{paddingTop:"56.25%"}}>

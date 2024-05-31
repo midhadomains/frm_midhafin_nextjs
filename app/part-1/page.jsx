@@ -6,9 +6,9 @@ import { IoIosArrowUp } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 
 export const metadata = {
-  title: 'FRM part-1',
-  description: 'This page is about FRM part-1',
-  keywords: "FRM part-1, frm part-1, frm first part"
+  title: 'FRM Part-1',
+  description: 'FRM part-1 Syllabus ',
+  keywords: "FRM part-1, frm part-1, frm first part ,frm part-1 syllabus"
 }
 
 export default function page() {
