@@ -15,6 +15,13 @@ module.exports = {
         "syllabusbg": "url('/rectangle 4.png')",
         "Reviewsbg": "url('/Reviewsbg.svg')",
       },
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
+      },
+      rotate: {
+        '90': '90deg',
+      }
     },
     screens: {
       'xs': '500px',
@@ -36,6 +43,11 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+  },
+  variants: {
+    extend: {
+      rotate: ['active', 'group-hover'],
     },
   },
   plugins: [],
