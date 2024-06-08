@@ -76,9 +76,9 @@ export default function Sample_Questions() {
                             <div className="text-left text-[18px]">
                                 <p className="px-[20px] ">Three candidates from MidhaFin who are preparing for FRM are having a conversation regarding risk appetites
                                     and risk risk capacity.
-                                    The first Candidate, Antonio says - “The risk appetite is set well below the firm's total risk bearing capacity, and
+                                    The first Candidate, Antonio says - “The risk appetite is set well below the firm&apos;s total risk bearing capacity, and
                                     above the amount of risk the firm is exposed to currently.”
-                                    The second Candidate, Yash says - “The amount of risk the firm is exposed to currently is labeled as the firm's
+                                    The second Candidate, Yash says - “The amount of risk the firm is exposed to currently is labeled as the firm&apos;s
                                     risk profile.”
                                     The third Candidate, Harpreet says - “Trigger points are designed to let the board know if risk taking looks
                                     unnaturally low or if there is a danger of breaching the agreed risk appetite.”
@@ -111,8 +111,8 @@ export default function Sample_Questions() {
                                     <p className="my-3 leading-[30px]">
                                         <b>The Correct Answer is C.</b>
                                         <br />
-                                        Generally, the risk appetite is set well below the firm's total risk bearing capacity, and above the amount of risk
-                                        the firm is exposed to currently (labeled as the firm’s risk profile). Upper and lower trigger points are set for
+                                        Generally, the risk appetite is set well below the firm&apos;s total risk bearing capacity, and above the amount of risk
+                                        the firm is exposed to currently (labeled as the firm&apos;s risk profile). Upper and lower trigger points are set for
                                         reporting purposes. These are designed to let the board know if risk taking looks unnaturally low or if there is a
                                         danger of breaching the agreed risk appetite.
                                         So all three are correct
