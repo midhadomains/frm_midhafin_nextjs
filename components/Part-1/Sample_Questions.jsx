@@ -1608,16 +1608,6 @@ export default function Sample_Questions() {
                                 </div>
                             </div>
                         </div>
-                        <img
-                            src="https://latex.codecogs.com/svg.image?\boldsymbol{}"
-                            alt=""
-                            className="inline align-middle h-5  "
-                        />
-                        <img
-                            src="https://latex.codecogs.com/svg.image?\boldsymbol{}"
-                            alt=""
-                            className="mx-auto align-middle h-7 my-3 "
-                        />
                         <hr className="w-[80%] mx-auto my-8" />
                         <div className="my-5">
                             <h2 className="text-xl font-semibold text-left px-[20px]">
@@ -2018,7 +2008,6 @@ export default function Sample_Questions() {
                     </div>
                 )}
             </div>
-
             <style jsx>{`
         .transition-all {
           transition: height 1s ease-in-out;
