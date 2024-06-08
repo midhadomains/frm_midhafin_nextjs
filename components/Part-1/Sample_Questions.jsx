@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Latex from "react-latex-next";
 import { RiArrowRightSLine } from "react-icons/ri";
 import Image from "next/image";
+import HtmEditor from "../Editor";
 
 export default function Sample_Questions() {
     const [active, setActive] = useState("frm");
@@ -2007,6 +2008,7 @@ export default function Sample_Questions() {
                         </div>
                     </div>
                 )}
+               
             </div>
             <style jsx>{`
         .transition-all {

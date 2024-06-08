@@ -10,7 +10,6 @@ import TabsComponent from '@/components/Tabs/TabsComponent';
 export default function Study_plan() {
     const [activeOverview, setActiveOverview] = useState(null);
   
-
     const handleOverviewClick = (overview) => {
         setActiveOverview(overview);
     };
@@ -18,7 +17,6 @@ export default function Study_plan() {
 
     return (
         <div className=''>
-
             <div className='bg-[#6A1C1A] p-7'>
                 <h1 className='text-[20px]  sm:text-[40px] text-white text-center'>FRM Part 1 - <span className='font-semibold'>STUDY PLAN 2024</span></h1>
             </div>
