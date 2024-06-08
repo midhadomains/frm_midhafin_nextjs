@@ -274,19 +274,19 @@ export default function Sample_Questions() {
                                     for subprime mortgage securitized products. There were several reasons for the increase in delinquencies after
                                     mid-2005. Which of the following is NOT one such reason?
                                 </p>
-                                <ul className="list-decimal list-inside mt-7 px-[20px]">
-                                    <li className="marker:content-['A.']">&nbsp;&nbsp;Many subprime mortgages included teaser rates for initial 2 or 3 years. This was not a problem if a
+                                <ul className="list-decimal ml-2 mt-7 px-[20px]">
+                                    <li className="marker:content-['A.'] pl-1">&nbsp;&nbsp;Many subprime mortgages included teaser rates for initial 2 or 3 years. This was not a problem if a
                                         borrower could refinance the mortgage before the reset date. But if the borrower could not refinance and
                                         if interest rates increased, the monthly mortgage costs could rise very quickly. Interest rates actually
                                         increased, with the rate on the three-month Treasury bill rising from less than 1.0% in April 2004 to over
                                         4.0% in November 2005. Other mortgage features, such as interest-only teaser periods, made this issue even
                                         worse.</li>
-                                    <li className="marker:content-['B.']">&nbsp;&nbsp;The ability to refinance mortgages declined significantly when housing prices began to fall sharply in 2006.
+                                    <li className="marker:content-['B.'] pl-1">&nbsp;&nbsp;The ability to refinance mortgages declined significantly when housing prices began to fall sharply in 2006.
                                         Furthermore, subprime mortgage balances quickly began to exceed the market value of the homes that
                                         collateralized the loans, increasing the incentive for borrowers to default.</li>
-                                    <li className="marker:content-['C.']">&nbsp;&nbsp;In a subprime mortgage transaction, the mortgage often overcollateralized. Income and payment histories
+                                    <li className="marker:content-['C.'] pl-1">&nbsp;&nbsp;In a subprime mortgage transaction, the mortgage often overcollateralized. Income and payment histories
                                         are inconsistent, and debt-to-income ratios are typically high for subprime borrowers.</li>
-                                    <li className="marker:content-['D.']">&nbsp;&nbsp;Some borrowers were deliberately pushed into subprime mortgages even though they qualified for
+                                    <li className="marker:content-['D.'] pl-1">&nbsp;&nbsp;Some borrowers were deliberately pushed into subprime mortgages even though they qualified for
                                         mortgages with better terms.</li>
                                 </ul>
                                 <h2 className="text-xl font-semibold text-left px-[20px] my-2 mt-4">
