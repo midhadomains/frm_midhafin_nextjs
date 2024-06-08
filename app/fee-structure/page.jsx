@@ -1,11 +1,12 @@
 import FeeStructureCard from "@/components/other/FeeStructureCard";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 export default function page() {
   const data = [
     {
-      id:1,
+      id: 1,
       Title: "NEW CANDIDATE",
       early: {
         registration: "Registration closed April 30",
@@ -13,7 +14,7 @@ export default function page() {
         exam_fee: 600,
         total: 1000,
         link: "/",
-        closed:true
+        closed: true,
       },
 
       standard: {
@@ -23,12 +24,12 @@ export default function page() {
         total: 1200,
         link: "/",
 
-        closed:false
+        closed: false,
       },
-        },
+    },
 
     {
-      id:2,
+      id: 2,
       Title: "RETURNING CANDIDATE",
       early: {
         registration: "Registration closed April 30",
@@ -37,7 +38,7 @@ export default function page() {
         total: 600,
         link: "/",
 
-        closed:true
+        closed: true,
       },
 
       standard: {
@@ -45,16 +46,15 @@ export default function page() {
         enrollment_fee: 0,
         exam_fee: 800,
         total: 800,
-        closed:false,
+        closed: false,
         link: "/",
-
       },
     },
   ];
 
   const data2 = [
     {
-      id:3,
+      id: 3,
 
       Title: "NEW CANDIDATE",
       early: {
@@ -63,7 +63,6 @@ export default function page() {
         exam_fee: 600,
         total: 1000,
         link: "/",
-
       },
 
       standard: {
@@ -72,13 +71,12 @@ export default function page() {
         exam_fee: 800,
         total: 1200,
         link: "/",
-        closed:true
-
+        closed: true,
       },
     },
 
     {
-      id:4,
+      id: 4,
 
       Title: "RETURNING CANDIDATE",
       early: {
@@ -88,7 +86,7 @@ export default function page() {
         total: 600,
         link: "/",
 
-        closed:false
+        closed: false,
       },
 
       standard: {
@@ -98,8 +96,7 @@ export default function page() {
         total: 800,
         link: "/",
 
-        closed:true
-
+        closed: true,
       },
 
       link: "/",
@@ -108,7 +105,7 @@ export default function page() {
 
   const data3 = [
     {
-      id:5,
+      id: 5,
 
       Title: "AUG. 9-10, 2024",
       early: {
@@ -118,7 +115,7 @@ export default function page() {
         total: 600,
         link: "/",
 
-        closed:true
+        closed: true,
       },
 
       standard: {
@@ -128,13 +125,12 @@ export default function page() {
         total: 800,
         link: "/",
 
-        closed:false
+        closed: false,
       },
-
     },
 
     {
-      id:6,
+      id: 6,
 
       Title: "NOV. 16-19, 2024",
       early: {
@@ -144,7 +140,7 @@ export default function page() {
         link: "/",
 
         total: 600,
-        closed:false
+        closed: false,
       },
 
       standard: {
@@ -154,8 +150,7 @@ export default function page() {
         link: "/",
 
         total: 800,
-        closed:true
-
+        closed: true,
       },
     },
   ];
@@ -192,7 +187,7 @@ export default function page() {
         </h3>
       </div>
       <div className="flex flex-wrap gap-10 justify-center mt-12 px-[20px] md:px-[50px]">
-        {data2.map((a ,index) => {
+        {data2.map((a, index) => {
           return (
             <>
               <FeeStructureCard key={index} a={a} index={index} />
@@ -201,21 +196,39 @@ export default function page() {
         })}
         <hr className="my-5 w-[80%] mx-auto" />
       </div>
-       <div className="bg-[#FAF7ED]">
-      <div className="px-[20px] md:px-[50px] my-7">
-        <h3 className="text-[18px] sm:text-[32px] font-bold text-center ">
-        FRM Exam Part - II
-        </h3>
+      <div className="bg-[#FAF7ED]  xl:h-[720]">
+        <div className="px-[20px] md:px-[50px] my-7">
+          <h3 className="text-[18px] sm:text-[32px] font-bold text-center py-10">
+            FRM Exam Part - II
+          </h3>
+        </div>
+        <div className=" flex flex-wrap gap-10 justify-center mt-8 px-[20px] md:px-[50px]">
+          {data3.map((a, index) => {
+            return (
+              <>
+                <FeeStructureCard key={index} a={a} index={index} />
+              </>
+            );
+          })}
+        </div>
       </div>
-      <div className=" flex flex-wrap gap-10 justify-center mt-12 px-[20px] md:px-[50px]">
-        {data3.map((a , index) => {
-          return (
-            <>           
-              <FeeStructureCard key={index} a={a} index={index}/>         
-            </>
-          );
-        })}
-      </div>
+      <div className="flex justify-center my-8 px-[20px] md:px-[50px]">
+        <Image
+          src="https://midha-images.s3.ap-south-1.amazonaws.com/frm.Midhafin/fee+structure/Garp-Frm.png"
+          width={165}
+          height={50}
+          alt="garp-img"
+          className="w-fit w-[100] sm:w-[165] h-[40] sm:h-[50]"
+          quality={100}
+        />
+        <p className="text-[16px] sm:text-[20px] sm:mt-2 ml-8 sm:leading-8 ">
+          Click&nbsp;
+          <Link href='/'>
+          <span className="underline text-[#BE4E1E]">here</span> 
+          </Link>
+          &nbsp;to go to
+          GARP for more info.
+        </p>
       </div>
     </div>
   );
