@@ -85,7 +85,6 @@ export default function FeeStructureCard({ a,index }) {
         >
           {a.standard.registration}
         </p>
-        {/* <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between"> */}
         <div className="sm:flex justify-between items-center">
           <table>
             <tbody>
