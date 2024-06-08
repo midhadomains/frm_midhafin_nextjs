@@ -31,6 +31,24 @@ const nextConfig = {
                 hostname: 'latex.codecogs.com',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'd502jbuhuh9wk.cloudfront.net',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'localhost',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'i0.wp.com',
+                port: '',
+                pathname: '/**',
             }
         ]
     }

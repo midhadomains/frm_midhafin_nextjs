@@ -6,7 +6,7 @@ import Footer from "@/components/SiteFooter";
 import Head from "next/head";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["Inter"] });
 
 export const metadata = {
   title: "MidhaFin",
@@ -31,8 +31,8 @@ export default function RootLayout({ children }) {
         <meta name="x:image" content="https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/Homepage/open-graph-snippet_600*336.png.png" />
       </Head>
       <body className={inter.className}>
-        <Whatsapp />
         <Navbar />
+        <Whatsapp />
         {children}
         <Footer />
       </body>

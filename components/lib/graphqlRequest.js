@@ -1,7 +1,7 @@
 import { GraphQLClient } from 'graphql-request';
 import { notFound } from 'next/navigation';
 
-const endpoint = 'https://test-backend-pink.vercel.app/';
+const endpoint = 'https://frm-backend-graphql.vercel.app/';
 
 const client = new GraphQLClient(endpoint, {
     headers: {
