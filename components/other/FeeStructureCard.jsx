@@ -99,8 +99,7 @@ export default function FeeStructureCard({ a,index }) {
                 </td>
                 <td className="text-right text-[14px] sm:text-[20px]">
                   {a.standard.enrollment_fee
-                    ? `USD ${a.standard.enrollment_fee} `
-                    : "-"}
+                    ? `USD ${a.standard.enrollment_fee} ` : "-"}
                 </td>
               </tr>
             </tbody>
