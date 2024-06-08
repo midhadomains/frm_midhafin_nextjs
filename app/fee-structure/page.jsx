@@ -13,7 +13,7 @@ export default function page() {
         enrollment_fee: 400,
         exam_fee: 600,
         total: 1000,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
         closed: true,
       },
 
@@ -22,7 +22,7 @@ export default function page() {
         enrollment_fee: 400,
         exam_fee: 800,
         total: 1200,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         closed: false,
       },
@@ -36,7 +36,7 @@ export default function page() {
         enrollment_fee: 0,
         exam_fee: 600,
         total: 600,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         closed: true,
       },
@@ -47,7 +47,7 @@ export default function page() {
         exam_fee: 800,
         total: 800,
         closed: false,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
       },
     },
   ];
@@ -62,7 +62,7 @@ export default function page() {
         enrollment_fee: 400,
         exam_fee: 600,
         total: 1000,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
       },
 
       standard: {
@@ -70,7 +70,7 @@ export default function page() {
         enrollment_fee: 400,
         exam_fee: 800,
         total: 1200,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
         closed: true,
       },
     },
@@ -84,7 +84,7 @@ export default function page() {
         enrollment_fee: 0,
         exam_fee: 600,
         total: 600,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         closed: false,
       },
@@ -94,7 +94,7 @@ export default function page() {
         enrollment_fee: 0,
         exam_fee: 800,
         total: 800,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         closed: true,
       },
@@ -113,7 +113,7 @@ export default function page() {
         enrollment_fee: 0,
         exam_fee: 600,
         total: 600,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         closed: true,
       },
@@ -123,7 +123,7 @@ export default function page() {
         enrollment_fee: 0,
         exam_fee: 800,
         total: 800,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         closed: false,
       },
@@ -137,7 +137,7 @@ export default function page() {
         registration: "Register by July 31",
         enrollment_fee: 0,
         exam_fee: 600,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         total: 600,
         closed: false,
@@ -147,7 +147,7 @@ export default function page() {
         registration: "Registration open August 1",
         enrollment_fee: 0,
         exam_fee: 800,
-        link: "/",
+        link: "https://www.garp.org/frm/fees-payments",
 
         total: 800,
         closed: true,
@@ -223,7 +223,7 @@ export default function page() {
         />
         <p className="text-[16px] sm:text-[20px] sm:mt-2 ml-8 sm:leading-8 ">
           Click&nbsp;
-          <Link href='/'>
+          <Link href='https://www.garp.org/'>
           <span className="underline text-[#BE4E1E]">here</span> 
           </Link>
           &nbsp;to go to
