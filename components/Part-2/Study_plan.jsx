@@ -47,7 +47,7 @@ export default function Study_plan2() {
                             <div className='text-[12px] sm:text-[18px] md:text-[22px]'>Given the advanced nature of the FRM Part 2 syllabus, this study plan breaks down complex subjects into manageable weekly segments, allowing for systematic learning and application of concepts. Each week is structured to gradually build expertise, with emphasis on practical insights and real-world applications. Regular practice and block tests every four weeks are recommended to reinforce learning and ensure retention. The ideal preparation time for FRM Part 2 should be at least 600 hours spread over 9 to 12 months.</div>
                         )}
                         {activeOverview === "Video Explanation" && (
-                            <iframe className='aspect-video w-[100%] max-w-[660px] mx-auto my-auto' src="https://www.youtube.com/embed/6sTEUkR40uI?si=74k44yBnyTMT9zvZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe className='aspect-video w-[100%] max-w-[660px] mx-auto my-auto' src="https://www.youtube.com/embed/U14Wf92Gwk4?si=74k44yBnyTMT9zvZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         )}
                     </div>
                 </div>
