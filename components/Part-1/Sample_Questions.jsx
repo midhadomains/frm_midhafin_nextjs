@@ -37,34 +37,34 @@ export default function Sample_Questions() {
                 <h1 className='text-[20px]  sm:text-[40px] text-white text-center'>FRM Part 1 - <span className='font-semibold'>SAMPLE QUESTIONS</span></h1>
             </div>
             <div
-                className="max-w-[1400px] px-[20px] md:px-[50px] mx-auto"
+                className="max-w-[1400px] px-[10px] md:px-[50px] mx-auto"
                 style={{ userSelect: "none" }}
             >
-                <ul className="flex w-[100%] justify-between md:text-[18px] max-w-[400px] mx-auto">
+                <ul className="flex w-[100%] justify-around gap-3 md:text-[18px] max-w-[500px] mx-auto flex-wrap mt-4">
                     <li
                         onClick={() => handleActiveClick("frm")}
-                        className={`cursor-pointer mb-[55px] sm:my-9 ${active === "frm" ? "text-[#de6446]" : ""
+                        className={`cursor-pointer  bg-slate-200 border rounded-full w-[100px] text-center py-1 sm:my-9 ${active === "frm" ? "text-[#de6446]" : ""
                             } ${active === null ? "text-[#de6446]" : ""}`}
                     >
                         FRM
                     </li>
                     <li
                         onClick={() => handleActiveClick("qta")}
-                        className={`cursor-pointer mb-[55px] sm:my-9 ${active === "qta" ? "text-[#de6446]" : ""
+                        className={`cursor-pointer  bg-slate-200 border rounded-full w-[100px] text-center py-1 sm:my-9 ${active === "qta" ? "text-[#de6446]" : ""
                             } ${active === null ? "text-[#de6446]" : ""}`}
                     >
                         QTA
                     </li>
                     <li
                         onClick={() => handleActiveClick("fmp")}
-                        className={`cursor-pointer mb-[55px] sm:my-9 ${active === "fmp" ? "text-[#de6446]" : ""
+                        className={`cursor-pointer  bg-slate-200 border rounded-full w-[100px] text-center py-1 sm:my-9 ${active === "fmp" ? "text-[#de6446]" : ""
                             } ${active === null ? "text-[#de6446]" : ""}`}
                     >
                         FMP
                     </li>
                     <li
                         onClick={() => handleActiveClick("vrm")}
-                        className={`cursor-pointer mb-[55px] sm:my-9 ${active === "vrm" ? "text-[#de6446]" : ""
+                        className={`cursor-pointer  bg-slate-200 border rounded-full w-[100px] text-center py-1 sm:my-9 ${active === "vrm" ? "text-[#de6446]" : ""
                             } ${active === null ? "text-[#de6446]" : ""}`}
                     >
                         VRM
@@ -73,6 +73,9 @@ export default function Sample_Questions() {
 
                 {active === "frm" && (
                     <div>
+                        <h1 className="text-[20px] sm:text-[30px] lg:text-[40px] font-semibold text-center">
+                           Foundations Of Risk Management  (FRM)
+                        </h1>
                         <div className="my-5">
                             <h2 className="text-xl font-semibold text-left px-[20px]">Q.1.</h2>
                             <div className="text-left text-[18px]">
@@ -326,7 +329,7 @@ export default function Sample_Questions() {
                 {active === "qta" && (
                     <div className="text-center  ">
                         <h1 className="text-[20px] sm:text-[30px] lg:text-[40px] font-semibold">
-                            Quantitative analysis (QTA)
+                            Quantitative Analysis (QTA)
                         </h1>
                         <div className="my-5">
                             <h2 className="text-xl font-semibold text-left px-[20px]">
@@ -925,6 +928,9 @@ export default function Sample_Questions() {
                 )}
                 {active === "fmp" && (
                     <div className="text-center ">
+                        <h1 className="text-[20px] sm:text-[30px] lg:text-[40px] font-semibold text-center">
+                            Financial Market And Products  (FMP)
+                        </h1>
                         <div className="my-5">
                             <h2 className="text-xl font-semibold text-left px-[20px]">
                                 Q.1.
@@ -1399,6 +1405,9 @@ export default function Sample_Questions() {
                 )}
                 {active === "vrm" && (
                     <div>
+                        <h1 className="text-[20px] sm:text-[30px] lg:text-[40px] font-semibold text-center">
+                            Valuation And Risk Models  (VRM)
+                        </h1>
                         <div className="my-5">
                             <h2 className="text-xl font-semibold text-left px-[20px]">
                                 Q.1.
