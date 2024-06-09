@@ -147,7 +147,7 @@ const items = [
                         </div>
                     </div>
                     <ul className='list-disc list-outside mx-5'>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Modern Portfolio Theory (MPT) and the Capital Asset Pricing Model (CAPM) <span className='text-[#BE4E1E]'>[QTA&#8209;5]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Modern Portfolio Theory (MPT) and the Capital Asset Pricing Model (CAPM) <span className='text-[#BE4E1E]'>[FRM&#8209;5]</span></li>
                         <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>The Arbitrage Pricing Theory and Multi factor Models of Risk and Return  <span className='text-[#BE4E1E]'>[FRM&#8209;6]</span></li>
                         <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Machine Learning Methods <span className='text-[#BE4E1E]'>[QTA&#8209;14]</span></li>
                         <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Machine Learning and Prediction <span className='text-[#BE4E1E]'>[QTA&#8209;15]</span></li>
