@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Latex from "react-latex-next";
 import { RiArrowRightSLine } from "react-icons/ri";
 import Image from "next/image";
-import HtmEditor from "../Editor";
+
 
 export default function Sample_Questions() {
     const [active, setActive] = useState("frm");
@@ -33,6 +33,9 @@ export default function Sample_Questions() {
 
     return (
         <>
+            <div className='bg-[#6A1C1A] p-7'>
+                <h1 className='text-[20px]  sm:text-[40px] text-white text-center'>FRM Part 1 - <span className='font-semibold'>SAMPLE QUESTIONS</span></h1>
+            </div>
             <div
                 className="max-w-[1400px] px-[20px] md:px-[50px] mx-auto"
                 style={{ userSelect: "none" }}
@@ -70,7 +73,6 @@ export default function Sample_Questions() {
 
                 {active === "frm" && (
                     <div>
-                        <hr className="w-[80%] mx-auto my-8" />
                         <div className="my-5">
                             <h2 className="text-xl font-semibold text-left px-[20px]">Q.1.</h2>
                             <div className="text-left text-[18px]">
