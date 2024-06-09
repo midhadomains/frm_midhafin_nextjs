@@ -141,8 +141,9 @@ const items = [
                             <h1 className='text-[16px] sm:text-[20px] leading-[5px] font-bold'>WEEK</h1>
                             <h1 className='text-[46px] sm:text-[60px] font-semibold'>04</h1>
                         </div>
-                        <div className='bg-[#BE4E1E] pt-4  w-[60px] text-center mb-[60px] px-1 rounded-b -mt-9'>
-                            <div className='text-[#FFFFFF]  sm:text-[22px]'>QTA</div>
+                        <div className='bg-[#BE4E1E] pt-4  w-[60px] leading-6 text-center mb-[60px] px-1 rounded-b -mt-9'>
+                            <div className='text-[#FFFFFF] sm:text-[22px]'>QTA</div>
+                            <div className='text-[#FFFFFF] sm:text-[22px]'>FRM</div>
                         </div>
                     </div>
                     <ul className='list-disc list-outside mx-5'>
