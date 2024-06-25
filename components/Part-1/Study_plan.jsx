@@ -345,6 +345,8 @@ const items = [
                         </div>
                         <div className='bg-[#BE4E1E] pt-4  w-[60px] text-center mb-[60px] px-1 rounded-b -mt-9'>
                             <div className='text-[#FFFFFF]  sm:text-[22px]'>FMP</div>
+                            <div className='text-[#FFFFFF]  sm:text-[22px]'>FRM</div>
+                            <div className='text-[#FFFFFF]  sm:text-[22px]'>VRM</div>
                         </div>
                     </div>
                     <ul className='list-disc list-outside mx-5'>
