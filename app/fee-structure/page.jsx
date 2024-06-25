@@ -218,7 +218,7 @@ export default function page() {
           width={165}
           height={50}
           alt="garp-img"
-          className="w-fit w-[100] sm:w-[165] h-[40] sm:h-[50]"
+          className=" h-[40] sm:h-[50]"
           quality={100}
         />
         <p className="text-[16px] sm:text-[20px] sm:mt-2 ml-8 sm:leading-8 ">

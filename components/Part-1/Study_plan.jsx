@@ -331,10 +331,10 @@ const items = [
                         </div>
                     </div>
                     <ul className='list-disc list-outside mx-5'>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>External and Internal Credit Ratings [VRM&#8209;4] <span className='text-[#BE4E1E]'>[QTA&#8209;10]</span></li>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Country Risk: Determinants, Measures, and Implications [VRM&#8209;5] <span className='text-[#BE4E1E]'>[QTA&#8209;11]</span></li>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Operational Risk [VRM&#8209;7] <span className='text-[#BE4E1E]'>[FMP&#8209;2]</span></li>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Stress Testing [VRM&#8209;8] <span className='text-[#BE4E1E]'>[FMP&#8209;2]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>External and Internal Credit Ratings  <span className='text-[#BE4E1E]'>[VRM&#8209;4]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Country Risk: Determinants, Measures, and Implications  <span className='text-[#BE4E1E]'>[VRM&#8209;5]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Operational Risk  <span className='text-[#BE4E1E]'>[VRM&#8209;7]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Stress Testing  <span className='text-[#BE4E1E]'>[VRM&#8209;8]</span></li>
                     </ul>
                 </div>
                 <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
@@ -348,10 +348,10 @@ const items = [
                         </div>
                     </div>
                     <ul className='list-disc list-outside mx-5'>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Interest Rate Futures [FMP&#8209;19]<span className='text-[#BE4E1E]'>[FMP&#8209;4]</span></li>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Swaps [FMP&#8209;20] <span className='text-[#BE4E1E]'>[FMP&#8209;5]</span></li>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Credit Risk TransferMechanisms [FRM&#8209;4] <span className='text-[#BE4E1E]'>[FMP&#8209;6]</span></li>
-                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Measuring Credit Risk [VRM&#8209;6] <span className='text-[#BE4E1E]'>[FMP&#8209;16]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Interest Rate Futures <span className='text-[#BE4E1E]'>[FMP&#8209;19]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Swaps  <span className='text-[#BE4E1E]'>[FMP&#8209;20]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Credit Risk TransferMechanisms  <span className='text-[#BE4E1E]'>[FRM&#8209;4]</span></li>
+                        <li className='text-[11px] sm:text-[18px] lg:text-[20px]'>Measuring Credit Risk  <span className='text-[#BE4E1E]'>[VRM&#8209;6]</span></li>
                     </ul>
                 </div>
                 <div className='bg-[#FFEFE6]  px-2  py-9 rounded-xl border border-[#E4BFAF]'>
