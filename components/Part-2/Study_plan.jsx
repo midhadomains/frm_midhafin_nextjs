@@ -442,6 +442,7 @@ const items = [
                         </div>
                         <div className='bg-[#BE4E1E] pt-4  w-[50px] text-center mb-[60px] rounded-b -mt-9'>
                             <div className='text-[#FFFFFF]  sm:text-[25px]'>OR</div>
+                            <div className='text-[#FFFFFF]  sm:text-[25px]'>MR</div>
 
                         </div>
                     </div>
@@ -461,6 +462,7 @@ const items = [
                         </div>
                         <div className='bg-[#BE4E1E] pt-4  w-[50px] text-center mb-[60px] rounded-b -mt-9'>
                             <div className='text-[#FFFFFF]  sm:text-[25px]'>OR</div>
+                            <div className='text-[#FFFFFF]  sm:text-[25px]'>MR</div>
 
                         </div>
                     </div>
