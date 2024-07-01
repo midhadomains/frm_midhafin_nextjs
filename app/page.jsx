@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import CounterUpPage from "@/components/CounterUpPage";
@@ -6,14 +5,14 @@ import Accordion from "@/components/Accordian";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdSearch } from "react-icons/md";
 
-export const metadata = {
-  title: "MidhaFin",
-  description: "Boost Your Career In Finance",
-  keywords:["best frm courses"," best frm course in india,best frm courses online","frm certification","frm exam","best frm coaching","best frm coaching online","best frm coaching in bangalore","best frm coaching in mumbai","best frm coaching in india",
-  "best frm coaching in kolkata","best frm coaching in chennai","best frm coaching institute in india","best frm online coaching in india",
-  "best frm coaching in india quora","best coaching for frm","best coaching for frm in india","best online coaching for frm","Top-rated FRM coaching",
-  "Best FRM coaching institutes with high pass rates","cfa","cfa exam","about cfa course","best cfa prep course","best cfa coaching in india","frm exam prep","frm exam registration","frm exam level 1","best way to prepare for frm exam","best ways to study for the frm exam"]
-};
+// export const metadata = {
+//   title: "MidhaFin",
+//   description: "Boost Your Career In Finance",
+//   keywords:["best frm courses"," best frm course in india,best frm courses online","frm certification","frm exam","best frm coaching","best frm coaching online","best frm coaching in bangalore","best frm coaching in mumbai","best frm coaching in india",
+//   "best frm coaching in kolkata","best frm coaching in chennai","best frm coaching institute in india","best frm online coaching in india",
+//   "best frm coaching in india quora","best coaching for frm","best coaching for frm in india","best online coaching for frm","Top-rated FRM coaching",
+//   "Best FRM coaching institutes with high pass rates","cfa","cfa exam","about cfa course","best cfa prep course","best cfa coaching in india","frm exam prep","frm exam registration","frm exam level 1","best way to prepare for frm exam","best ways to study for the frm exam"]
+// };
 
 export default function Home() {
   const p = "mx-auto md:mx-0 py-4 text-center";
@@ -81,7 +80,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="">
+    <div className=" pointer-events-none " style={{pointerEvents:"none"}}>
 
       {/* Hero Section */}
       <div className=" text-[#F9F2DF] bg-[#6A1C1A] ">

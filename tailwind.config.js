@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        custom: '2.4px 2.4px 3.2px rgba(190, 78, 30, 0.15)',
+      },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,6 +20,7 @@ module.exports = {
         "contactbgimage": "url('/Vector 10.svg')",
         "syllabusbg": "url('/rectangle 4.png')",
         "Reviewsbg": "url('/Reviewsbg.svg')",
+        "3500bg": "url('https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/Backgrounds/3500background.svg')",
       },
       transitionProperty: {
         'height': 'height',
@@ -21,6 +28,9 @@ module.exports = {
       },
       rotate: {
         '90': '90deg',
+      },
+      textUnderlineOffset: {
+        3: '3px',
       }
     },
     screens: {
@@ -50,5 +60,8 @@ module.exports = {
       rotate: ['active', 'group-hover'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
 };

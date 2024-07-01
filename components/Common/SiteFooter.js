@@ -66,12 +66,7 @@ function Footer() {
                                         Quick Links
                                     </h1>
                                     <ul className="flex flex-col gap-[10px]">
-                                        <Link
-                                            href="/about-us"
-                                            className="lg:text-[18px] sm:text-[16px] text-[14px] leading-[30px] text-[#626979] transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
-                                        >
-                                            About Us
-                                        </Link>
+                                       
                                         <Link
                                             href="https://edu.midhafin.com/s/store"
                                             className="lg:text-[18px] sm:text-[16px] text-[14px] leading-[30px] text-[#626979] transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
@@ -90,7 +85,7 @@ function Footer() {
                                         >
                                             Student Portal
                                         </Link>
-                                        {/* <Link href='/' className='lg:text-[18px] sm:text-[16px] text-[14px] leading-[30px] text-[#626979]'>Blog</Link > */}
+                                        <Link href='/blog' className='lg:text-[18px] sm:text-[16px] text-[14px] leading-[30px] text-[#626979]'>Blog</Link >
                                         {/* <Link href className='lg:text-[18px] sm:text-[16px] text-[14px] leading-[30px] text-[#626979]'>Community</Link > */}
                                     </ul>
                                 </div>
@@ -101,22 +96,10 @@ function Footer() {
                                     </h1>
                                     <ul className="flex flex-col gap-[10px]">
                                         <Link
-                                            href="/privacy-policy"
-                                            className="lg:text-[18px] sm:text-[16px] text-[14px]  leading-[30px] text-[#626979] transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
-                                        >
-                                            Privacy Policy
-                                        </Link>
-                                        <Link
-                                            href="/refund-policy"
-                                            className="lg:text-[18px] sm:text-[16px] text-[14px]  leading-[30px] text-[#626979] transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
-                                        >
-                                            Refund Policy
-                                        </Link>
-                                        <Link
-                                            href="/terms-of-use"
+                                            href="/about-us"
                                             className="lg:text-[18px] sm:text-[16px] text-[14px] leading-[30px] text-[#626979] transition-colors duration-300 hover:underline hover:text-[#6A1C1A]"
                                         >
-                                            Terms of Use
+                                            About Us
                                         </Link>
                                         <Link
                                             href="https://www.midha.in/"

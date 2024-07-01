@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
-import Navbar from './SiteHeader';
-import Footer from './SiteFooter';
+import Navbar from './Common/SiteHeader';
+import Footer from './Common/SiteFooter';
 
 async function getData() {
   const res = await fetch('https://midhareviewapi.vercel.app/reviews')

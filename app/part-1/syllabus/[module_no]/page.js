@@ -1,8 +1,5 @@
 import { notFound } from 'next/navigation';
-import Image from 'next/image';
 import Module_Details from '@/components/Common/Module_Details';
-import Navbar from '@/components/SiteHeader';
-import Footer from '@/components/SiteFooter';
 
 const modulesData = [
     {

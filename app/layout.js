@@ -1,9 +1,10 @@
 import { Inter } from "next/font/google";
 import '../styles/main.css';
 import Whatsapp from "@/components/Whatsapp";
-import Navbar from "@/components/SiteHeader";
-import Footer from "@/components/SiteFooter";
+import Navbar from "@/components/Common/SiteHeader";
+import Footer from "@/components/Common/SiteFooter";
 import Head from "next/head";
+import ContextMenuDisabler from "@/components/Common/RightClickDisabler";
 
 
 const inter = Inter({ subsets: ["Inter"] });
@@ -18,7 +19,7 @@ export const metadata = {
 }
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ userSelect: "none" }}>
       <Head>
         <meta property="og:title" content="MidhaFin:- Best prep provider" />
         <meta property="og:description" content="Boost Your Career In Finance" />
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         <Navbar />
+        {/* <ContextMenuDisabler /> */}
         <Whatsapp />
         {children}
         <Footer />

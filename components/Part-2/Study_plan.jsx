@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Footer from '@/components/SiteFooter';
-import Navbar from '@/components/SiteHeader';
+import Navbar from '@/components/Common/SiteHeader';
 import { PiVideoDuotone } from "react-icons/pi";
 import { GrNotes } from "react-icons/gr";
 import { CgNotes } from "react-icons/cg";
@@ -9,11 +9,11 @@ import TabsComponent from '@/components/Tabs/TabsComponent';
 
 export default function Study_plan2() {
     const [activeOverview, setActiveOverview] = useState(null);
- 
+
     const handleOverviewClick = (overview) => {
         setActiveOverview(overview);
     };
-   
+
     return (
         <div className=''>
             <div className='bg-[#6A1C1A] p-7'>
@@ -86,7 +86,7 @@ export default function Study_plan2() {
                     </div>
                 </div>
             </div>
-             <h1 className='text-[32px] text-[#6A1C1A] md:my-5 text-center font-bold'>Schedule</h1>
+            <h1 className='text-[32px] text-[#6A1C1A] md:my-5 text-center font-bold'>Schedule</h1>
             <TabsComponent items={items} />
         </div >
     );
@@ -409,7 +409,7 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Risk Capital Attribution and Risk-Adjusted Performance Measurement <span className='text-[#BE4E1E]'>[OR&#8209;18]</span></li>
                     </ul>
                 </div>
-                
+
             </div>
         ),
     },
@@ -490,14 +490,14 @@ const items = [
                         <li className='text-[11px] sm:text-[18px]'>Review of the Federal Reserve’s Supervision and Regulation of Silicon Valley Bank  <span className='text-[#BE4E1E]'>[CI&#8209;1]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>The Credit Suisse CoCo Wipeout: Facts, Misperceptions, and Lessons for Financial Regulation  <span className='text-[#BE4E1E]'>[CI&#8209;2] </span></li>
                         <li className='text-[11px] sm:text-[18px]'>Artificial Intelligence and Bank Supervision <span className='text-[#BE4E1E]'>[CI&#8209;3]</span></li>
-                        <li className='text-[11px] sm:text-[18px]'>Financial Risk Management and Explainable, Trustworthy, Responsible AI <span className='text-[#BE4E1E]'>[CI&#8209;4]</span></li>    
+                        <li className='text-[11px] sm:text-[18px]'>Financial Risk Management and Explainable, Trustworthy, Responsible AI <span className='text-[#BE4E1E]'>[CI&#8209;4]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Artificial Intelligence Risk Management Framework <span className='text-[#BE4E1E]'>[CI&#8209;5]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Climate-related risk drivers and their transmission channels <span className='text-[#BE4E1E]'>[CI&#8209;6]</span></li>
-                        <li className='text-[11px] sm:text-[18px]'>Climate-related financial risks – measurement methodologies <span className='text-[#BE4E1E]'>[CI&#8209;7]</span></li> 
-                        <li className='text-[11px] sm:text-[18px]'>Principles for the effective management and supervision of climate-related financial risks <span className='text-[#BE4E1E]'>[CI&#8209;8]</span></li>                 
-                        <li className='text-[11px] sm:text-[18px]'>The Crypto Ecosystem: Key Elements and Risks <span className='text-[#BE4E1E]'>[CI&#8209;9]</span></li> 
+                        <li className='text-[11px] sm:text-[18px]'>Climate-related financial risks – measurement methodologies <span className='text-[#BE4E1E]'>[CI&#8209;7]</span></li>
+                        <li className='text-[11px] sm:text-[18px]'>Principles for the effective management and supervision of climate-related financial risks <span className='text-[#BE4E1E]'>[CI&#8209;8]</span></li>
+                        <li className='text-[11px] sm:text-[18px]'>The Crypto Ecosystem: Key Elements and Risks <span className='text-[#BE4E1E]'>[CI&#8209;9]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Digital Resilience and Financial Stability. The Quest for Policy Tools in The Financial Sector <span className='text-[#BE4E1E]'>[CI&#8209;10]</span></li>
-                                        </ul>
+                    </ul>
                 </div>
             </div>
         ),

@@ -49,7 +49,26 @@ const nextConfig = {
                 hostname: 'i0.wp.com',
                 port: '',
                 pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'cms.midhafin.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.midhafin.com',
+                port: '',
+                pathname: '/**',
+            },
+            {
+                protocol: 'https',
+                hostname: 'cms.frm.midhafin.com',
+                port: '',
+                pathname: '/**',
             }
+
         ]
     }
 };
