@@ -1,14 +1,13 @@
 "use client"
 import React, { useState } from 'react';
-import Footer from '@/components/SiteFooter';
-import Navbar from '@/components/Common/SiteHeader';
 import { PiVideoDuotone } from "react-icons/pi";
 import { GrNotes } from "react-icons/gr";
 import { CgNotes } from "react-icons/cg";
 import TabsComponent from '@/components/Tabs/TabsComponent';
+import { FaFilePdf } from "react-icons/fa6";
 
 export default function Study_plan2() {
-    const [activeOverview, setActiveOverview] = useState(null);
+    const [activeOverview, setActiveOverview] = useState("overview");
 
     const handleOverviewClick = (overview) => {
         setActiveOverview(overview);
@@ -38,21 +37,17 @@ export default function Study_plan2() {
                         </ul>
                     </div>
                     <div className='w-[75%] my-5 mx-3 sm:p-5 rounded-xl text-[12px] sm:text-[18px] md:text-[22px] m-1'>
-                        {activeOverview === null && (
-                            <div>
-                                The study plan has been structured after very careful analysis & the topics have been sequenced in such a way so as to systematically link one topic after the other.
-                            </div>
-                        )}
                         {activeOverview === "overview" && (
-                            <div>The study plan has been structured after very careful analysis & the topics have been sequenced in such a way so as to systematically link one topic after the other.</div>
+                            <div className='text-[12px] sm:text-[18px] md:text-[22px]  '>
+                                The FRM Part 2 study plan is designed to build upon the foundational knowledge gained in Part 1, diving deeper into specialized areas such as market risk, credit risk, operational risk, liquidity risk, investment management, and current issues in financial markets. This comprehensive plan aims to provide a thorough understanding of each topic, ensuring a balanced and in-depth preparation for the exam. <br />
+                                <span className='flex items-center mt-9 text-center mx-auto justify-center'> Click&nbsp;  <a href='/part-2/MidhaFin_FRM_Part_2_Study_Plan.pdf' download className="text-blue-600 underline">here </a>&nbsp;to download the Schedule as pdf. <FaFilePdf /></span>
+                            </div>
                         )}
                         {activeOverview === "Instructor's Notes" && (
-                            <div className='text-[12px] sm:text-[18px] md:text-[22px]'><span className='text-[#691D1C] font-medium'>“It’s not a wise strategy to prepare for the exam on a module by module basis. There are some concepts which are used in an earlier topic but discussed in detail in a later topic in another module. For example – Beta is introduced in CAPM in the Foundations of Risk Management Module, but the quantitative aspect of beta is discussed in Linear Regression in the Quantitative Methods Module. Hence, the sequence of topics to prepare for the exams becomes very important.”</span>
-                                <br /> The study plan has taken care of the sequence in the best possible way. Also, unrelated theory portions have been scattered in the timeline so as to get a good blend of theoretical and numerical based topics. We strongly advice to follow this sequence and the schedule.
-                            </div>
+                            <div className='text-[12px] sm:text-[18px] md:text-[22px]'>Given the advanced nature of the FRM Part 2 syllabus, this study plan breaks down complex subjects into manageable weekly segments, allowing for systematic learning and application of concepts. Each week is structured to gradually build expertise, with emphasis on practical insights and real-world applications. Regular practice and block tests every four weeks are recommended to reinforce learning and ensure retention. The ideal preparation time for FRM Part 2 should be at least 600 hours spread over 9 to 12 months.</div>
                         )}
                         {activeOverview === "Video Explanation" && (
-                            <iframe className='aspect-video w-[100%] max-w-[660px] mx-auto my-auto' src="https://www.youtube.com/embed/6sTEUkR40uI?si=74k44yBnyTMT9zvZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe className='aspect-video w-[100%] max-w-[660px] mx-auto my-auto' src="https://www.youtube.com/embed/U14Wf92Gwk4?si=74k44yBnyTMT9zvZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         )}
                     </div>
                 </div>
@@ -126,7 +121,7 @@ const items = [
                         </div>
                     </div>
                     <ul className='list-disc list-outside mx-5'>
-                        <li className='text-[11px] sm:text-[18px]'>Portfolio Risk – Analytical Methods <span className='text-[#BE4E1E]'>[IM&#8209;5]</span></li>
+                        <li className='text-[11px] sm:text-[18px]'>Portfolio Risk - Analytical Methods <span className='text-[#BE4E1E]'>[IM&#8209;5]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>VaR and Risk Budgeting in Investment Management <span className='text-[#BE4E1E]'>[IM&#8209;6]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Risk Monitoring and Performance Measurement <span className='text-[#BE4E1E]'>[IM&#8209;7]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Portfolio Performance Evaluation  <span className='text-[#BE4E1E]'>[IM&#8209;8]</span></li>
@@ -143,7 +138,7 @@ const items = [
                         </div>
                     </div>
                     <ul className='list-disc list-outside mx-5'>
-                        <li className='text-[11px] sm:text-[18px]'>Some Correlation Basics – Properties, Motivation, Terminology <span className='text-[#BE4E1E]'>[MR&#8209;7]</span></li>
+                        <li className='text-[11px] sm:text-[18px]'>Some Correlation Basics - Properties, Motivation, Terminology <span className='text-[#BE4E1E]'>[MR&#8209;7]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Empirical Properties of Correlation <span className='text-[#BE4E1E]'>[MR&#8209;8]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Financial Correlation Modeling—Bottom-Up Approaches  <span className='text-[#BE4E1E]'>[MR&#8209;9]</span></li>
                         <li className='text-[11px] sm:text-[18px]'>Volatility Smiles  <span className='text-[#BE4E1E]'>[MR&#8209;15]</span></li>
@@ -447,6 +442,7 @@ const items = [
                         </div>
                         <div className='bg-[#BE4E1E] pt-4  w-[50px] text-center mb-[60px] rounded-b -mt-9'>
                             <div className='text-[#FFFFFF]  sm:text-[25px]'>OR</div>
+                            <div className='text-[#FFFFFF]  sm:text-[25px]'>MR</div>
 
                         </div>
                     </div>
@@ -466,6 +462,7 @@ const items = [
                         </div>
                         <div className='bg-[#BE4E1E] pt-4  w-[50px] text-center mb-[60px] rounded-b -mt-9'>
                             <div className='text-[#FFFFFF]  sm:text-[25px]'>OR</div>
+                            <div className='text-[#FFFFFF]  sm:text-[25px]'>MR</div>
 
                         </div>
                     </div>

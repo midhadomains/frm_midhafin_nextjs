@@ -5,7 +5,7 @@ import Link from 'next/link';
 export const metadata = {
     title: 'FRM part-1 syllabus',
     description: 'Syllabus for FRM part-1 course',
-    keywords: "FRM part-1 syllabus, FRM exam syllabus"
+    keywords: "FRM part-1 syllabus, FRM exam syllabus",
 }
 
 function Syllabus() {
@@ -49,7 +49,6 @@ function Syllabus() {
                 { "id": 14, "data": "Machine-Learning Methods" },
                 { "id": 15, "data": "Machine Learning & Prediction" }
             ]
-
         },
         {
             img: "/Group 317.png",

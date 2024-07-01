@@ -165,13 +165,18 @@ export default function page() {
       </div>
       
       {/* secondary navbar */}
-      <ul className="my-[8%] bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] flex justify-around max-w-[1100px] mx-auto py-5 text-[16px] md:text-[24px] px-2 text-white font-[400] md:font-[500] tracking-wide rounded-full">
-        <Link href='/part-1/study-plan'><li>Study Plan</li> </Link>
+      <div className="px-5">
+
+      <ul className="my-[8%] px-5 bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66] flex justify-around flex-wrap gap-5 max-w-[1100px] mx-auto py-5 text-[16px] md:text-[24px]  text-white font-[400] md:font-[500] tracking-wide rounded-xl">
+        <Link href='/part-1/study-plan' className="w-fit"><li>Study Plan</li> </Link>
         <li>|</li>
-        <Link href='/part-1/syllabus'><li>Syllabus</li></Link>
+          <Link href='/part-1/syllabus' className="w-fit"><li>Syllabus</li></Link>
         <li>|</li>
-        <Link href='/dates-and-deadlines'><li>Dates & Deadlines</li></Link>
+          <Link href='/dates-and-deadlines' className="w-fit"><li>Dates & Deadlines</li></Link>
+        <li>|</li>
+          <Link href='/part-1/sample-questions' className="w-fit"><li>Sample Questions</li></Link>
       </ul>
+      </div>
 
       {/* weightage module */}
       <div className="max-w-[1350px] mx-auto px-5  w-[100%]  sm:mt-[100px]">
