@@ -1,51 +1,30 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { GoDotFill } from "react-icons/go";
+import FeaturedImage from "./FeaturedImage";
+import Date from "./Date";
 
-export default function BlogCard({ data }) {
-    function excerpt(str) {
-        const words = str.split(' ');
-        let result = '';
-        let charCount = 0;
-
-        for (let i = 0; i < words.length; i++) {
-            const word = words[i];
-            if ((result + word).length <= 100) {
-                if (result.length > 0) {
-                    result += ' ';
-                }
-                result += word;
-                charCount += word.length;
-            } else {
-                break;
-            }
-
-            if (i >= 19) { // Stop if we've added 20 words
-                break;
-            }
-        }
-        return result;
-    }
-
+export default function BlogCard({ post }) {
     return (
-        <div key={data._id} className="max-w-[400px] w-[100%] md:w-[50%]  border max-h-[515px]  rounded-2xl shadow-[0px_4px_5px_1px_#00000024] " >
-            <Link href={`/${data.slug}`}>
-                <div className="">
-                    <Image src='/textomg.png' width={400} height={300} alt={data.title} className="w-[100%] rounded-2xl" />
-                    <div className="mx-auto flex flex-col tracking-wide justify-between h-[100%] py-1 px-3 max-w-[350px]">
-                        <p className="uppercase text-[12px] md:text-[16px] my-2 text-[#BE4E1E] font-[500]">{data.category}</p>
-                        <h1 className="text-[18px] md:text-[22px] font-semibold  ">{data.title}</h1>
-                        <p className="text-[#5B5B5B] text-[16px] md:text-[20px] font-[300] leading-normal md:leading-[28px] my-2">{excerpt(data.meta_data)}...</p>
-                        <div className="flex justify-between mb-2 md:mb-4 text-[#50535C] text-[12px]  md:text-[16px] items-center tracking-normal">
-                            <p>{data.author}</p>
-                            <GoDotFill />
-                            <p>{data.date_created}</p>
-                        </div>
-                    </div>
+        <div key={post.slug} className="max-w-[400px] flex-shrink-0 relative w-[300px] sm:w-[320px] lg:w-[400px]  max-h-[515px] mb-3 md:mb-7" >
+            <div className=" flex-shrink-0">
+                <FeaturedImage post={post} />
+                <div className=" flex flex-col justify-between h-[100%] pt-2 pb-3 md:pb-4 max-w-[400px]">
+                    <h2 className="mt-1 mb-2 flex">{
+                        post.categories.nodes.map((data, key) => (
+                            <Link key={key} href={`/category/${data.slug}`} className="uppercase text-[11px] sm:text-[12px] lg:text-[15px]  md:mb-2 text-[#BE4E1E] font-[500]">
+                                <p className=''>
+                                    <span className="underline underline-offset-[3px]">{data.name}</span>
+                                    {key < post.categories.nodes.length - 1 && <span>&nbsp;&nbsp;&#124;&nbsp;&nbsp;</span>}
+                                </p>
+                            </Link>
+                        ))}
+                    </h2>
+                    <Link href={`/${post.slug}`} className="text-[18px] md:text-[22px] font-semibold leading-[21px]  md:leading-[25px]"><h1>{post.title}</h1></Link>
+                    <div className="text-[#5B5B5B] text-[14px] md:text-[18px] font-[300] leading-normal md:leading-[24px] my-2 mb-3" dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+                    <p className=" text-[14px] md:text-[16px] absolute bottom-0 font-[500] ">Updated on <Date dateString={post.date} /></p>
                 </div>
-            </Link>
-            {console.log(data)}
+            </div>
         </div>
     );
 }

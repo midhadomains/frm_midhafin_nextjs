@@ -44,7 +44,7 @@ export default function Module_Details({ data }) {
             </div>
             <p className="text-[12px] sm:text-[18px] block lg:hidden w-[100%]">{chapter.ans}</p>
             <div className="lg:my-auto mt-3 ">
-              {/* <Link href={chapter.link}> */}
+              <Link href={`part-1/${chapter.ques}`}>
                 <button
                   className={`text-white font-semibold lg:text-[20px] py-[6px] sm:py-2 lg:py-3 px-4 w-[130px] sm:w-[150px] rounded-full tracking-wider mx-auto ${chapter.free
                     ? "bg-gradient-to-r from-[#BE4E1E] to-[#E7AC66]"
@@ -53,7 +53,7 @@ export default function Module_Details({ data }) {
                 >
                   {chapter.free ? "View >" : "Buy >"}
                 </button>
-              {/* </Link> */}
+              </Link>
             </div>
           </div>
         ))}
