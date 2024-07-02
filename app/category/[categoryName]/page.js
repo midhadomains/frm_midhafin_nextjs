@@ -38,7 +38,6 @@ export default async function CategoryArchive({ params }) {
                 </div>
             </div>
             <CategoryMenu />
-
             <PostList initialPosts={initialPosts} />
         </>
     );

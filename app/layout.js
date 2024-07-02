@@ -7,7 +7,7 @@ import Head from "next/head";
 import ContextMenuDisabler from "@/components/Common/RightClickDisabler";
 
 
-const inter = Inter({ subsets: ["Inter"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "MidhaFin",
