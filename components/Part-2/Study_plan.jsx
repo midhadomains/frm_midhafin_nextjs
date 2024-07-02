@@ -1,7 +1,5 @@
 "use client"
 import React, { useState } from 'react';
-import Footer from '@/components/SiteFooter';
-import Navbar from '@/components/Common/SiteHeader';
 import { PiVideoDuotone } from "react-icons/pi";
 import { GrNotes } from "react-icons/gr";
 import { CgNotes } from "react-icons/cg";

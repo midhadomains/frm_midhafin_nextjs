@@ -1,71 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
-<loc>https://www.frm.midhafin.com/</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/reviews</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/contact-us</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>0.60</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/part-1</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/part-2</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/about-us</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>0.60</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/part-1/study-plan</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/part-1/syllabus</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/dates-and-deadlines</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/part-2/study-plan</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.frm.midhafin.com/part-2/syllabus</loc>
-<lastmod>2024-05-18T11:58:51+00:00</lastmod>
-<priority>0.64</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.midhafin.com/financial-risk-manager-frm-benefits-scope</loc>
+    <lastmod>2024-07-02T04:03:15.150Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.midhafin.com/</loc>
+  </url>
+  <url>
+    <loc>https://www.midhafin.com/blog</loc>
+  </url>
+  <url>
+    <loc>https://www.midhafin.com/contact-us</loc>
+  </url>
+  <url>
+    <loc>https://www.midhafin.com/reviews</loc>
+  </url>
+  <url>
+    <loc>https://www.midhafin.com/study-material</loc>
+  </url>
+  <url>
+    <loc>https://www.midhafin.comdates-and-deadlines</loc>
+  </url>
+  <url>
+    <loc>https://www.midhafin.compart-1</loc>
+  </url>
+  <url>
+    <loc>https://www.midhafin.compart-2</loc>
+  </url>
 </urlset>
-
-
-
-
-
-
-
-
-
-
-
-
