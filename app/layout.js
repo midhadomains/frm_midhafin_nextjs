@@ -30,10 +30,10 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="MidhaFin:- Best prep provider" />
         <meta name="twitter:description" content="Boost Your Career In Finance" />
         <meta name="twitter:image" content="https://midha-images.s3.ap-south-1.amazonaws.com/Midhafin/Homepage/open-graph-snippet_600*336.png.png" />
-      </head>
+      </Head>
       <body className={inter.className}>
         <Navbar />
-        {/* <ContextMenuDisabler /> */}
+        <ContextMenuDisabler />
         <Whatsapp />
         {children}
         <Footer />
